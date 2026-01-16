@@ -294,7 +294,7 @@ azureresourcemanagerredisenterprise,[isPrerelease=true;tfm=netstandard2.0]Azure.
 azureresourcemanagerredisenterprisecache,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.RedisEnterpriseCache,1.0.0-beta.1
 azureresourcemanagerrelay,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.Relay,1.2.0-beta.1
 azureresourcemanagerreservations,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.Reservations,1.4.0-beta.1
-azureresourcemanagerresourceconnector,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.ResourceConnector,1.0.0-beta.3
+azureresourcemanagerresourceconnector,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.ResourceConnector,1.0.0-beta.4
 azureresourcemanagerresourcegraph,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ResourceGraph,1.1.0-beta.4
 azureresourcemanagerresourcehealth,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.ResourceHealth,1.1.0-beta.5
 azureresourcemanagerresourcemover,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ResourceMover,1.1.2-beta.2
