@@ -13,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class to add extension methods to ResourceGroupResource. </summary>
+    <summary> A class to add extension methods to <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -29,7 +29,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of MockableResourceConnectorResourceGroupResource for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -56,7 +56,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Appliance with a specified resource group and name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}. </description></item><item><term> Operation Id. </term><description> Appliances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-03-01-preview. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -88,7 +88,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Appliance with a specified resource group and name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}. </description></item><item><term> Operation Id. </term><description> Appliances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-03-01-preview. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,8 +113,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of ResourceConnectorApplianceResources in the ResourceGroupResource. </summary>
-        <returns> An object representing collection of ResourceConnectorApplianceResources and their operations over a ResourceConnectorApplianceResource. </returns>
+        <summary> Gets a collection of ResourceConnectorAppliances in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" />. </summary>
+        <returns> An object representing collection of ResourceConnectorAppliances and their operations over a ResourceConnectorApplianceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

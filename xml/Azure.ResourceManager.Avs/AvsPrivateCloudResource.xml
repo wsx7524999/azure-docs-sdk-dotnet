@@ -17,6 +17,7 @@
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -34,10 +35,9 @@
   </Interfaces>
   <Docs>
     <summary>
-            A Class representing an AvsPrivateCloud along with the instance operations that can be performed on it.
-            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct an <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />
-            from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetAvsPrivateCloudResource method.
-            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetAvsPrivateCloud method.
+            A class representing a AvsPrivateCloud along with the instance operations that can be performed on it.
+            If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /> from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetResource method.
+            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetAvsPrivateClouds method.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -51,11 +51,11 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /> class for mocking. </summary>
+        <summary> Initializes a new instance of AvsPrivateCloudResource for mocking. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,7 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -83,9 +83,7 @@
         <param name="key"> The key for the tag. </param>
         <param name="value"> The value for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+        <summary> Add a tag to the current resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -102,7 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -116,9 +114,7 @@
         <param name="key"> The key for the tag. </param>
         <param name="value"> The value for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+        <summary> Add a tag to the current resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -135,7 +131,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -149,7 +145,7 @@
         <param name="subscriptionId"> The subscriptionId. </param>
         <param name="resourceGroupName"> The resourceGroupName. </param>
         <param name="privateCloudName"> The privateCloudName. </param>
-        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /> instance. </summary>
+        <summary> Generate the resource identifier for this resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -164,7 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudData</ReturnType>
@@ -186,7 +182,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -201,7 +197,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a PrivateCloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Delete</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}. </description></item><item><term> Operation Id. </term><description> PrivateClouds_Delete. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -216,7 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -231,7 +227,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a PrivateCloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Delete</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}. </description></item><item><term> Operation Id. </term><description> PrivateClouds_Delete. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,7 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -258,7 +254,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PrivateCloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}. </description></item><item><term> Operation Id. </term><description> PrivateClouds_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,7 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.Models.AdminCredentials&gt;</ReturnType>
@@ -285,7 +281,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the admin credentials for the private cloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/listAdminCredentials</description></item><item><term>Operation Id</term><description>PrivateClouds_ListAdminCredentials</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/listAdminCredentials. </description></item><item><term> Operation Id. </term><description> PrivateClouds_ListAdminCredentials. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -300,7 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.Models.AdminCredentials&gt;&gt;</ReturnType>
@@ -312,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the admin credentials for the private cloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/listAdminCredentials</description></item><item><term>Operation Id</term><description>PrivateClouds_ListAdminCredentials</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/listAdminCredentials. </description></item><item><term> Operation Id. </term><description> PrivateClouds_ListAdminCredentials. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,7 +323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -339,7 +335,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PrivateCloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}. </description></item><item><term> Operation Id. </term><description> PrivateClouds_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -354,7 +350,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsCloudLinkResource&gt;</ReturnType>
@@ -366,9 +362,7 @@
       <Docs>
         <param name="cloudLinkName"> Name of the cloud link. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a CloudLink
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/cloudLinks/{cloudLinkName}</description></item><item><term>Operation Id</term><description>CloudLink_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsCloudLinkResource" /></description></item></list></summary>
+        <summary> Get a CloudLink. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -387,7 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsCloudLinkResource&gt;&gt;</ReturnType>
@@ -399,9 +393,7 @@
       <Docs>
         <param name="cloudLinkName"> Name of the cloud link. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a CloudLink
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/cloudLinks/{cloudLinkName}</description></item><item><term>Operation Id</term><description>CloudLink_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsCloudLinkResource" /></description></item></list></summary>
+        <summary> Get a CloudLink. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -420,15 +412,169 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsCloudLinkCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of AvsCloudLinkResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of AvsCloudLinkResources and their operations over a AvsCloudLinkResource. </returns>
+        <summary> Gets a collection of AvsCloudLinks in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsCloudLinks and their operations over a AvsCloudLinkResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvsLicense">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt; GetAvsLicense (Azure.ResourceManager.Avs.Models.AvsLicenseName licenseName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Avs.AvsLicenseResource&gt; GetAvsLicense(valuetype Azure.ResourceManager.Avs.Models.AvsLicenseName licenseName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsLicense(Azure.ResourceManager.Avs.Models.AvsLicenseName,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvsLicense (licenseName As AvsLicenseName, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AvsLicenseResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvsLicense : Azure.ResourceManager.Avs.Models.AvsLicenseName * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;&#xA;override this.GetAvsLicense : Azure.ResourceManager.Avs.Models.AvsLicenseName * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;" Usage="avsPrivateCloudResource.GetAvsLicense (licenseName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseName" Type="Azure.ResourceManager.Avs.Models.AvsLicenseName" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="licenseName"> Name of the license. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Get a License. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvsLicenseAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;&gt; GetAvsLicenseAsync (Azure.ResourceManager.Avs.Models.AvsLicenseName licenseName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Avs.AvsLicenseResource&gt;&gt; GetAvsLicenseAsync(valuetype Azure.ResourceManager.Avs.Models.AvsLicenseName licenseName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsLicenseAsync(Azure.ResourceManager.Avs.Models.AvsLicenseName,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvsLicenseAsync (licenseName As AvsLicenseName, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AvsLicenseResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvsLicenseAsync : Azure.ResourceManager.Avs.Models.AvsLicenseName * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;&gt;&#xA;override this.GetAvsLicenseAsync : Azure.ResourceManager.Avs.Models.AvsLicenseName * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;&gt;" Usage="avsPrivateCloudResource.GetAvsLicenseAsync (licenseName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsLicenseResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseName" Type="Azure.ResourceManager.Avs.Models.AvsLicenseName" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="licenseName"> Name of the license. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Get a License. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvsLicenses">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Avs.AvsLicenseCollection GetAvsLicenses ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Avs.AvsLicenseCollection GetAvsLicenses() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsLicenses" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvsLicenses () As AvsLicenseCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetAvsLicenses : unit -&gt; Azure.ResourceManager.Avs.AvsLicenseCollection&#xA;override this.GetAvsLicenses : unit -&gt; Azure.ResourceManager.Avs.AvsLicenseCollection" Usage="avsPrivateCloudResource.GetAvsLicenses " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.AvsLicenseCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of AvsLicenses in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsLicenses and their operations over a AvsLicenseResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvsMaintenance">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetAvsMaintenance (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetAvsMaintenance(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsMaintenance(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvsMaintenance (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AvsMaintenanceResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvsMaintenance : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.GetAvsMaintenance : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsPrivateCloudResource.GetAvsMaintenance (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Get a Maintenance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvsMaintenanceAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt; GetAvsMaintenanceAsync (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt; GetAvsMaintenanceAsync(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsMaintenanceAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvsMaintenanceAsync (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AvsMaintenanceResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvsMaintenanceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;&#xA;override this.GetAvsMaintenanceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;" Usage="avsPrivateCloudResource.GetAvsMaintenanceAsync (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Get a Maintenance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvsMaintenances">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Avs.AvsMaintenanceCollection GetAvsMaintenances ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Avs.AvsMaintenanceCollection GetAvsMaintenances() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetAvsMaintenances" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvsMaintenances () As AvsMaintenanceCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetAvsMaintenances : unit -&gt; Azure.ResourceManager.Avs.AvsMaintenanceCollection&#xA;override this.GetAvsMaintenances : unit -&gt; Azure.ResourceManager.Avs.AvsMaintenanceCollection" Usage="avsPrivateCloudResource.GetAvsMaintenances " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.AvsMaintenanceCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of AvsMaintenances in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsMaintenances and their operations over a AvsMaintenanceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -442,7 +588,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudAddonResource&gt;</ReturnType>
@@ -454,9 +600,7 @@
       <Docs>
         <param name="addonName"> Name of the addon. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a Addon
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/addons/{addonName}</description></item><item><term>Operation Id</term><description>Addon_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudAddonResource" /></description></item></list></summary>
+        <summary> Get a Addon. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -475,7 +619,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudAddonResource&gt;&gt;</ReturnType>
@@ -487,9 +631,7 @@
       <Docs>
         <param name="addonName"> Name of the addon. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a Addon
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/addons/{addonName}</description></item><item><term>Operation Id</term><description>Addon_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudAddonResource" /></description></item></list></summary>
+        <summary> Get a Addon. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -508,15 +650,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudAddonCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of AvsPrivateCloudAddonResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of AvsPrivateCloudAddonResources and their operations over a AvsPrivateCloudAddonResource. </returns>
+        <summary> Gets a collection of AvsPrivateCloudAddons in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsPrivateCloudAddons and their operations over a AvsPrivateCloudAddonResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -530,7 +672,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource&gt;</ReturnType>
@@ -542,9 +684,7 @@
       <Docs>
         <param name="clusterName"> Name of the cluster. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a Cluster
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Cluster_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource" /></description></item></list></summary>
+        <summary> Get a Cluster. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -563,7 +703,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource&gt;&gt;</ReturnType>
@@ -575,9 +715,7 @@
       <Docs>
         <param name="clusterName"> Name of the cluster. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a Cluster
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Cluster_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource" /></description></item></list></summary>
+        <summary> Get a Cluster. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -596,15 +734,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudClusterCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of AvsPrivateCloudClusterResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of AvsPrivateCloudClusterResources and their operations over a AvsPrivateCloudClusterResource. </returns>
+        <summary> Gets a collection of AvsPrivateCloudClusters in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsPrivateCloudClusters and their operations over a AvsPrivateCloudClusterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -617,7 +755,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsProvisionedNetworkResource&gt;</ReturnType>
@@ -629,9 +767,7 @@
       <Docs>
         <param name="provisionedNetworkName"> Name of the cloud link. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ProvisionedNetwork
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/provisionedNetworks/{provisionedNetworkName}</description></item><item><term>Operation Id</term><description>ProvisionedNetwork_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsProvisionedNetworkResource" /></description></item></list></summary>
+        <summary> Get a ProvisionedNetwork. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -649,7 +785,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsProvisionedNetworkResource&gt;&gt;</ReturnType>
@@ -661,9 +797,7 @@
       <Docs>
         <param name="provisionedNetworkName"> Name of the cloud link. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ProvisionedNetwork
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/provisionedNetworks/{provisionedNetworkName}</description></item><item><term>Operation Id</term><description>ProvisionedNetwork_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsProvisionedNetworkResource" /></description></item></list></summary>
+        <summary> Get a ProvisionedNetwork. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -681,15 +815,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsProvisionedNetworkCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of AvsProvisionedNetworkResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of AvsProvisionedNetworkResources and their operations over a AvsProvisionedNetworkResource. </returns>
+        <summary> Gets a collection of AvsProvisionedNetworks in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsProvisionedNetworks and their operations over a AvsProvisionedNetworkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -702,15 +836,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPureStoragePolicyCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of AvsPureStoragePolicyResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of AvsPureStoragePolicyResources and their operations over a AvsPureStoragePolicyResource. </returns>
+        <summary> Gets a collection of AvsPureStoragePolicies in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of AvsPureStoragePolicies and their operations over a AvsPureStoragePolicyResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -723,7 +857,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPureStoragePolicyResource&gt;</ReturnType>
@@ -735,9 +869,7 @@
       <Docs>
         <param name="storagePolicyName"> Name of the storage policy. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a PureStoragePolicy
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/pureStoragePolicies/{storagePolicyName}</description></item><item><term>Operation Id</term><description>PureStoragePolicy_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPureStoragePolicyResource" /></description></item></list></summary>
+        <summary> Get a PureStoragePolicy. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -755,7 +887,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPureStoragePolicyResource&gt;&gt;</ReturnType>
@@ -767,9 +899,7 @@
       <Docs>
         <param name="storagePolicyName"> Name of the storage policy. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a PureStoragePolicy
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/pureStoragePolicies/{storagePolicyName}</description></item><item><term>Operation Id</term><description>PureStoragePolicy_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPureStoragePolicyResource" /></description></item></list></summary>
+        <summary> Get a PureStoragePolicy. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -788,7 +918,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.ExpressRouteAuthorizationResource&gt;</ReturnType>
@@ -800,9 +930,7 @@
       <Docs>
         <param name="authorizationName"> Name of the ExpressRoute Circuit Authorization. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ExpressRouteAuthorization
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/authorizations/{authorizationName}</description></item><item><term>Operation Id</term><description>ExpressRouteAuthorization_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.ExpressRouteAuthorizationResource" /></description></item></list></summary>
+        <summary> Get a ExpressRouteAuthorization. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -821,7 +949,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.ExpressRouteAuthorizationResource&gt;&gt;</ReturnType>
@@ -833,9 +961,7 @@
       <Docs>
         <param name="authorizationName"> Name of the ExpressRoute Circuit Authorization. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ExpressRouteAuthorization
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/authorizations/{authorizationName}</description></item><item><term>Operation Id</term><description>ExpressRouteAuthorization_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.ExpressRouteAuthorizationResource" /></description></item></list></summary>
+        <summary> Get a ExpressRouteAuthorization. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -854,15 +980,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.ExpressRouteAuthorizationCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of ExpressRouteAuthorizationResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of ExpressRouteAuthorizationResources and their operations over a ExpressRouteAuthorizationResource. </returns>
+        <summary> Gets a collection of ExpressRouteAuthorizations in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of ExpressRouteAuthorizations and their operations over a ExpressRouteAuthorizationResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -876,7 +1002,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.GlobalReachConnectionResource&gt;</ReturnType>
@@ -888,9 +1014,7 @@
       <Docs>
         <param name="globalReachConnectionName"> Name of the global reach connection. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a GlobalReachConnection
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/globalReachConnections/{globalReachConnectionName}</description></item><item><term>Operation Id</term><description>GlobalReachConnection_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.GlobalReachConnectionResource" /></description></item></list></summary>
+        <summary> Get a GlobalReachConnection. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -909,7 +1033,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.GlobalReachConnectionResource&gt;&gt;</ReturnType>
@@ -921,9 +1045,7 @@
       <Docs>
         <param name="globalReachConnectionName"> Name of the global reach connection. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a GlobalReachConnection
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/globalReachConnections/{globalReachConnectionName}</description></item><item><term>Operation Id</term><description>GlobalReachConnection_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.GlobalReachConnectionResource" /></description></item></list></summary>
+        <summary> Get a GlobalReachConnection. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -942,15 +1064,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.GlobalReachConnectionCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of GlobalReachConnectionResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of GlobalReachConnectionResources and their operations over a GlobalReachConnectionResource. </returns>
+        <summary> Gets a collection of GlobalReachConnections in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of GlobalReachConnections and their operations over a GlobalReachConnectionResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -964,7 +1086,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.HcxEnterpriseSiteResource&gt;</ReturnType>
@@ -976,9 +1098,7 @@
       <Docs>
         <param name="hcxEnterpriseSiteName"> Name of the HCX Enterprise Site. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a HcxEnterpriseSite
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/hcxEnterpriseSites/{hcxEnterpriseSiteName}</description></item><item><term>Operation Id</term><description>HcxEnterpriseSite_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.HcxEnterpriseSiteResource" /></description></item></list></summary>
+        <summary> Get a HcxEnterpriseSite. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -997,7 +1117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.HcxEnterpriseSiteResource&gt;&gt;</ReturnType>
@@ -1009,9 +1129,7 @@
       <Docs>
         <param name="hcxEnterpriseSiteName"> Name of the HCX Enterprise Site. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a HcxEnterpriseSite
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/hcxEnterpriseSites/{hcxEnterpriseSiteName}</description></item><item><term>Operation Id</term><description>HcxEnterpriseSite_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.HcxEnterpriseSiteResource" /></description></item></list></summary>
+        <summary> Get a HcxEnterpriseSite. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1030,15 +1148,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.HcxEnterpriseSiteCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of HcxEnterpriseSiteResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of HcxEnterpriseSiteResources and their operations over a HcxEnterpriseSiteResource. </returns>
+        <summary> Gets a collection of HcxEnterpriseSites in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of HcxEnterpriseSites and their operations over a HcxEnterpriseSiteResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1051,14 +1169,14 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.IscsiPathResource</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets an object representing a IscsiPathResource along with the instance operations that can be performed on it in the AvsPrivateCloud. </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Avs.IscsiPathResource" /> along with the instance operations that can be performed on it in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Avs.IscsiPathResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1073,7 +1191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.ScriptExecutionResource&gt;</ReturnType>
@@ -1085,9 +1203,7 @@
       <Docs>
         <param name="scriptExecutionName"> Name of the script cmdlet. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ScriptExecution
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptExecutions/{scriptExecutionName}</description></item><item><term>Operation Id</term><description>ScriptExecution_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.ScriptExecutionResource" /></description></item></list></summary>
+        <summary> Get a ScriptExecution. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1106,7 +1222,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.ScriptExecutionResource&gt;&gt;</ReturnType>
@@ -1118,9 +1234,7 @@
       <Docs>
         <param name="scriptExecutionName"> Name of the script cmdlet. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ScriptExecution
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptExecutions/{scriptExecutionName}</description></item><item><term>Operation Id</term><description>ScriptExecution_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.ScriptExecutionResource" /></description></item></list></summary>
+        <summary> Get a ScriptExecution. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1139,15 +1253,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.ScriptExecutionCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of ScriptExecutionResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of ScriptExecutionResources and their operations over a ScriptExecutionResource. </returns>
+        <summary> Gets a collection of ScriptExecutions in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of ScriptExecutions and their operations over a ScriptExecutionResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1161,7 +1275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.ScriptPackageResource&gt;</ReturnType>
@@ -1173,9 +1287,7 @@
       <Docs>
         <param name="scriptPackageName"> Name of the script package. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ScriptPackage
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptPackages/{scriptPackageName}</description></item><item><term>Operation Id</term><description>ScriptPackage_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.ScriptPackageResource" /></description></item></list></summary>
+        <summary> Get a ScriptPackage. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1194,7 +1306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.ScriptPackageResource&gt;&gt;</ReturnType>
@@ -1206,9 +1318,7 @@
       <Docs>
         <param name="scriptPackageName"> Name of the script package. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Get a ScriptPackage
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptPackages/{scriptPackageName}</description></item><item><term>Operation Id</term><description>ScriptPackage_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.ScriptPackageResource" /></description></item></list></summary>
+        <summary> Get a ScriptPackage. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1227,15 +1337,67 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.ScriptPackageCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of ScriptPackageResources in the AvsPrivateCloud. </summary>
-        <returns> An object representing collection of ScriptPackageResources and their operations over a ScriptPackageResource. </returns>
+        <summary> Gets a collection of ScriptPackages in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
+        <returns> An object representing collection of ScriptPackages and their operations over a ScriptPackageResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVcfLicense">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt; GetVcfLicense (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Avs.Models.VcfLicense&gt; GetVcfLicense(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetVcfLicense(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVcfLicense (Optional cancellationToken As CancellationToken = Nothing) As Response(Of VcfLicense)" />
+      <MemberSignature Language="F#" Value="abstract member GetVcfLicense : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;&#xA;override this.GetVcfLicense : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;" Usage="avsPrivateCloudResource.GetVcfLicense cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the license for the private cloud
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/getVcfLicense. </description></item><item><term> Operation Id. </term><description> PrivateClouds_GetVcfLicense. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVcfLicenseAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;&gt; GetVcfLicenseAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Avs.Models.VcfLicense&gt;&gt; GetVcfLicenseAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsPrivateCloudResource.GetVcfLicenseAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVcfLicenseAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VcfLicense))" />
+      <MemberSignature Language="F#" Value="abstract member GetVcfLicenseAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;&gt;&#xA;override this.GetVcfLicenseAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;&gt;" Usage="avsPrivateCloudResource.GetVcfLicenseAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.Models.VcfLicense&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the license for the private cloud
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/getVcfLicense. </description></item><item><term> Operation Id. </term><description> PrivateClouds_GetVcfLicense. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1248,14 +1410,14 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkResource</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets an object representing a WorkloadNetworkResource along with the instance operations that can be performed on it in the AvsPrivateCloud. </summary>
+        <summary> Gets an object representing a <see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkResource" /> along with the instance operations that can be performed on it in the <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1270,7 +1432,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1294,7 +1456,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/{workloadNetworkName}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/{workloadNetworkName}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_Get</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1309,7 +1471,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1333,7 +1495,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/{workloadNetworkName}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/{workloadNetworkName}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_Get</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1348,7 +1510,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1368,7 +1530,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get dhcp by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dhcpConfigurations/{dhcpId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDhcp</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDhcpResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dhcpConfigurations/{dhcpId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDhcp</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDhcpResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1387,7 +1549,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1407,7 +1569,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get dhcp by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dhcpConfigurations/{dhcpId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDhcp</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDhcpResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dhcpConfigurations/{dhcpId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDhcp</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDhcpResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1426,7 +1588,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1454,7 +1616,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1474,7 +1636,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DNS service by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsServices/{dnsServiceId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsService</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsServices/{dnsServiceId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsService</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1493,7 +1655,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1513,7 +1675,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DNS service by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsServices/{dnsServiceId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsService</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsServices/{dnsServiceId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsService</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1532,7 +1694,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1560,7 +1722,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1580,7 +1742,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DNS zone by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsZones/{dnsZoneId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsZone</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsZones/{dnsZoneId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsZone</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1599,7 +1761,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1619,7 +1781,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DNS zone by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsZones/{dnsZoneId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsZone</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsZones/{dnsZoneId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsZone</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1638,7 +1800,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1666,7 +1828,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1686,7 +1848,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a gateway by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetGateway</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkGatewayResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetGateway</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1705,7 +1867,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1725,7 +1887,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a gateway by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetGateway</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkGatewayResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetGateway</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1744,7 +1906,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1772,7 +1934,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1792,7 +1954,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a port mirroring profile by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/portMirroringProfiles/{portMirroringId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPortMirroring</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/portMirroringProfiles/{portMirroringId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPortMirroring</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1811,7 +1973,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1831,7 +1993,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a port mirroring profile by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/portMirroringProfiles/{portMirroringId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPortMirroring</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/portMirroringProfiles/{portMirroringId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPortMirroring</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1850,7 +2012,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1878,7 +2040,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1898,7 +2060,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Public IP Block by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/publicIPs/{publicIPId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPublicIP</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPublicIPResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/publicIPs/{publicIPId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPublicIP</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPublicIPResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1917,7 +2079,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1937,7 +2099,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Public IP Block by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/publicIPs/{publicIPId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPublicIP</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPublicIPResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/publicIPs/{publicIPId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPublicIP</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkPublicIPResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1956,7 +2118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1984,7 +2146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2016,7 +2178,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2036,7 +2198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a segment by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/segments/{segmentId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetSegment</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkSegmentResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/segments/{segmentId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetSegment</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkSegmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2055,7 +2217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2075,7 +2237,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a segment by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/segments/{segmentId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetSegment</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkSegmentResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/segments/{segmentId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetSegment</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkSegmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2094,7 +2256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2122,7 +2284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2142,7 +2304,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a virtual machine by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/virtualMachines/{virtualMachineId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVirtualMachine</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/virtualMachines/{virtualMachineId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVirtualMachine</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2161,7 +2323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2181,7 +2343,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a virtual machine by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/virtualMachines/{virtualMachineId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVirtualMachine</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/virtualMachines/{virtualMachineId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVirtualMachine</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2200,7 +2362,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2228,7 +2390,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2248,7 +2410,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a vm group by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/vmGroups/{vmGroupId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVmGroup</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVmGroupResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/vmGroups/{vmGroupId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVmGroup</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVmGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2267,7 +2429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2287,7 +2449,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a vm group by id in a private cloud workload network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/vmGroups/{vmGroupId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVmGroup</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVmGroupResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/vmGroups/{vmGroupId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVmGroup</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.WorkloadNetworkVmGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2306,7 +2468,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -2334,7 +2496,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2355,7 +2517,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -2367,9 +2529,7 @@
       <Docs>
         <param name="key"> The key for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+        <summary> Removes a tag by key from the resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2386,7 +2546,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -2398,9 +2558,7 @@
       <Docs>
         <param name="key"> The key for the tag. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+        <summary> Removes a tag by key from the resource. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2417,7 +2575,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -2437,7 +2595,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -2452,7 +2610,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Rotate the NSX-T Manager password
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateNsxtPassword</description></item><item><term>Operation Id</term><description>PrivateClouds_RotateNsxtPassword</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateNsxtPassword. </description></item><item><term> Operation Id. </term><description> PrivateClouds_RotateNsxtPassword. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2467,7 +2625,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -2482,7 +2640,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Rotate the NSX-T Manager password
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateNsxtPassword</description></item><item><term>Operation Id</term><description>PrivateClouds_RotateNsxtPassword</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateNsxtPassword. </description></item><item><term> Operation Id. </term><description> PrivateClouds_RotateNsxtPassword. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2497,7 +2655,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -2512,7 +2670,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Rotate the vCenter password
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateVcenterPassword</description></item><item><term>Operation Id</term><description>PrivateClouds_RotateVCenterPassword</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateVcenterPassword. </description></item><item><term> Operation Id. </term><description> PrivateClouds_RotateVcenterPassword. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2527,7 +2685,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -2542,7 +2700,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Rotate the vCenter password
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateVcenterPassword</description></item><item><term>Operation Id</term><description>PrivateClouds_RotateVCenterPassword</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/rotateVcenterPassword. </description></item><item><term> Operation Id. </term><description> PrivateClouds_RotateVcenterPassword. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2557,7 +2715,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -2567,11 +2725,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
+        <param name="tags"> The tags to set on the resource. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+        <summary> Replace the tags on the resource with the given set. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2588,7 +2744,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -2598,11 +2754,9 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
+        <param name="tags"> The tags to set on the resource. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Get</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+        <summary> Replace the tags on the resource with the given set. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2621,7 +2775,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudData</ReturnType>
@@ -2631,8 +2785,8 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
-        <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="reader"> The reader for deserializing the model. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
@@ -2653,7 +2807,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2663,8 +2817,8 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
-        <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="writer"> The writer to serialize the model to. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Writes the model to the provided <see cref="T:System.Text.Json.Utf8JsonWriter" />.
             </summary>
@@ -2684,7 +2838,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudData</ReturnType>
@@ -2694,8 +2848,8 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
-        <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="data"> The binary data to be processed. </param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
@@ -2716,7 +2870,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -2725,7 +2879,7 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
             </summary>
@@ -2745,7 +2899,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -2754,7 +2908,7 @@
         <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
-        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <param name="options"> The client options for reading and writing models. </param>
         <summary>
             Writes the model into a <see cref="T:System.BinaryData" />.
             </summary>
@@ -2773,7 +2927,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -2790,7 +2944,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a PrivateCloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Update</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}. </description></item><item><term> Operation Id. </term><description> PrivateClouds_Update. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2807,7 +2961,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -2824,7 +2978,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a PrivateCloud
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}</description></item><item><term>Operation Id</term><description>PrivateCloud_Update</description></item><item><term>Default Api Version</term><description>2024-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /></description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}. </description></item><item><term> Operation Id. </term><description> PrivateClouds_Update. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

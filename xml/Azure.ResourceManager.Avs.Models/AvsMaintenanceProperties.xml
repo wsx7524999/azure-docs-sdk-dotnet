@@ -1,0 +1,512 @@
+<Type Name="AvsMaintenanceProperties" FullName="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties">
+  <TypeSignature Language="C#" Value="public class AvsMaintenanceProperties : System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AvsMaintenanceProperties extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class AvsMaintenanceProperties&#xA;Implements IJsonModel(Of AvsMaintenanceProperties), IPersistableModel(Of AvsMaintenanceProperties)" />
+  <TypeSignature Language="F#" Value="type AvsMaintenanceProperties = class&#xA;    interface IJsonModel&lt;AvsMaintenanceProperties&gt;&#xA;    interface IPersistableModel&lt;AvsMaintenanceProperties&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> properties of a maintenance. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClusterId">
+      <MemberSignature Language="C#" Value="public int? ClusterId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ClusterId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.ClusterId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClusterId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ClusterId : Nullable&lt;int&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.ClusterId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Cluster ID for on which maintenance will be applied. Empty if maintenance is at private cloud level. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Component">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.AvsMaintenanceType? Component { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceType&gt; Component" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.Component" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Component As Nullable(Of AvsMaintenanceType)" />
+      <MemberSignature Language="F#" Value="member this.Component : Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceType&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.Component" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> type of maintenance. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Display name for maintenance. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EstimatedDurationInMinutes">
+      <MemberSignature Language="C#" Value="public long? EstimatedDurationInMinutes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; EstimatedDurationInMinutes" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.EstimatedDurationInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EstimatedDurationInMinutes As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.EstimatedDurationInMinutes : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.EstimatedDurationInMinutes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Estimated time maintenance will take in minutes. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Impact">
+      <MemberSignature Language="C#" Value="public string Impact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Impact" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.Impact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Impact As String" />
+      <MemberSignature Language="F#" Value="member this.Impact : string" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.Impact" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Impact on the resource during maintenance period. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InfoLink">
+      <MemberSignature Language="C#" Value="public string InfoLink { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InfoLink" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.InfoLink" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InfoLink As String" />
+      <MemberSignature Language="F#" Value="member this.InfoLink : string" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.InfoLink" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Link to maintenance info. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsScheduledByMicrosoft">
+      <MemberSignature Language="C#" Value="public bool? IsScheduledByMicrosoft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsScheduledByMicrosoft" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.IsScheduledByMicrosoft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsScheduledByMicrosoft As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsScheduledByMicrosoft : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.IsScheduledByMicrosoft" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> If maintenance is scheduled by Microsoft. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelCreateCore">
+      <MemberSignature Language="C#" Value="protected virtual Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As AvsMaintenanceProperties" />
+      <MemberSignature Language="F#" Value="abstract member JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&#xA;override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties" Usage="avsMaintenanceProperties.JsonModelCreateCore (reader, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader"> The JSON reader. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelWriteCore">
+      <MemberSignature Language="C#" Value="protected virtual void JsonModelWriteCore (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void JsonModelWriteCore(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub JsonModelWriteCore (writer As Utf8JsonWriter, options As ModelReaderWriterOptions)" />
+      <MemberSignature Language="F#" Value="abstract member JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="avsMaintenanceProperties.JsonModelWriteCore (writer, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaintenanceReadiness">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.AvsMaintenanceReadiness MaintenanceReadiness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Avs.Models.AvsMaintenanceReadiness MaintenanceReadiness" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.MaintenanceReadiness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaintenanceReadiness As AvsMaintenanceReadiness" />
+      <MemberSignature Language="F#" Value="member this.MaintenanceReadiness : Azure.ResourceManager.Avs.Models.AvsMaintenanceReadiness" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.MaintenanceReadiness" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceReadiness</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Indicates whether the maintenance is ready to proceed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceManagementOperation&gt; Operations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Avs.Models.AvsMaintenanceManagementOperation&gt; Operations" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.Operations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Operations As IReadOnlyList(Of AvsMaintenanceManagementOperation)" />
+      <MemberSignature Language="F#" Value="member this.Operations : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceManagementOperation&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.Operations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceManagementOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Operations on  maintenance. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistableModelCreateCore">
+      <MemberSignature Language="C#" Value="protected virtual Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As AvsMaintenanceProperties" />
+      <MemberSignature Language="F#" Value="abstract member PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&#xA;override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties" Usage="avsMaintenanceProperties.PersistableModelCreateCore (data, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data"> The data to parse. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistableModelWriteCore">
+      <MemberSignature Language="C#" Value="protected virtual BinaryData PersistableModelWriteCore (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.BinaryData PersistableModelWriteCore(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.PersistableModelWriteCore(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PersistableModelWriteCore (options As ModelReaderWriterOptions) As BinaryData" />
+      <MemberSignature Language="F#" Value="abstract member PersistableModelWriteCore : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.PersistableModelWriteCore : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="avsMaintenanceProperties.PersistableModelWriteCore options" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.AvsMaintenanceProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of AvsMaintenanceProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProvisioningState&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The provisioning state. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduledStartOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? ScheduledStartOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ScheduledStartOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.ScheduledStartOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScheduledStartOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ScheduledStartOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.ScheduledStartOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Scheduled maintenance start time. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.AvsMaintenanceState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Avs.Models.AvsMaintenanceState State" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As AvsMaintenanceState" />
+      <MemberSignature Language="F#" Value="member this.State : Azure.ResourceManager.Avs.Models.AvsMaintenanceState" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The state of the maintenance. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties IJsonModel&lt;AvsMaintenanceProperties&gt;.Create (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.System#ClientModel#Primitives#IJsonModel&lt;Azure#ResourceManager#Avs#Models#AvsMaintenanceProperties&gt;#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As AvsMaintenanceProperties Implements IJsonModel(Of AvsMaintenanceProperties).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties" Usage="avsMaintenanceProperties.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create (reader, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader"> The JSON reader. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write">
+      <MemberSignature Language="C#" Value="void IJsonModel&lt;AvsMaintenanceProperties&gt;.Write (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.System#ClientModel#Primitives#IJsonModel&lt;Azure#ResourceManager#Avs#Models#AvsMaintenanceProperties&gt;#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Sub Write (writer As Utf8JsonWriter, options As ModelReaderWriterOptions) Implements IJsonModel(Of AvsMaintenanceProperties).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="avsMaintenanceProperties.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write (writer, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties IPersistableModel&lt;AvsMaintenanceProperties&gt;.Create (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#Avs#Models#AvsMaintenanceProperties&gt;#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (data As BinaryData, options As ModelReaderWriterOptions) As AvsMaintenanceProperties Implements IPersistableModel(Of AvsMaintenanceProperties).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties" Usage="avsMaintenanceProperties.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Create (data, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data"> The data to parse. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.GetFormatFromOptions">
+      <MemberSignature Language="C#" Value="string IPersistableModel&lt;AvsMaintenanceProperties&gt;.GetFormatFromOptions (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.GetFormatFromOptions(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#Avs#Models#AvsMaintenanceProperties&gt;#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function GetFormatFromOptions (options As ModelReaderWriterOptions) As String Implements IPersistableModel(Of AvsMaintenanceProperties).GetFormatFromOptions" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string" Usage="avsMaintenanceProperties.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.GetFormatFromOptions options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write">
+      <MemberSignature Language="C#" Value="BinaryData IPersistableModel&lt;AvsMaintenanceProperties&gt;.Write (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.BinaryData System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#Avs#Models#AvsMaintenanceProperties&gt;#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Write (options As ModelReaderWriterOptions) As BinaryData Implements IPersistableModel(Of AvsMaintenanceProperties).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="avsMaintenanceProperties.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceProperties&gt;.Write options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Write(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

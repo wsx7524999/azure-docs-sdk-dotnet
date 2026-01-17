@@ -36,7 +36,7 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
+        <param name="value"> The value. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -144,7 +144,7 @@
         <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> HCI. </summary>
+        <summary> Gets the Hci. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,8 +168,8 @@
         <Parameter Name="right" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" /> values are the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -193,8 +193,32 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
+        <param name="value"> The value. </param>
+        <summary> Converts a string to a <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider? (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt; op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider.op_Implicit(System.String)~System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As Nullable(Of ApplianceProvider)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt;" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
         <param name="value">To be added.</param>
-        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" />. </summary>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -218,8 +242,8 @@
         <Parameter Name="right" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" />
       </Parameters>
       <Docs>
-        <param name="left">To be added.</param>
-        <param name="right">To be added.</param>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
         <summary> Determines if two <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider" /> values are not the same. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -240,7 +264,7 @@
         <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> SCVMM. </summary>
+        <summary> Gets the Scvmm. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -281,7 +305,7 @@
         <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> VMWare. </summary>
+        <summary> Gets the VMware. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

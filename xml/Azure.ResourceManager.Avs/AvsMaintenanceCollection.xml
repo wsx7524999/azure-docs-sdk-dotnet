@@ -1,0 +1,386 @@
+<Type Name="AvsMaintenanceCollection" FullName="Azure.ResourceManager.Avs.AvsMaintenanceCollection">
+  <TypeSignature Language="C#" Value="public class AvsMaintenanceCollection : Azure.ResourceManager.ArmCollection, System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AvsMaintenanceCollection extends Azure.ResourceManager.ArmCollection implements class System.Collections.Generic.IAsyncEnumerable`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Avs.AvsMaintenanceCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class AvsMaintenanceCollection&#xA;Inherits ArmCollection&#xA;Implements IAsyncEnumerable(Of AvsMaintenanceResource), IEnumerable(Of AvsMaintenanceResource)" />
+  <TypeSignature Language="F#" Value="type AvsMaintenanceCollection = class&#xA;    inherit ArmCollection&#xA;    interface seq&lt;AvsMaintenanceResource&gt;&#xA;    interface IEnumerable&#xA;    interface IAsyncEnumerable&lt;AvsMaintenanceResource&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.ArmCollection</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            A class representing a collection of <see cref="T:Azure.ResourceManager.Avs.AvsMaintenanceResource" /> and their operations.
+            Each <see cref="T:Azure.ResourceManager.Avs.AvsMaintenanceResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />.
+            To get a <see cref="T:Azure.ResourceManager.Avs.AvsMaintenanceCollection" /> instance call the GetAvsMaintenances method from an instance of <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AvsMaintenanceCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of AvsMaintenanceCollection for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;bool&gt; Exists (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;bool&gt; Exists(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.Exists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Exists (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Exists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;&#xA;override this.Exists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;" Usage="avsMaintenanceCollection.Exists (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks to see if the resource exists in azure.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances/{maintenanceName}. </description></item><item><term> Operation Id. </term><description> Maintenances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt; ExistsAsync (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;bool&gt;&gt; ExistsAsync(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.ExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExistsAsync (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of Boolean))" />
+      <MemberSignature Language="F#" Value="abstract member ExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;&#xA;override this.ExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;" Usage="avsMaintenanceCollection.ExistsAsync (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks to see if the resource exists in azure.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances/{maintenanceName}. </description></item><item><term> Operation Id. </term><description> Maintenances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; Get (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; Get(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.Get(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AvsMaintenanceResource)" />
+      <MemberSignature Language="F#" Value="abstract member Get : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.Get : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsMaintenanceCollection.Get (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get a Maintenance
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances/{maintenanceName}. </description></item><item><term> Operation Id. </term><description> Maintenances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAll">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetAll (Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName? stateName = default, Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter? status = default, DateTimeOffset? from = default, DateTimeOffset? to = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetAll(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; stateName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt; status, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; from, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; to, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.GetAll(System.Nullable{Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName},System.Nullable{Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAll (Optional stateName As Nullable(Of AvsMaintenanceStateName) = Nothing, Optional status As Nullable(Of AvsMaintenanceStatusFilter) = Nothing, Optional from As Nullable(Of DateTimeOffset) = Nothing, Optional to As Nullable(Of DateTimeOffset) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AvsMaintenanceResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetAll : Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; * Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.GetAll : Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; * Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsMaintenanceCollection.GetAll (stateName, status, from, to, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stateName" Type="System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;" />
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt;" />
+        <Parameter Name="from" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="to" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="stateName"> Filter maintenances based on state. </param>
+        <param name="status"> Filter active or inactive maintenances. </param>
+        <param name="from"> date from which result should be returned. ie. scheduledStartTime &gt;= from. </param>
+        <param name="to"> date till which result should be returned. i.e. scheduledStartTime &lt;= to. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List Maintenance resources by subscription ID
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances. </description></item><item><term> Operation Id. </term><description> Maintenances_List. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.Avs.AvsMaintenanceResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetAllAsync (Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName? stateName = default, Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter? status = default, DateTimeOffset? from = default, DateTimeOffset? to = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetAllAsync(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; stateName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt; status, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; from, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; to, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.GetAllAsync(System.Nullable{Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName},System.Nullable{Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllAsync (Optional stateName As Nullable(Of AvsMaintenanceStateName) = Nothing, Optional status As Nullable(Of AvsMaintenanceStatusFilter) = Nothing, Optional from As Nullable(Of DateTimeOffset) = Nothing, Optional to As Nullable(Of DateTimeOffset) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AvsMaintenanceResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetAllAsync : Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; * Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.GetAllAsync : Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; * Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsMaintenanceCollection.GetAllAsync (stateName, status, from, to, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stateName" Type="System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;" />
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStatusFilter&gt;" />
+        <Parameter Name="from" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="to" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="stateName"> Filter maintenances based on state. </param>
+        <param name="status"> Filter active or inactive maintenances. </param>
+        <param name="from"> date from which result should be returned. ie. scheduledStartTime &gt;= from. </param>
+        <param name="to"> date till which result should be returned. i.e. scheduledStartTime &lt;= to. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            List Maintenance resources by subscription ID
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances. </description></item><item><term> Operation Id. </term><description> Maintenances_List. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.Avs.AvsMaintenanceResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt; GetAsync (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt; GetAsync(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AvsMaintenanceResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;&#xA;override this.GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;" Usage="avsMaintenanceCollection.GetAsync (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get a Maintenance
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances/{maintenanceName}. </description></item><item><term> Operation Id. </term><description> Maintenances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetIfExists (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.NullableResponse`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; GetIfExists(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.GetIfExists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As NullableResponse(Of AvsMaintenanceResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsMaintenanceCollection.GetIfExists (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances/{maintenanceName}. </description></item><item><term> Operation Id. </term><description> Maintenances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt; GetIfExistsAsync (string maintenanceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.NullableResponse`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt; GetIfExistsAsync(string maintenanceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (maintenanceName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of NullableResponse(Of AvsMaintenanceResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;&#xA;override this.GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;" Usage="avsMaintenanceCollection.GetIfExistsAsync (maintenanceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maintenanceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="maintenanceName"> Name of the maintenance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/maintenances/{maintenanceName}. </description></item><item><term> Operation Id. </term><description> Maintenances_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01. </description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="maintenanceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="maintenanceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetAsyncEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.Generic.IAsyncEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; IAsyncEnumerable&lt;AvsMaintenanceResource&gt;.GetAsyncEnumerator (System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IAsyncEnumerator`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetAsyncEnumerator(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.System#Collections#Generic#IAsyncEnumerable&lt;Azure#ResourceManager#Avs#AvsMaintenanceResource&gt;#GetAsyncEnumerator(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Function GetAsyncEnumerator (cancellationToken As CancellationToken) As IAsyncEnumerator(Of AvsMaintenanceResource) Implements IAsyncEnumerable(Of AvsMaintenanceResource).GetAsyncEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetAsyncEnumerator : System.Threading.CancellationToken -&gt; System.Collections.Generic.IAsyncEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetAsyncEnumerator : System.Threading.CancellationToken -&gt; System.Collections.Generic.IAsyncEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsMaintenanceCollection.System.Collections.Generic.IAsyncEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetAsyncEnumerator cancellationToken" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IAsyncEnumerable`1.GetAsyncEnumerator(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IAsyncEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; IEnumerable&lt;AvsMaintenanceResource&gt;.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Azure.ResourceManager.Avs.AvsMaintenanceResource&gt; System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.System#Collections#Generic#IEnumerable&lt;Azure#ResourceManager#Avs#AvsMaintenanceResource&gt;#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of AvsMaintenanceResource) Implements IEnumerable(Of AvsMaintenanceResource).GetEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;&#xA;override this.System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;" Usage="avsMaintenanceCollection.System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Azure.ResourceManager.Avs.AvsMaintenanceResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns an enumerator that iterates through the collection.</summary>
+        <returns>An enumerator that can be used to iterate through the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.AvsMaintenanceCollection.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="F#" Value="abstract member System.Collections.IEnumerable.GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.System.Collections.IEnumerable.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="avsMaintenanceCollection.System.Collections.IEnumerable.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns an enumerator that iterates through a collection.</summary>
+        <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

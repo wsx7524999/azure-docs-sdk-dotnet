@@ -17,6 +17,66 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="GetApplianceTelemetryConfig">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt; GetApplianceTelemetryConfig (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt; GetApplianceTelemetryConfig(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetApplianceTelemetryConfig(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetApplianceTelemetryConfig (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ApplianceTelemetryConfigResult)" />
+      <MemberSignature Language="F#" Value="static member GetApplianceTelemetryConfig : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;" Usage="Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetApplianceTelemetryConfig (subscriptionResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the telemetry config.
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetApplianceTelemetryConfig(System.Threading.CancellationToken)" /> instead. </description></item></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="subscriptionResource" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApplianceTelemetryConfigAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt; GetApplianceTelemetryConfigAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt; GetApplianceTelemetryConfigAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetApplianceTelemetryConfigAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetApplianceTelemetryConfigAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ApplianceTelemetryConfigResult))" />
+      <MemberSignature Language="F#" Value="static member GetApplianceTelemetryConfigAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt;" Usage="Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetApplianceTelemetryConfigAsync (subscriptionResource, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the telemetry config.
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetApplianceTelemetryConfigAsync(System.Threading.CancellationToken)" /> instead. </description></item></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="subscriptionResource" /> is null. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="GetResourceConnectorAppliance">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource&gt; GetResourceConnectorAppliance (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource&gt; GetResourceConnectorAppliance(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string resourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -37,18 +97,18 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <param name="resourceName"> Appliances name. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Appliance with a specified resource group and name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource.GetResourceConnectorAppliance(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource.GetResourceConnectorAppliance(System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="resourceName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetResourceConnectorApplianceAsync">
@@ -71,18 +131,18 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <param name="resourceName"> Appliances name. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Appliance with a specified resource group and name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource.GetResourceConnectorApplianceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource.GetResourceConnectorApplianceAsync(System.String,System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="resourceGroupResource" /> or <paramref name="resourceName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceGroupResource" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetResourceConnectorApplianceResource">
@@ -104,12 +164,11 @@
         <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> the method will execute against. </param>
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorArmClient.GetResourceConnectorApplianceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorArmClient.GetResourceConnectorApplianceResource(Azure.Core.ResourceIdentifier)" /> instead. </description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /> object. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -134,11 +193,10 @@
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
+        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> the method will execute against. </param>
         <summary>
-            Gets a collection of ResourceConnectorApplianceResources in the ResourceGroupResource.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource.GetResourceConnectorAppliances" /> instead.</description></item></summary>
-        <returns> An object representing collection of ResourceConnectorApplianceResources and their operations over a ResourceConnectorApplianceResource. </returns>
+            Gets a collection of ResourceConnectorAppliances in the <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /><item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorResourceGroupResource.GetResourceConnectorAppliances" /> instead. </description></item></summary>
+        <returns> An object representing collection of ResourceConnectorAppliances and their operations over a ResourceConnectorApplianceResource. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceGroupResource" /> is null. </exception>
@@ -163,11 +221,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of Appliances in the specified subscription. The operation returns properties of each Appliance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceConnector/appliances</description></item><item><term>Operation Id</term><description>Appliances_ListBySubscription</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetResourceConnectorAppliances(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetResourceConnectorAppliances(System.Threading.CancellationToken)" /> instead. </description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -193,72 +251,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> the method will execute against. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of Appliances in the specified subscription. The operation returns properties of each Appliance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceConnector/appliances</description></item><item><term>Operation Id</term><description>Appliances_ListBySubscription</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetResourceConnectorAppliances(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetTelemetryConfigAppliance">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt; GetTelemetryConfigAppliance (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt; GetTelemetryConfigAppliance(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetTelemetryConfigAppliance(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTelemetryConfigAppliance (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ApplianceTelemetryConfigResult)" />
-      <MemberSignature Language="F#" Value="static member GetTelemetryConfigAppliance : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;" Usage="Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetTelemetryConfigAppliance (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the telemetry config.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceConnector/telemetryconfig</description></item><item><term>Operation Id</term><description>Appliances_GetTelemetryConfig</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetTelemetryConfigAppliance(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetTelemetryConfigApplianceAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt; GetTelemetryConfigApplianceAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt; GetTelemetryConfigApplianceAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetTelemetryConfigApplianceAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTelemetryConfigApplianceAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ApplianceTelemetryConfigResult))" />
-      <MemberSignature Language="F#" Value="static member GetTelemetryConfigApplianceAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt;" Usage="Azure.ResourceManager.ResourceConnector.ResourceConnectorExtensions.GetTelemetryConfigApplianceAsync (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the telemetry config.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceConnector/telemetryconfig</description></item><item><term>Operation Id</term><description>Appliances_GetTelemetryConfig</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetTelemetryConfigAppliance(System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
+            <item><term> Mocking. </term><description> To mock this method, please mock <see cref="M:Azure.ResourceManager.ResourceConnector.Mocking.MockableResourceConnectorSubscriptionResource.GetResourceConnectorAppliancesAsync(System.Threading.CancellationToken)" /> instead. </description></item></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="subscriptionResource" /> is null. </exception>

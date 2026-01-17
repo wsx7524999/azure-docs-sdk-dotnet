@@ -13,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for models. </summary>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -36,62 +36,8 @@
       </Parameters>
       <Docs>
         <param name="endpoint"> Endpoint is the URL to upload artifacts to. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile" />. </summary>
+        <summary> Appliance ArtifactProfile definition. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ApplianceClusterUserCredentialResult">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserCredentialResult ApplianceClusterUserCredentialResult (Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig hybridConnectionConfig = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserCredentialResult ApplianceClusterUserCredentialResult(class Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig hybridConnectionConfig, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceClusterUserCredentialResult(Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig,System.Collections.Generic.IEnumerable{Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ApplianceClusterUserCredentialResult (Optional hybridConnectionConfig As HybridConnectionConfig = Nothing, Optional kubeconfigs As IEnumerable(Of ApplianceCredentialKubeconfig) = Nothing) As ApplianceClusterUserCredentialResult" />
-      <MemberSignature Language="F#" Value="static member ApplianceClusterUserCredentialResult : Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig * seq&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserCredentialResult" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceClusterUserCredentialResult (hybridConnectionConfig, kubeconfigs)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserCredentialResult</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="hybridConnectionConfig" Type="Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig" />
-        <Parameter Name="kubeconfigs" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="hybridConnectionConfig"> Contains the REP (rendezvous endpoint) and “Listener” access token from notification service (NS). </param>
-        <param name="kubeconfigs"> The list of appliance kubeconfigs. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserCredentialResult" />. </summary>
-        <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserCredentialResult" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ApplianceClusterUserKeysResult">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserKeysResult ApplianceClusterUserKeysResult (System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt; artifactProfiles = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt; sshKeys = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserKeysResult ApplianceClusterUserKeysResult(class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt; artifactProfiles, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt; sshKeys) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceClusterUserKeysResult(System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile},System.Collections.Generic.IEnumerable{Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig},System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ApplianceClusterUserKeysResult (Optional artifactProfiles As IReadOnlyDictionary(Of String, ApplianceArtifactProfile) = Nothing, Optional kubeconfigs As IEnumerable(Of ApplianceCredentialKubeconfig) = Nothing, Optional sshKeys As IReadOnlyDictionary(Of String, ApplianceSshKey) = Nothing) As ApplianceClusterUserKeysResult" />
-      <MemberSignature Language="F#" Value="static member ApplianceClusterUserKeysResult : System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt; * seq&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt; -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserKeysResult" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceClusterUserKeysResult (artifactProfiles, kubeconfigs, sshKeys)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserKeysResult</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="artifactProfiles" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt;" />
-        <Parameter Name="kubeconfigs" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt;" />
-        <Parameter Name="sshKeys" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="artifactProfiles"> Map of artifacts that contains a list of ArtifactProfile used to upload artifacts such as logs. </param>
-        <param name="kubeconfigs"> The list of appliance kubeconfigs. </param>
-        <param name="sshKeys"> Map of Customer User Public, Private SSH Keys and Certificate when available. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserKeysResult" />. </summary>
-        <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceClusterUserKeysResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,8 +62,96 @@
       <Docs>
         <param name="name"> Name which contains the role of the kubeconfig. </param>
         <param name="value"> Contains the kubeconfig value. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig" />. </summary>
+        <summary> Cluster User Credential appliance. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplianceEvent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent ApplianceEvent (string type = default, string code = default, string status = default, string message = default, string severity = default, DateTimeOffset? timestamp = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent ApplianceEvent(string type, string code, string status, string message, string severity, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; timestamp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceEvent(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTimeOffset})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ApplianceEvent (Optional type As String = Nothing, Optional code As String = Nothing, Optional status As String = Nothing, Optional message As String = Nothing, Optional severity As String = Nothing, Optional timestamp As Nullable(Of DateTimeOffset) = Nothing) As ApplianceEvent" />
+      <MemberSignature Language="F#" Value="static member ApplianceEvent : string * string * string * string * string * Nullable&lt;DateTimeOffset&gt; -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceEvent (type, code, status, message, severity, timestamp)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="code" Type="System.String" />
+        <Parameter Name="status" Type="System.String" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="severity" Type="System.String" />
+        <Parameter Name="timestamp" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="type"> The type of event is used to classify how the event was initiated. </param>
+        <param name="code"> Code is used to break down the event further to identify why it occurred. </param>
+        <param name="status"> Status is used to represent the outcome of the event. </param>
+        <param name="message"> Message is intended to be actionable and should be used to inform the user of the event. </param>
+        <param name="severity"> Severity is the classification of the event to relay the importance of the event. </param>
+        <param name="timestamp"> Timestamp is the time the event occurred. </param>
+        <summary> Event contains information about customer driven, platform driven, or unplanned events that occurred on the Appliance. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplianceListCredentialResult">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceListCredentialResult ApplianceListCredentialResult (Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig hybridConnectionConfig = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.Models.ApplianceListCredentialResult ApplianceListCredentialResult(class Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig hybridConnectionConfig, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceListCredentialResult(Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig,System.Collections.Generic.IEnumerable{Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ApplianceListCredentialResult (Optional hybridConnectionConfig As HybridConnectionConfig = Nothing, Optional kubeconfigs As IEnumerable(Of ApplianceCredentialKubeconfig) = Nothing) As ApplianceListCredentialResult" />
+      <MemberSignature Language="F#" Value="static member ApplianceListCredentialResult : Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig * seq&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceListCredentialResult" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceListCredentialResult (hybridConnectionConfig, kubeconfigs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceListCredentialResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hybridConnectionConfig" Type="Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig" />
+        <Parameter Name="kubeconfigs" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="hybridConnectionConfig"> Contains the REP (rendezvous endpoint) and “Listener” access token from notification service (NS). </param>
+        <param name="kubeconfigs"> The list of appliance kubeconfigs. </param>
+        <summary> The List Cluster User Credential appliance. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceListCredentialResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplianceListKeysResult">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceListKeysResult ApplianceListKeysResult (System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt; artifactProfiles = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt; sshKeys = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.Models.ApplianceListKeysResult ApplianceListKeysResult(class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt; artifactProfiles, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; kubeconfigs, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt; sshKeys) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceListKeysResult(System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile},System.Collections.Generic.IEnumerable{Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig},System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ApplianceListKeysResult (Optional artifactProfiles As IReadOnlyDictionary(Of String, ApplianceArtifactProfile) = Nothing, Optional kubeconfigs As IEnumerable(Of ApplianceCredentialKubeconfig) = Nothing, Optional sshKeys As IReadOnlyDictionary(Of String, ApplianceSshKey) = Nothing) As ApplianceListKeysResult" />
+      <MemberSignature Language="F#" Value="static member ApplianceListKeysResult : System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt; * seq&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt; -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceListKeysResult" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ApplianceListKeysResult (artifactProfiles, kubeconfigs, sshKeys)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceListKeysResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="artifactProfiles" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceArtifactProfile&gt;" />
+        <Parameter Name="kubeconfigs" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceCredentialKubeconfig&gt;" />
+        <Parameter Name="sshKeys" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="artifactProfiles"> Map of artifacts that contains a list of ArtifactProfile used to upload artifacts such as logs. </param>
+        <param name="kubeconfigs"> The list of appliance kubeconfigs. </param>
+        <param name="sshKeys"> Map of Customer User Public, Private SSH Keys and Certificate when available. </param>
+        <summary> The List Cluster Keys Results appliance. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceListKeysResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,7 +182,7 @@
         <param name="expirationTimeStamp"> Certificate expiration timestamp (Unix). </param>
         <param name="privateKey"> Private Key. </param>
         <param name="publicKey"> Public Key. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey" />. </summary>
+        <summary> Appliance SSHKey definition. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSshKey" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +206,7 @@
         <Parameter Name="version" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="metadataCatalogVersion"> This is the metadata of the supported newer version. </param>
+        <param name="metadataCatalogVersion"> The newer supported version catalog version. </param>
         <param name="version"> The newer version available for upgrade. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSupportedVersion" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSupportedVersion" /> instance for mocking. </returns>
@@ -202,7 +236,7 @@
         <param name="data"> The newer supported version catalog version data. </param>
         <param name="name"> The catalog version name for the version available for upgrade. </param>
         <param name="namespace"> The catalog version namespace for the version available for upgrade. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSupportedVersionCatalogVersion" />. </summary>
+        <summary> The SupportedVersionCatalogVersion object for appliance. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSupportedVersionCatalogVersion" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -232,7 +266,7 @@
         <param name="catalog"> The image catalog name for the version available for upgrade. </param>
         <param name="offer"> The image offer name for the version available for upgrade. </param>
         <param name="version"> The image version for the version available for upgrade. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSupportedVersionCatalogVersionProperties" />. </summary>
+        <summary> The SupportedVersionCatalogVersionData object for appliance. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceSupportedVersionCatalogVersionProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +290,7 @@
       </Parameters>
       <Docs>
         <param name="telemetryInstrumentationKey"> Telemetry instrumentation key. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult" />. </summary>
+        <summary> The Get Telemetry Config Result appliance. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceTelemetryConfigResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -284,7 +318,7 @@
         <param name="id"> The appliance resource path. </param>
         <param name="name"> The release train name. </param>
         <param name="properties"> The properties of supported version. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceUpgradeGraph" />. </summary>
+        <summary> The Upgrade Graph for appliance. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceUpgradeGraph" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -310,7 +344,7 @@
       <Docs>
         <param name="applianceVersion"> The current appliance version. </param>
         <param name="supportedVersions"> This contains the current version and supported upgrade versions. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceUpgradeGraphProperties" />. </summary>
+        <summary> The Upgrade Graph Properties for appliance. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceUpgradeGraphProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,17 +374,17 @@
         <param name="hybridConnectionName"> Name of the connection. </param>
         <param name="relay"> Name of the notification service. </param>
         <param name="token"> Listener access token. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig" />. </summary>
+        <summary> Contains the REP (rendezvous endpoint) and “Listener” access token from notification service (NS). </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.HybridConnectionConfig" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ResourceConnectorApplianceData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData ResourceConnectorApplianceData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default, Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorDistro? distro = default, Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider? infrastructureConfigProvider = default, string provisioningState = default, string publicKey = default, Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorStatus? status = default, string version = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData ResourceConnectorApplianceData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.Models.ManagedServiceIdentity identity, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorDistro&gt; distro, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt; infrastructureConfigProvider, string provisioningState, string publicKey, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorStatus&gt; status, string version) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ResourceConnectorApplianceData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.Collections.Generic.IDictionary{System.String,System.String},Azure.Core.AzureLocation,Azure.ResourceManager.Models.ManagedServiceIdentity,System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorDistro},System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider},System.String,System.String,System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorStatus},System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceConnectorApplianceData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As AzureLocation = Nothing, Optional identity As ManagedServiceIdentity = Nothing, Optional distro As Nullable(Of ResourceConnectorDistro) = Nothing, Optional infrastructureConfigProvider As Nullable(Of ApplianceProvider) = Nothing, Optional provisioningState As String = Nothing, Optional publicKey As String = Nothing, Optional status As Nullable(Of ResourceConnectorStatus) = Nothing, Optional version As String = Nothing) As ResourceConnectorApplianceData" />
-      <MemberSignature Language="F#" Value="static member ResourceConnectorApplianceData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.Core.AzureLocation * Azure.ResourceManager.Models.ManagedServiceIdentity * Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorDistro&gt; * Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt; * string * string * Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorStatus&gt; * string -&gt; Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ResourceConnectorApplianceData (id, name, resourceType, systemData, tags, location, identity, distro, infrastructureConfigProvider, provisioningState, publicKey, status, version)" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData ResourceConnectorApplianceData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.ResourceConnector.Models.ApplianceDistro? distro = default, string provisioningState = default, string publicKey = default, Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus? status = default, string version = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent&gt; events = default, Azure.ResourceManager.ResourceConnector.Models.ApplianceNetworkProfile networkProfile = default, Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider? infrastructureConfigProvider = default, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData ResourceConnectorApplianceData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceDistro&gt; distro, string provisioningState, string publicKey, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt; status, string version, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent&gt; events, class Azure.ResourceManager.ResourceConnector.Models.ApplianceNetworkProfile networkProfile, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt; infrastructureConfigProvider, class Azure.ResourceManager.Models.ManagedServiceIdentity identity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ResourceConnectorApplianceData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.Collections.Generic.IDictionary{System.String,System.String},Azure.Core.AzureLocation,System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ApplianceDistro},System.String,System.String,System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus},System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent},Azure.ResourceManager.ResourceConnector.Models.ApplianceNetworkProfile,System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider},Azure.ResourceManager.Models.ManagedServiceIdentity)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceConnectorApplianceData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As AzureLocation = Nothing, Optional distro As Nullable(Of ApplianceDistro) = Nothing, Optional provisioningState As String = Nothing, Optional publicKey As String = Nothing, Optional status As Nullable(Of ApplianceStatus) = Nothing, Optional version As String = Nothing, Optional events As IEnumerable(Of ApplianceEvent) = Nothing, Optional networkProfile As ApplianceNetworkProfile = Nothing, Optional infrastructureConfigProvider As Nullable(Of ApplianceProvider) = Nothing, Optional identity As ManagedServiceIdentity = Nothing) As ResourceConnectorApplianceData" />
+      <MemberSignature Language="F#" Value="static member ResourceConnectorApplianceData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.Core.AzureLocation * Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceDistro&gt; * string * string * Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt; * string * seq&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent&gt; * Azure.ResourceManager.ResourceConnector.Models.ApplianceNetworkProfile * Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt; * Azure.ResourceManager.Models.ManagedServiceIdentity -&gt; Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ResourceConnectorApplianceData (id, name, resourceType, systemData, tags, location, distro, provisioningState, publicKey, status, version, events, networkProfile, infrastructureConfigProvider, identity)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
@@ -366,30 +400,58 @@
         <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
         <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
-        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" />
-        <Parameter Name="distro" Type="System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorDistro&gt;" />
-        <Parameter Name="infrastructureConfigProvider" Type="System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt;" />
+        <Parameter Name="distro" Type="System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceDistro&gt;" />
         <Parameter Name="provisioningState" Type="System.String" />
         <Parameter Name="publicKey" Type="System.String" />
-        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorStatus&gt;" />
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt;" />
         <Parameter Name="version" Type="System.String" />
+        <Parameter Name="events" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceEvent&gt;" />
+        <Parameter Name="networkProfile" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceNetworkProfile" />
+        <Parameter Name="infrastructureConfigProvider" Type="System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceProvider&gt;" />
+        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" />
       </Parameters>
       <Docs>
-        <param name="id"> The id. </param>
-        <param name="name"> The name. </param>
-        <param name="resourceType"> The resourceType. </param>
-        <param name="systemData"> The systemData. </param>
-        <param name="tags"> The tags. </param>
-        <param name="location"> The location. </param>
-        <param name="identity"> Identity for the resource. Current supported identity types: SystemAssigned, None. </param>
+        <param name="id"> Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}. </param>
+        <param name="name"> The name of the resource. </param>
+        <param name="resourceType"> The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts". </param>
+        <param name="systemData"> Azure Resource Manager metadata containing createdBy and modifiedBy information. </param>
+        <param name="tags"> Resource tags. </param>
+        <param name="location"> The geo-location where the resource lives. </param>
         <param name="distro"> Represents a supported Fabric/Infra. (AKSEdge etc...). </param>
-        <param name="infrastructureConfigProvider"> Contains infrastructure information about the Appliance. </param>
         <param name="provisioningState"> The current deployment or provisioning state, which only appears in the response. </param>
         <param name="publicKey"> Certificates pair used to download MSI certificate from HIS. Can only be set once. </param>
-        <param name="status"> Appliance’s health and state of connection to on-prem. </param>
+        <param name="status"> Appliance’s health and state of connection to on-prem. This list of values is not exhaustive. </param>
         <param name="version"> Version of the Appliance. </param>
-        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData" />. </summary>
+        <param name="events"> A list of events that occurred on the Appliance to relay information to the user. </param>
+        <param name="networkProfile"> Contains network information about the Appliance. </param>
+        <param name="infrastructureConfigProvider"> Information about the connected appliance. </param>
+        <param name="identity"> Identity for the resource. </param>
+        <summary>To be added.</summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceConnectorAppliancePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorAppliancePatch ResourceConnectorAppliancePatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorAppliancePatch ResourceConnectorAppliancePatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ResourceConnectorAppliancePatch(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceConnectorAppliancePatch (Optional tags As IDictionary(Of String, String) = Nothing) As ResourceConnectorAppliancePatch" />
+      <MemberSignature Language="F#" Value="static member ResourceConnectorAppliancePatch : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorAppliancePatch" Usage="Azure.ResourceManager.ResourceConnector.Models.ArmResourceConnectorModelFactory.ResourceConnectorAppliancePatch tags" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorAppliancePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> Resource tags. </param>
+        <summary> The Appliances patchable resource definition. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ResourceConnectorAppliancePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

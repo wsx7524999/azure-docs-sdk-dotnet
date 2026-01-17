@@ -1,0 +1,374 @@
+<Type Name="AvsMaintenanceStateName" FullName="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName">
+  <TypeSignature Language="C#" Value="public readonly struct AvsMaintenanceStateName : IEquatable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit AvsMaintenanceStateName extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+  <TypeSignature Language="VB.NET" Value="Public Structure AvsMaintenanceStateName&#xA;Implements IEquatable(Of AvsMaintenanceStateName)" />
+  <TypeSignature Language="F#" Value="type AvsMaintenanceStateName = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> Customer presentable maintenance state. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AvsMaintenanceStateName (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName : string -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="new Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value"> The value. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Canceled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Canceled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Canceled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Canceled As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member Canceled : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Canceled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Maintenance Cancelled. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Equals(Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As AvsMaintenanceStateName) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName -&gt; bool" Usage="avsMaintenanceStateName.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="avsMaintenanceStateName.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Failed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Failed" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Failed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Failed As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member Failed : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Failed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Maintenance Failed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="avsMaintenanceStateName.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InProgress">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName InProgress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName InProgress" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.InProgress" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InProgress As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member InProgress : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.InProgress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Maintenance In Progress. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotScheduled">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName NotScheduled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName NotScheduled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.NotScheduled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NotScheduled As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member NotScheduled : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.NotScheduled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Maintenance Not Scheduled. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName left, Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName left, valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Equality(Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName,Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As AvsMaintenanceStateName, right As AvsMaintenanceStateName) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName * Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+      </Parameters>
+      <Docs>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Implicit(System.String)~Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value"> The value. </param>
+        <summary> Converts a string to a <see cref="T:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName? (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt; op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Implicit(System.String)~System.Nullable{Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As Nullable(Of AvsMaintenanceStateName)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName left, Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName left, valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Inequality(Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName,Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As AvsMaintenanceStateName, right As AvsMaintenanceStateName) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName * Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName -&gt; bool" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" />
+      </Parameters>
+      <Docs>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scheduled">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Scheduled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Scheduled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Scheduled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Scheduled As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member Scheduled : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Scheduled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Maintenance Scheduled. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Success">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Success { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName Success" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Success" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Success As AvsMaintenanceStateName" />
+      <MemberSignature Language="F#" Value="static member Success : Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName" Usage="Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.Success" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Maintenance Succeeded. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.AvsMaintenanceStateName.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="avsMaintenanceStateName.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

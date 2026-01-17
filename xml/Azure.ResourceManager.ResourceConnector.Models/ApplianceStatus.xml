@@ -1,0 +1,1134 @@
+<Type Name="ApplianceStatus" FullName="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus">
+  <TypeSignature Language="C#" Value="public readonly struct ApplianceStatus : IEquatable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ApplianceStatus extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ApplianceStatus&#xA;Implements IEquatable(Of ApplianceStatus)" />
+  <TypeSignature Language="F#" Value="type ApplianceStatus = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> Appliance’s health and state of connection to on-prem. This list of values is not exhaustive. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplianceStatus (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus : string -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="new Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value"> The value. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ArcGatewayUpdateComplete">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdateComplete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdateComplete" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdateComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArcGatewayUpdateComplete As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ArcGatewayUpdateComplete : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdateComplete" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ArcGatewayUpdateComplete. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArcGatewayUpdateFailed">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdateFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdateFailed" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdateFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArcGatewayUpdateFailed As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ArcGatewayUpdateFailed : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdateFailed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ArcGatewayUpdateFailed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArcGatewayUpdatePreparing">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdatePreparing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdatePreparing" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdatePreparing" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArcGatewayUpdatePreparing As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ArcGatewayUpdatePreparing : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdatePreparing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ArcGatewayUpdatePreparing. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArcGatewayUpdating">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdating { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ArcGatewayUpdating" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdating" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArcGatewayUpdating As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ArcGatewayUpdating : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ArcGatewayUpdating" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ArcGatewayUpdating. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connected">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Connected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Connected" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Connected" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Connected As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member Connected : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Connected" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the Connected. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connecting">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Connecting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Connecting" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Connecting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Connecting As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member Connecting : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Connecting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the Connecting. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Equals(Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As ApplianceStatus) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus -&gt; bool" Usage="applianceStatus.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="applianceStatus.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EtcdSnapshotFailed">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus EtcdSnapshotFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus EtcdSnapshotFailed" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.EtcdSnapshotFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EtcdSnapshotFailed As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member EtcdSnapshotFailed : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.EtcdSnapshotFailed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the EtcdSnapshotFailed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="applianceStatus.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageDeprovisioning">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageDeprovisioning { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageDeprovisioning" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageDeprovisioning" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageDeprovisioning As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImageDeprovisioning : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageDeprovisioning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImageDeprovisioning. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageDownloaded">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageDownloaded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageDownloaded" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageDownloaded" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageDownloaded As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImageDownloaded : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageDownloaded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImageDownloaded. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageDownloading">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageDownloading { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageDownloading" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageDownloading" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageDownloading As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImageDownloading : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageDownloading" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImageDownloading. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImagePending">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImagePending { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImagePending" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImagePending" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImagePending As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImagePending : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImagePending" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImagePending. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageProvisioned">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageProvisioned { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageProvisioned" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageProvisioned" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageProvisioned As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImageProvisioned : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageProvisioned" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImageProvisioned. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageProvisioning">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageProvisioning { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageProvisioning" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageProvisioning" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageProvisioning As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImageProvisioning : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageProvisioning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImageProvisioning. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageUnknown">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageUnknown { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ImageUnknown" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageUnknown" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageUnknown As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ImageUnknown : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ImageUnknown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ImageUnknown. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkDnsUpdateComplete">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdateComplete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdateComplete" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdateComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkDnsUpdateComplete As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkDnsUpdateComplete : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdateComplete" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkDnsUpdateComplete. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkDnsUpdateFailed">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdateFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdateFailed" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdateFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkDnsUpdateFailed As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkDnsUpdateFailed : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdateFailed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkDnsUpdateFailed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkDnsUpdatePreparing">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdatePreparing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdatePreparing" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdatePreparing" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkDnsUpdatePreparing As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkDnsUpdatePreparing : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdatePreparing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkDnsUpdatePreparing. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkDnsUpdating">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdating { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkDnsUpdating" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdating" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkDnsUpdating As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkDnsUpdating : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkDnsUpdating" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkDnsUpdating. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkProxyUpdateComplete">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdateComplete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdateComplete" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdateComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkProxyUpdateComplete As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkProxyUpdateComplete : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdateComplete" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkProxyUpdateComplete. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkProxyUpdateFailed">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdateFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdateFailed" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdateFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkProxyUpdateFailed As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkProxyUpdateFailed : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdateFailed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkProxyUpdateFailed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkProxyUpdatePreparing">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdatePreparing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdatePreparing" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdatePreparing" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkProxyUpdatePreparing As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkProxyUpdatePreparing : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdatePreparing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkProxyUpdatePreparing. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkProxyUpdating">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdating { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus NetworkProxyUpdating" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdating" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NetworkProxyUpdating As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member NetworkProxyUpdating : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.NetworkProxyUpdating" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the NetworkProxyUpdating. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus None { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus None" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.None" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property None As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member None : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.None" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the None. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Offline { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Offline" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Offline" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Offline As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member Offline : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Offline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the Offline. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus left, Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus left, valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Equality(Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus,Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As ApplianceStatus, right As ApplianceStatus) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus * Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+        <Parameter Name="right" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+      </Parameters>
+      <Docs>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Implicit(System.String)~Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value"> The value. </param>
+        <summary> Converts a string to a <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus? (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt; op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Implicit(System.String)~System.Nullable{Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus}" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As Nullable(Of ApplianceStatus)" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt;" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus left, Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus left, valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Inequality(Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus,Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As ApplianceStatus, right As ApplianceStatus) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus * Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus -&gt; bool" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+        <Parameter Name="right" Type="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" />
+      </Parameters>
+      <Docs>
+        <param name="left"> The left value to compare. </param>
+        <param name="right"> The right value to compare. </param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostUpgrade">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus PostUpgrade { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus PostUpgrade" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.PostUpgrade" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PostUpgrade As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member PostUpgrade : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.PostUpgrade" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the PostUpgrade. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreparingForUpgrade">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus PreparingForUpgrade { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus PreparingForUpgrade" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.PreparingForUpgrade" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PreparingForUpgrade As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member PreparingForUpgrade : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.PreparingForUpgrade" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the PreparingForUpgrade. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreUpgrade">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus PreUpgrade { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus PreUpgrade" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.PreUpgrade" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PreUpgrade As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member PreUpgrade : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.PreUpgrade" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the PreUpgrade. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Running">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Running { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Running" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Running" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Running As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member Running : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Running" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the Running. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="applianceStatus.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdatingCapi">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpdatingCapi { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpdatingCapi" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpdatingCapi" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpdatingCapi As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpdatingCapi : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpdatingCapi" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpdatingCapi. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdatingCloudOperator">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpdatingCloudOperator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpdatingCloudOperator" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpdatingCloudOperator" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpdatingCloudOperator As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpdatingCloudOperator : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpdatingCloudOperator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpdatingCloudOperator. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdatingCluster">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpdatingCluster { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpdatingCluster" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpdatingCluster" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpdatingCluster As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpdatingCluster : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpdatingCluster" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpdatingCluster. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeClusterExtensionFailedToDelete">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradeClusterExtensionFailedToDelete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradeClusterExtensionFailedToDelete" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradeClusterExtensionFailedToDelete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpgradeClusterExtensionFailedToDelete As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpgradeClusterExtensionFailedToDelete : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradeClusterExtensionFailedToDelete" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpgradeClusterExtensionFailedToDelete. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeComplete">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradeComplete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradeComplete" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradeComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpgradeComplete As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpgradeComplete : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradeComplete" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpgradeComplete. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeFailed">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradeFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradeFailed" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradeFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpgradeFailed As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpgradeFailed : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradeFailed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpgradeFailed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradePrerequisitesCompleted">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradePrerequisitesCompleted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradePrerequisitesCompleted" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradePrerequisitesCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpgradePrerequisitesCompleted As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpgradePrerequisitesCompleted : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradePrerequisitesCompleted" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpgradePrerequisitesCompleted. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradingKvaio">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradingKvaio { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus UpgradingKvaio" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradingKvaio" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UpgradingKvaio As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member UpgradingKvaio : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.UpgradingKvaio" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the UpgradingKvaio. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validating">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Validating { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus Validating" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Validating" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Validating As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member Validating : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.Validating" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the Validating. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidatingEtcdHealth">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingEtcdHealth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingEtcdHealth" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingEtcdHealth" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ValidatingEtcdHealth As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ValidatingEtcdHealth : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingEtcdHealth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ValidatingEtcdHealth. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidatingImageDownload">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingImageDownload { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingImageDownload" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingImageDownload" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ValidatingImageDownload As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ValidatingImageDownload : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingImageDownload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ValidatingImageDownload. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidatingImageUpload">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingImageUpload { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingImageUpload" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingImageUpload" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ValidatingImageUpload As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ValidatingImageUpload : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingImageUpload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ValidatingImageUpload. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidatingSFSConnectivity">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingSFSConnectivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus ValidatingSFSConnectivity" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingSFSConnectivity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ValidatingSFSConnectivity As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member ValidatingSFSConnectivity : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.ValidatingSFSConnectivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ValidatingSFSConnectivity. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingForCloudOperator">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus WaitingForCloudOperator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus WaitingForCloudOperator" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.WaitingForCloudOperator" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WaitingForCloudOperator As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member WaitingForCloudOperator : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.WaitingForCloudOperator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the WaitingForCloudOperator. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingForHeartbeat">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus WaitingForHeartbeat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus WaitingForHeartbeat" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.WaitingForHeartbeat" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WaitingForHeartbeat As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member WaitingForHeartbeat : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.WaitingForHeartbeat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the WaitingForHeartbeat. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingForKvaio">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus WaitingForKvaio { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus WaitingForKvaio" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.WaitingForKvaio" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WaitingForKvaio As ApplianceStatus" />
+      <MemberSignature Language="F#" Value="static member WaitingForKvaio : Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus" Usage="Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus.WaitingForKvaio" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ResourceConnector</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceConnector.Models.ApplianceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the WaitingForKvaio. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
