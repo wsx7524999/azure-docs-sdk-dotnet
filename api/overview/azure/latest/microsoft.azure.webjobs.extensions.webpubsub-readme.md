@@ -1,21 +1,21 @@
 ---
 title: Azure WebJobs Web PubSub client library for .NET
 keywords: Azure, dotnet, SDK, API, Microsoft.Azure.WebJobs.Extensions.WebPubSub, webpubsub
-ms.date: 07/29/2025
+ms.date: 01/20/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: webpubsub
 ---
-# Azure WebJobs Web PubSub client library for .NET - version 1.9.0 
+# Azure WebJobs Web PubSub client library for .NET - version 1.10.0 
 
 
 This extension provides functionality for receiving Web PubSub webhook calls in Azure Functions, allowing you to easily write functions that respond to any event published to Web PubSub.
 
-[Source code](https://github.com/Azure/azure-sdk-for-net/blob/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.9.0/sdk/webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub/src) |
+[Source code](https://github.com/Azure/azure-sdk-for-net/blob/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.10.0/sdk/webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub/src) |
 [Package](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.WebPubSub) |
 [API reference documentation](https://learn.microsoft.com/dotnet/api/microsoft.azure.webjobs.extensions.webpubsub) |
 [Product documentation](https://aka.ms/awps/doc) |
-[Samples](https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.9.0/sdk/webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub/samples)
+[Samples](https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.10.0/sdk/webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub/samples)
 
 ## Getting started
 
@@ -178,12 +178,12 @@ or contact [opencode@microsoft.com][coc_contact] with any
 additional questions or comments.
 
 <!-- LINKS -->
-[source]: https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.9.0/sdk/search/Microsoft.Azure.WebJobs.Extensions.WebPubSub/src
+[source]: https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.10.0/sdk/search/Microsoft.Azure.WebJobs.Extensions.WebPubSub/src
 [package]: https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.WebPubSub/
 [docs]: https://learn.microsoft.com/dotnet/api/Microsoft.Azure.WebJobs.Extensions.WebPubSub
 [nuget]: https://www.nuget.org/
 
-[contrib]: https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.9.0/CONTRIBUTING.md
+[contrib]: https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.10.0/CONTRIBUTING.md
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

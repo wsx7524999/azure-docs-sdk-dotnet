@@ -1,6 +1,6 @@
 {
   "Name": "Microsoft.Azure.WebJobs.Extensions.WebPubSub",
-  "Version": "1.9.0",
+  "Version": "1.10.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/webpubsub/Microsoft.Azure.WebJobs.Extensions.WebPubSub",
   "ServiceDirectory": "webpubsub",
@@ -10,22 +10,24 @@
   "SdkType": "functions",
   "IsNewSdk": true,
   "ArtifactName": "Microsoft.Azure.WebJobs.Extensions.WebPubSub",
-  "ReleaseStatus": "2025-07-29",
+  "ReleaseStatus": "2026-01-19",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "Microsoft.Azure.WebJobs.Extensions.WebPubSub",
-    "safeName": "MicrosoftAzureWebJobsExtensionsWebPubSub",
     "triggeringPaths": [
+      "/sdk/webpubsub/Microsoft.Azure.WebPubSub.Common",
       "/sdk/webpubsub/ci.yml"
-    ]
+    ],
+    "safeName": "MicrosoftAzureWebJobsExtensionsWebPubSub"
   },
   "CIParameters": {
+    "CheckAOTCompat": false,
     "CIMatrixConfigs": [],
     "BuildSnippets": false,
-    "AOTTestInputs": [],
-    "CheckAOTCompat": false
+    "AOTTestInputs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Microsoft.Azure.WebJobs.Extensions.WebPubSub",
     "Microsoft.Extensions.Hosting"
