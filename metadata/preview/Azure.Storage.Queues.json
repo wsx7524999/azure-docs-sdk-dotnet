@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Storage.Queues",
-  "Version": "12.25.0-beta.1",
+  "Version": "12.26.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/storage/Azure.Storage.Queues",
   "ServiceDirectory": "storage",
@@ -10,23 +10,24 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Storage.Queues",
-  "ReleaseStatus": "2025-11-17",
+  "ReleaseStatus": "2026-01-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "safeName": "AzureStorageQueues",
-    "skipSmokeTests": true,
+    "name": "Azure.Storage.Queues",
     "triggeringPaths": [
       "/sdk/storage/ci.yml"
     ],
-    "name": "Azure.Storage.Queues"
+    "skipSmokeTests": true
   },
   "CIParameters": {
-    "BuildSnippets": false,
     "CIMatrixConfigs": [],
     "CheckAOTCompat": true,
+    "BuildSnippets": false,
     "AOTTestInputs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.Storage.Queues",
     "Azure.Storage.Queues.Models",
