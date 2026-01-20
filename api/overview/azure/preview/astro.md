@@ -1,7 +1,7 @@
 ---
 title: Azure Astro SDK for .NET
 description: Reference for Azure Astro SDK for .NET
-ms.date: 01/19/2026
+ms.date: 01/20/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: astro
