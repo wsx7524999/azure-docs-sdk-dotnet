@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Storage.Blobs",
-  "Version": "12.27.0-beta.1",
+  "Version": "12.28.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/storage/Azure.Storage.Blobs",
   "ServiceDirectory": "storage",
@@ -10,23 +10,24 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Storage.Blobs",
-  "ReleaseStatus": "2025-11-17",
+  "ReleaseStatus": "2026-01-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "safeName": "AzureStorageBlobs",
-    "skipSmokeTests": true,
+    "name": "Azure.Storage.Blobs",
     "triggeringPaths": [
       "/sdk/storage/ci.yml"
     ],
-    "name": "Azure.Storage.Blobs"
+    "skipSmokeTests": true
   },
   "CIParameters": {
-    "BuildSnippets": false,
     "CIMatrixConfigs": [],
     "CheckAOTCompat": true,
+    "BuildSnippets": false,
     "AOTTestInputs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.Storage.Blobs",
     "Azure.Storage.Blobs.Models",
