@@ -1,6 +1,6 @@
 {
   "Name": "Azure.ResourceManager.Compute",
-  "Version": "1.13.0",
+  "Version": "1.14.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/compute/Azure.ResourceManager.Compute",
   "ServiceDirectory": "compute",
@@ -10,22 +10,23 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.Compute",
-  "ReleaseStatus": "2025-11-14",
+  "ReleaseStatus": "2026-01-16",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "Azure.ResourceManager.Compute",
+    "safeName": "AzureResourceManagerCompute",
     "triggeringPaths": [
       "/sdk/compute/ci.mgmt.yml"
-    ],
-    "safeName": "AzureResourceManagerCompute"
+    ]
   },
   "CIParameters": {
+    "BuildSnippets": false,
     "CheckAOTCompat": true,
-    "CIMatrixConfigs": [],
     "AOTTestInputs": [],
-    "BuildSnippets": false
+    "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.ResourceManager.Compute",
     "Azure.ResourceManager.Compute.Mocking",
