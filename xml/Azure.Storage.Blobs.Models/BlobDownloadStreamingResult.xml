@@ -36,6 +36,7 @@
     <AssemblyVersion>12.25.1.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
+    <AssemblyVersion>12.28.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -62,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -84,6 +86,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobDownloadDetails</ReturnType>
@@ -109,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -118,6 +122,31 @@
         <summary>
             Disposes the <see cref="T:Azure.Storage.Blobs.Models.BlobDownloadStreamingResult" /> by calling Dispose on the underlying <see cref="P:Azure.Storage.Blobs.Models.BlobDownloadStreamingResult.Content" /> stream.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpectTrailingDetails">
+      <MemberSignature Language="C#" Value="public bool ExpectTrailingDetails { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExpectTrailingDetails" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Models.BlobDownloadStreamingResult.ExpectTrailingDetails" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpectTrailingDetails As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ExpectTrailingDetails : bool" Usage="Azure.Storage.Blobs.Models.BlobDownloadStreamingResult.ExpectTrailingDetails" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates some contents of <see cref="P:Azure.Storage.Blobs.Models.BlobDownloadStreamingResult.Details" /> are mixed into the response stream.
+            They will not be set until <see cref="P:Azure.Storage.Blobs.Models.BlobDownloadStreamingResult.Content" /> has been fully consumed. These details
+            will be extracted from the content stream by the library before the calling code can
+            encounter them.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

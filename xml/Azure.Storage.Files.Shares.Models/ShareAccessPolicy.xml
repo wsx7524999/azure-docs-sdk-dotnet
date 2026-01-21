@@ -32,6 +32,7 @@
     <AssemblyVersion>12.23.0.0</AssemblyVersion>
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
+    <AssemblyVersion>12.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -51,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -68,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -97,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -119,6 +123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -163,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

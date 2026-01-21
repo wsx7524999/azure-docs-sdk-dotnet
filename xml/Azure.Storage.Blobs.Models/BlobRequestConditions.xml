@@ -40,6 +40,7 @@
     <AssemblyVersion>12.25.1.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
+    <AssemblyVersion>12.28.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Storage.Blobs.Models.BlobLeaseRequestConditions</BaseTypeName>
@@ -61,12 +62,59 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
             Default constructor.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessTierIfModifiedSince">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? AccessTierIfModifiedSince { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; AccessTierIfModifiedSince" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Models.BlobRequestConditions.AccessTierIfModifiedSince" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccessTierIfModifiedSince As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.AccessTierIfModifiedSince : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.Storage.Blobs.Models.BlobRequestConditions.AccessTierIfModifiedSince" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specify this header value to operate only on a blob if the access-tier has been modified since the specified date/time.
+            Note: If this is specified, AccessTierIfUnmodifiedSince cannot be specified.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessTierIfUnmodifiedSince">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? AccessTierIfUnmodifiedSince { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; AccessTierIfUnmodifiedSince" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Models.BlobRequestConditions.AccessTierIfUnmodifiedSince" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccessTierIfUnmodifiedSince As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.AccessTierIfUnmodifiedSince : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.Storage.Blobs.Models.BlobRequestConditions.AccessTierIfUnmodifiedSince" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specify this header value to operate only on a blob if the access-tier has not been modified since the specified date/time.
+            Note: If this is specified, AccessTierIfModifiedSince cannot be specified.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

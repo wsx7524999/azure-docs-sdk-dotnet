@@ -40,6 +40,7 @@
     <AssemblyVersion>12.25.1.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
+    <AssemblyVersion>12.28.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -65,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -96,6 +98,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="permissions" Type="Azure.Storage.Sas.BlobContainerSasPermissions" />
@@ -130,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="permissions" Type="Azure.Storage.Sas.BlobSasPermissions" />
@@ -164,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -186,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -209,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -232,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -254,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -277,6 +286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -299,6 +309,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -321,6 +332,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -343,6 +355,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -392,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -414,6 +429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -446,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -470,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -499,6 +517,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -522,6 +541,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasIPRange</ReturnType>
@@ -549,6 +569,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -577,6 +598,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -605,6 +627,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasProtocol</ReturnType>
@@ -621,6 +644,52 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RequestHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; RequestHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; RequestHeaders" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Sas.BlobSasBuilder.RequestHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestHeaders As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.RequestHeaders : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Azure.Storage.Sas.BlobSasBuilder.RequestHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Custom Request Headers to include in the SAS. Any usage of the SAS must
+            include these headers and values in the request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestQueryParameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; RequestQueryParameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; RequestQueryParameters" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Sas.BlobSasBuilder.RequestQueryParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestQueryParameters As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.RequestQueryParameters : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Azure.Storage.Sas.BlobSasBuilder.RequestQueryParameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Custom Request Query Parameters to include in the SAS. Any usage of the SAS must
+            include these query parameters and values in the request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Resource">
       <MemberSignature Language="C#" Value="public string Resource { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Resource" />
@@ -631,6 +700,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -671,6 +741,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -698,6 +769,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -725,6 +797,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -752,6 +825,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -779,6 +853,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -806,6 +881,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -831,6 +907,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -862,6 +939,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -885,6 +963,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -910,6 +989,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.BlobSasQueryParameters</ReturnType>
@@ -943,6 +1023,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.BlobSasQueryParameters</ReturnType>
@@ -954,7 +1035,7 @@
       <Docs>
         <param name="userDelegationKey">
             A <see cref="T:Azure.Storage.Blobs.Models.UserDelegationKey" /> returned from
-            <see cref="M:Azure.Storage.Blobs.BlobServiceClient.GetUserDelegationKeyAsync(System.Nullable{System.DateTimeOffset},System.DateTimeOffset,System.Threading.CancellationToken)" />.
+            <see cref="M:Azure.Storage.Blobs.BlobServiceClient.GetUserDelegationKeyAsync(Azure.Storage.Blobs.Models.BlobGetUserDelegationKeyOptions,System.Threading.CancellationToken)" />.
             </param>
         <param name="accountName">The name of the storage account.</param>
         <summary>
@@ -978,6 +1059,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.BlobSasQueryParameters</ReturnType>
@@ -1015,6 +1097,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.BlobSasQueryParameters</ReturnType>
@@ -1025,12 +1108,12 @@
         <Parameter Name="stringToSign" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
+        <param name="stringToSign">To be added.</param>
         <param name="userDelegationKey">
             A <see cref="T:Azure.Storage.Blobs.Models.UserDelegationKey" /> returned from
-            <see cref="M:Azure.Storage.Blobs.BlobServiceClient.GetUserDelegationKeyAsync(System.Nullable{System.DateTimeOffset},System.DateTimeOffset,System.Threading.CancellationToken)" />.
+            <see cref="M:Azure.Storage.Blobs.BlobServiceClient.GetUserDelegationKeyAsync(Azure.Storage.Blobs.Models.BlobGetUserDelegationKeyOptions,System.Threading.CancellationToken)" />.
             </param>
         <param name="accountName">The name of the storage account.</param>
-        <param name="stringToSign">To be added.</param>
         <summary>
             Use an account's <see cref="T:Azure.Storage.Blobs.Models.UserDelegationKey" /> to sign this
             shared access signature values to produce the proper SAS query
@@ -1055,6 +1138,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1084,6 +1168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

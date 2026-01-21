@@ -32,6 +32,7 @@
     <AssemblyVersion>12.23.0.0</AssemblyVersion>
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
+    <AssemblyVersion>12.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -54,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -76,6 +78,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -98,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -120,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -165,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -189,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
@@ -211,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -234,6 +243,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -256,6 +266,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Files.Shares.Models.ShareLeaseDuration&gt;</ReturnType>
@@ -278,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Files.Shares.Models.ShareLeaseState&gt;</ReturnType>
@@ -300,6 +312,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Files.Shares.Models.ShareLeaseStatus&gt;</ReturnType>
@@ -322,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -345,6 +359,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -367,6 +382,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -390,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -413,6 +430,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -435,6 +453,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -458,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -481,6 +501,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Files.Shares.Models.ShareProtocols&gt;</ReturnType>
@@ -503,6 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -526,6 +548,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -555,6 +578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -584,6 +608,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -606,6 +631,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -628,6 +654,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -650,6 +677,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Files.Shares.Models.ShareRootSquash&gt;</ReturnType>

@@ -32,6 +32,7 @@
     <AssemblyVersion>12.23.0.0</AssemblyVersion>
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
+    <AssemblyVersion>12.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -53,6 +54,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -73,6 +75,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -104,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -141,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceUri" Type="System.Uri" />
@@ -174,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceUri" Type="System.Uri" />
@@ -213,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceUri" Type="System.Uri" />
@@ -249,6 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceUri" Type="System.Uri" />
@@ -285,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -307,6 +316,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -330,6 +340,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Storage.Queues.QueueClient&gt;</ReturnType>
@@ -372,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.QueueClient&gt;&gt;</ReturnType>
@@ -414,6 +426,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -452,6 +465,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -490,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -527,6 +542,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -574,6 +590,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -627,6 +644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -690,6 +708,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Storage.Queues.Models.QueueServiceProperties&gt;</ReturnType>
@@ -724,6 +743,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.QueueServiceProperties&gt;&gt;</ReturnType>
@@ -758,6 +778,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Queues.QueueClient</ReturnType>
@@ -791,6 +812,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.Storage.Queues.Models.QueueItem&gt;</ReturnType>
@@ -837,6 +859,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.Storage.Queues.Models.QueueItem&gt;</ReturnType>
@@ -886,6 +909,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Storage.Queues.Models.QueueServiceStatistics&gt;</ReturnType>
@@ -922,6 +946,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.QueueServiceStatistics&gt;&gt;</ReturnType>
@@ -949,16 +974,68 @@
       </Docs>
     </Member>
     <Member MemberName="GetUserDelegationKey">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt; GetUserDelegationKey (DateTimeOffset? startsOn, DateTimeOffset expiresOn, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt; GetUserDelegationKey (Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Storage.Queues.Models.UserDelegationKey&gt; GetUserDelegationKey(class Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Queues.QueueServiceClient.GetUserDelegationKey(Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKey (options As QueueGetUserDelegationKeyOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of UserDelegationKey)" />
+      <MemberSignature Language="F#" Value="abstract member GetUserDelegationKey : Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&#xA;override this.GetUserDelegationKey : Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;" Usage="queueServiceClient.GetUserDelegationKey (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Queues</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="options">
+            Optional parameters.
+            </param>
+        <param name="cancellationToken">
+            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+            notifications that the operation should be cancelled.
+            </param>
+        <summary>
+            The <see cref="M:Azure.Storage.Queues.QueueServiceClient.GetUserDelegationKey(Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions,System.Threading.CancellationToken)" /> operation retrieves a
+            key that can be used to delegate Active Directory authorization to
+            shared access signatures created with <see cref="T:Azure.Storage.Sas.QueueSasBuilder" />.
+            </summary>
+        <returns>
+            A <see cref="T:Azure.Response`1" /> describing
+            the service replication statistics.
+            </returns>
+        <remarks>
+            A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+            a failure occurs.
+            If multiple failures occur, an <see cref="T:System.AggregateException" /> will be thrown,
+            containing each failure instance.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserDelegationKey">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt; GetUserDelegationKey (DateTimeOffset? startsOn, DateTimeOffset expiresOn, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Storage.Queues.Models.UserDelegationKey&gt; GetUserDelegationKey(valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startsOn, valuetype System.DateTimeOffset expiresOn, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Storage.Queues.QueueServiceClient.GetUserDelegationKey(System.Nullable{System.DateTimeOffset},System.DateTimeOffset,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKey (startsOn As Nullable(Of DateTimeOffset), expiresOn As DateTimeOffset, Optional cancellationToken As CancellationToken = Nothing) As Response(Of UserDelegationKey)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKey (startsOn As Nullable(Of DateTimeOffset), expiresOn As DateTimeOffset, Optional cancellationToken As CancellationToken = Nothing) As Response(Of UserDelegationKey)" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="abstract member GetUserDelegationKey : Nullable&lt;DateTimeOffset&gt; * DateTimeOffset * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&#xA;override this.GetUserDelegationKey : Nullable&lt;DateTimeOffset&gt; * DateTimeOffset * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;" Usage="queueServiceClient.GetUserDelegationKey (startsOn, expiresOn, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt; GetUserDelegationKey (DateTimeOffset? startsOn, DateTimeOffset expiresOn, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKey (startsOn As Nullable(Of DateTimeOffset), expiresOn As DateTimeOffset, cancellationToken As CancellationToken) As Response(Of UserDelegationKey)" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;</ReturnType>
       </ReturnValue>
@@ -1002,16 +1079,68 @@
       </Docs>
     </Member>
     <Member MemberName="GetUserDelegationKeyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt; GetUserDelegationKeyAsync (DateTimeOffset? startsOn, DateTimeOffset expiresOn, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt; GetUserDelegationKeyAsync (Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt; GetUserDelegationKeyAsync(class Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Queues.QueueServiceClient.GetUserDelegationKeyAsync(Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKeyAsync (options As QueueGetUserDelegationKeyOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of UserDelegationKey))" />
+      <MemberSignature Language="F#" Value="abstract member GetUserDelegationKeyAsync : Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt;&#xA;override this.GetUserDelegationKeyAsync : Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt;" Usage="queueServiceClient.GetUserDelegationKeyAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Queues</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="options">
+            Optional parameters.
+            </param>
+        <param name="cancellationToken">
+            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+            notifications that the operation should be cancelled.
+            </param>
+        <summary>
+            The <see cref="M:Azure.Storage.Queues.QueueServiceClient.GetUserDelegationKeyAsync(Azure.Storage.Queues.Models.QueueGetUserDelegationKeyOptions,System.Threading.CancellationToken)" /> operation retrieves a
+            key that can be used to delegate Active Directory authorization to
+            shared access signatures created with <see cref="T:Azure.Storage.Sas.QueueSasBuilder" />.
+            </summary>
+        <returns>
+            A <see cref="T:Azure.Response`1" /> describing
+            the service replication statistics.
+            </returns>
+        <remarks>
+            A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+            a failure occurs.
+            If multiple failures occur, an <see cref="T:System.AggregateException" /> will be thrown,
+            containing each failure instance.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserDelegationKeyAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt; GetUserDelegationKeyAsync (DateTimeOffset? startsOn, DateTimeOffset expiresOn, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt; GetUserDelegationKeyAsync(valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startsOn, valuetype System.DateTimeOffset expiresOn, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Storage.Queues.QueueServiceClient.GetUserDelegationKeyAsync(System.Nullable{System.DateTimeOffset},System.DateTimeOffset,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKeyAsync (startsOn As Nullable(Of DateTimeOffset), expiresOn As DateTimeOffset, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of UserDelegationKey))" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKeyAsync (startsOn As Nullable(Of DateTimeOffset), expiresOn As DateTimeOffset, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of UserDelegationKey))" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="abstract member GetUserDelegationKeyAsync : Nullable&lt;DateTimeOffset&gt; * DateTimeOffset * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt;&#xA;override this.GetUserDelegationKeyAsync : Nullable&lt;DateTimeOffset&gt; * DateTimeOffset * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt;" Usage="queueServiceClient.GetUserDelegationKeyAsync (startsOn, expiresOn, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt; GetUserDelegationKeyAsync (DateTimeOffset? startsOn, DateTimeOffset expiresOn, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUserDelegationKeyAsync (startsOn As Nullable(Of DateTimeOffset), expiresOn As DateTimeOffset, cancellationToken As CancellationToken) As Task(Of Response(Of UserDelegationKey))" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Queues.Models.UserDelegationKey&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1064,6 +1193,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1102,6 +1232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1139,6 +1270,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Queues</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>

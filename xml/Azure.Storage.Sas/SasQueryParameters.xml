@@ -31,6 +31,7 @@
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
+    <AssemblyVersion>12.27.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -59,6 +60,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -78,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="values" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
@@ -103,6 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -161,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -227,6 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -295,7 +301,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters>
         <Parameter Name="version" Type="System.String" />
         <Parameter Name="services" Type="System.Nullable&lt;Azure.Storage.Sas.AccountSasServices&gt;" />
@@ -349,6 +362,74 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SasQueryParameters (string version, Azure.Storage.Sas.AccountSasServices? services, Azure.Storage.Sas.AccountSasResourceTypes? resourceTypes, Azure.Storage.Sas.SasProtocol protocol, DateTimeOffset startsOn, DateTimeOffset expiresOn, Azure.Storage.Sas.SasIPRange ipRange, string identifier, string resource, string permissions, string signature, string cacheControl = default, string contentDisposition = default, string contentEncoding = default, string contentLanguage = default, string contentType = default, string authorizedAadObjectId = default, string unauthorizedAadObjectId = default, string correlationId = default, int? directoryDepth = default, string encryptionScope = default, string delegatedUserObjectId = default, System.Collections.Generic.List&lt;string&gt; requestHeaders = default, System.Collections.Generic.List&lt;string&gt; requestQueryParameter = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string version, valuetype System.Nullable`1&lt;valuetype Azure.Storage.Sas.AccountSasServices&gt; services, valuetype System.Nullable`1&lt;valuetype Azure.Storage.Sas.AccountSasResourceTypes&gt; resourceTypes, valuetype Azure.Storage.Sas.SasProtocol protocol, valuetype System.DateTimeOffset startsOn, valuetype System.DateTimeOffset expiresOn, valuetype Azure.Storage.Sas.SasIPRange ipRange, string identifier, string resource, string permissions, string signature, string cacheControl, string contentDisposition, string contentEncoding, string contentLanguage, string contentType, string authorizedAadObjectId, string unauthorizedAadObjectId, string correlationId, valuetype System.Nullable`1&lt;int32&gt; directoryDepth, string encryptionScope, string delegatedUserObjectId, class System.Collections.Generic.List`1&lt;string&gt; requestHeaders, class System.Collections.Generic.List`1&lt;string&gt; requestQueryParameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Sas.SasQueryParameters.#ctor(System.String,System.Nullable{Azure.Storage.Sas.AccountSasServices},System.Nullable{Azure.Storage.Sas.AccountSasResourceTypes},Azure.Storage.Sas.SasProtocol,System.DateTimeOffset,System.DateTimeOffset,Azure.Storage.Sas.SasIPRange,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (version As String, services As Nullable(Of AccountSasServices), resourceTypes As Nullable(Of AccountSasResourceTypes), protocol As SasProtocol, startsOn As DateTimeOffset, expiresOn As DateTimeOffset, ipRange As SasIPRange, identifier As String, resource As String, permissions As String, signature As String, Optional cacheControl As String = Nothing, Optional contentDisposition As String = Nothing, Optional contentEncoding As String = Nothing, Optional contentLanguage As String = Nothing, Optional contentType As String = Nothing, Optional authorizedAadObjectId As String = Nothing, Optional unauthorizedAadObjectId As String = Nothing, Optional correlationId As String = Nothing, Optional directoryDepth As Nullable(Of Integer) = Nothing, Optional encryptionScope As String = Nothing, Optional delegatedUserObjectId As String = Nothing, Optional requestHeaders As List(Of String) = Nothing, Optional requestQueryParameter As List(Of String) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Storage.Sas.SasQueryParameters : string * Nullable&lt;Azure.Storage.Sas.AccountSasServices&gt; * Nullable&lt;Azure.Storage.Sas.AccountSasResourceTypes&gt; * Azure.Storage.Sas.SasProtocol * DateTimeOffset * DateTimeOffset * Azure.Storage.Sas.SasIPRange * string * string * string * string * string * string * string * string * string * string * string * string * Nullable&lt;int&gt; * string * string * System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; Azure.Storage.Sas.SasQueryParameters" Usage="new Azure.Storage.Sas.SasQueryParameters (version, services, resourceTypes, protocol, startsOn, expiresOn, ipRange, identifier, resource, permissions, signature, cacheControl, contentDisposition, contentEncoding, contentLanguage, contentType, authorizedAadObjectId, unauthorizedAadObjectId, correlationId, directoryDepth, encryptionScope, delegatedUserObjectId, requestHeaders, requestQueryParameter)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Common</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="version" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="services" Type="System.Nullable&lt;Azure.Storage.Sas.AccountSasServices&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceTypes" Type="System.Nullable&lt;Azure.Storage.Sas.AccountSasResourceTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="protocol" Type="Azure.Storage.Sas.SasProtocol" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="startsOn" Type="System.DateTimeOffset" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="expiresOn" Type="System.DateTimeOffset" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="ipRange" Type="Azure.Storage.Sas.SasIPRange" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identifier" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resource" Type="System.String" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="permissions" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signature" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cacheControl" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentDisposition" Type="System.String" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentEncoding" Type="System.String" Index="13" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentLanguage" Type="System.String" Index="14" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentType" Type="System.String" Index="15" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="authorizedAadObjectId" Type="System.String" Index="16" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="unauthorizedAadObjectId" Type="System.String" Index="17" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="correlationId" Type="System.String" Index="18" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="directoryDepth" Type="System.Nullable&lt;System.Int32&gt;" Index="19" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionScope" Type="System.String" Index="20" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="delegatedUserObjectId" Type="System.String" Index="21" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="requestHeaders" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="22" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="requestQueryParameter" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="23" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="version">To be added.</param>
+        <param name="services">To be added.</param>
+        <param name="resourceTypes">To be added.</param>
+        <param name="protocol">To be added.</param>
+        <param name="startsOn">To be added.</param>
+        <param name="expiresOn">To be added.</param>
+        <param name="ipRange">To be added.</param>
+        <param name="identifier">To be added.</param>
+        <param name="resource">To be added.</param>
+        <param name="permissions">To be added.</param>
+        <param name="signature">To be added.</param>
+        <param name="cacheControl">To be added.</param>
+        <param name="contentDisposition">To be added.</param>
+        <param name="contentEncoding">To be added.</param>
+        <param name="contentLanguage">To be added.</param>
+        <param name="contentType">To be added.</param>
+        <param name="authorizedAadObjectId">To be added.</param>
+        <param name="unauthorizedAadObjectId">To be added.</param>
+        <param name="correlationId">To be added.</param>
+        <param name="directoryDepth">To be added.</param>
+        <param name="encryptionScope">To be added.</param>
+        <param name="delegatedUserObjectId">To be added.</param>
+        <param name="requestHeaders">To be added.</param>
+        <param name="requestQueryParameter">To be added.</param>
+        <summary>
+            Creates a new SasQueryParameters instance.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AgentObjectId">
       <MemberSignature Language="C#" Value="public string AgentObjectId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AgentObjectId" />
@@ -359,6 +440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -387,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -414,6 +497,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -437,6 +521,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -460,6 +545,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -483,6 +569,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -506,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -529,6 +617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -553,6 +642,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasQueryParameters</ReturnType>
@@ -582,6 +672,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -644,6 +735,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -714,6 +806,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -786,7 +879,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasQueryParameters</ReturnType>
       </ReturnValue>
@@ -844,6 +944,78 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="protected static Azure.Storage.Sas.SasQueryParameters Create (string version, Azure.Storage.Sas.AccountSasServices? services, Azure.Storage.Sas.AccountSasResourceTypes? resourceTypes, Azure.Storage.Sas.SasProtocol protocol, DateTimeOffset startsOn, DateTimeOffset expiresOn, Azure.Storage.Sas.SasIPRange ipRange, string identifier, string resource, string permissions, string signature, string cacheControl = default, string contentDisposition = default, string contentEncoding = default, string contentLanguage = default, string contentType = default, string authorizedAadObjectId = default, string unauthorizedAadObjectId = default, string correlationId = default, int? directoryDepth = default, string encryptionScope = default, string delegatedUserObjectId = default, System.Collections.Generic.List&lt;string&gt; requestHeaders = default, System.Collections.Generic.List&lt;string&gt; requestQueryParameter = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig class Azure.Storage.Sas.SasQueryParameters Create(string version, valuetype System.Nullable`1&lt;valuetype Azure.Storage.Sas.AccountSasServices&gt; services, valuetype System.Nullable`1&lt;valuetype Azure.Storage.Sas.AccountSasResourceTypes&gt; resourceTypes, valuetype Azure.Storage.Sas.SasProtocol protocol, valuetype System.DateTimeOffset startsOn, valuetype System.DateTimeOffset expiresOn, valuetype Azure.Storage.Sas.SasIPRange ipRange, string identifier, string resource, string permissions, string signature, string cacheControl, string contentDisposition, string contentEncoding, string contentLanguage, string contentType, string authorizedAadObjectId, string unauthorizedAadObjectId, string correlationId, valuetype System.Nullable`1&lt;int32&gt; directoryDepth, string encryptionScope, string delegatedUserObjectId, class System.Collections.Generic.List`1&lt;string&gt; requestHeaders, class System.Collections.Generic.List`1&lt;string&gt; requestQueryParameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Sas.SasQueryParameters.Create(System.String,System.Nullable{Azure.Storage.Sas.AccountSasServices},System.Nullable{Azure.Storage.Sas.AccountSasResourceTypes},Azure.Storage.Sas.SasProtocol,System.DateTimeOffset,System.DateTimeOffset,Azure.Storage.Sas.SasIPRange,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function Create (version As String, services As Nullable(Of AccountSasServices), resourceTypes As Nullable(Of AccountSasResourceTypes), protocol As SasProtocol, startsOn As DateTimeOffset, expiresOn As DateTimeOffset, ipRange As SasIPRange, identifier As String, resource As String, permissions As String, signature As String, Optional cacheControl As String = Nothing, Optional contentDisposition As String = Nothing, Optional contentEncoding As String = Nothing, Optional contentLanguage As String = Nothing, Optional contentType As String = Nothing, Optional authorizedAadObjectId As String = Nothing, Optional unauthorizedAadObjectId As String = Nothing, Optional correlationId As String = Nothing, Optional directoryDepth As Nullable(Of Integer) = Nothing, Optional encryptionScope As String = Nothing, Optional delegatedUserObjectId As String = Nothing, Optional requestHeaders As List(Of String) = Nothing, Optional requestQueryParameter As List(Of String) = Nothing) As SasQueryParameters" />
+      <MemberSignature Language="F#" Value="static member Create : string * Nullable&lt;Azure.Storage.Sas.AccountSasServices&gt; * Nullable&lt;Azure.Storage.Sas.AccountSasResourceTypes&gt; * Azure.Storage.Sas.SasProtocol * DateTimeOffset * DateTimeOffset * Azure.Storage.Sas.SasIPRange * string * string * string * string * string * string * string * string * string * string * string * string * Nullable&lt;int&gt; * string * string * System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; Azure.Storage.Sas.SasQueryParameters" Usage="Azure.Storage.Sas.SasQueryParameters.Create (version, services, resourceTypes, protocol, startsOn, expiresOn, ipRange, identifier, resource, permissions, signature, cacheControl, contentDisposition, contentEncoding, contentLanguage, contentType, authorizedAadObjectId, unauthorizedAadObjectId, correlationId, directoryDepth, encryptionScope, delegatedUserObjectId, requestHeaders, requestQueryParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Common</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Sas.SasQueryParameters</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="version" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="services" Type="System.Nullable&lt;Azure.Storage.Sas.AccountSasServices&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceTypes" Type="System.Nullable&lt;Azure.Storage.Sas.AccountSasResourceTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="protocol" Type="Azure.Storage.Sas.SasProtocol" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="startsOn" Type="System.DateTimeOffset" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="expiresOn" Type="System.DateTimeOffset" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="ipRange" Type="Azure.Storage.Sas.SasIPRange" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identifier" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resource" Type="System.String" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="permissions" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signature" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cacheControl" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentDisposition" Type="System.String" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentEncoding" Type="System.String" Index="13" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentLanguage" Type="System.String" Index="14" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="contentType" Type="System.String" Index="15" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="authorizedAadObjectId" Type="System.String" Index="16" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="unauthorizedAadObjectId" Type="System.String" Index="17" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="correlationId" Type="System.String" Index="18" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="directoryDepth" Type="System.Nullable&lt;System.Int32&gt;" Index="19" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptionScope" Type="System.String" Index="20" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="delegatedUserObjectId" Type="System.String" Index="21" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="requestHeaders" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="22" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="requestQueryParameter" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="23" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="version">To be added.</param>
+        <param name="services">To be added.</param>
+        <param name="resourceTypes">To be added.</param>
+        <param name="protocol">To be added.</param>
+        <param name="startsOn">To be added.</param>
+        <param name="expiresOn">To be added.</param>
+        <param name="ipRange">To be added.</param>
+        <param name="identifier">To be added.</param>
+        <param name="resource">To be added.</param>
+        <param name="permissions">To be added.</param>
+        <param name="signature">To be added.</param>
+        <param name="cacheControl">To be added.</param>
+        <param name="contentDisposition">To be added.</param>
+        <param name="contentEncoding">To be added.</param>
+        <param name="contentLanguage">To be added.</param>
+        <param name="contentType">To be added.</param>
+        <param name="authorizedAadObjectId">To be added.</param>
+        <param name="unauthorizedAadObjectId">To be added.</param>
+        <param name="correlationId">To be added.</param>
+        <param name="directoryDepth">To be added.</param>
+        <param name="encryptionScope">To be added.</param>
+        <param name="delegatedUserObjectId">To be added.</param>
+        <param name="requestHeaders">To be added.</param>
+        <param name="requestQueryParameter">To be added.</param>
+        <summary>
+            Creates a new SasQueryParameters instance.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DefaultSasVersion">
       <MemberSignature Language="C#" Value="public const string DefaultSasVersion;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DefaultSasVersion" />
@@ -854,6 +1026,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -875,6 +1048,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -900,6 +1074,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -925,6 +1100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasQueryParameters</ReturnType>
@@ -947,6 +1123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -969,6 +1146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -992,6 +1170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1016,6 +1195,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasIPRange</ReturnType>
@@ -1040,6 +1220,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1065,6 +1246,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1095,6 +1277,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Sas.SasProtocol</ReturnType>
@@ -1103,6 +1286,52 @@
         <summary>
             Optional. Specifies the protocol permitted for a request made with
             the shared access signature.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; RequestHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; RequestHeaders" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Sas.SasQueryParameters.RequestHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestHeaders As List(Of String)" />
+      <MemberSignature Language="F#" Value="member this.RequestHeaders : System.Collections.Generic.List&lt;string&gt;" Usage="Azure.Storage.Sas.SasQueryParameters.RequestHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Common</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Custom Request Header names to include in the SAS. Any usage of the SAS must
+            include these header names in the request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestQueryParameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; RequestQueryParameters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; RequestQueryParameters" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Sas.SasQueryParameters.RequestQueryParameters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestQueryParameters As List(Of String)" />
+      <MemberSignature Language="F#" Value="member this.RequestQueryParameters : System.Collections.Generic.List&lt;string&gt;" Usage="Azure.Storage.Sas.SasQueryParameters.RequestQueryParameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Common</AssemblyName>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Custom Request Query Parameter names to include in the SAS. Any usage of the SAS must
+            include these query parameter names in the request.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1118,6 +1347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1140,6 +1370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Sas.AccountSasResourceTypes&gt;</ReturnType>
@@ -1162,6 +1393,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Storage.Sas.AccountSasServices&gt;</ReturnType>
@@ -1185,6 +1417,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1210,6 +1443,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -1235,6 +1469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1260,6 +1495,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Common</AssemblyName>
         <AssemblyVersion>12.26.0.0</AssemblyVersion>
+        <AssemblyVersion>12.27.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

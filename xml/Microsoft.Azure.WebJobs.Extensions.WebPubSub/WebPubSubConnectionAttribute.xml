@@ -16,6 +16,7 @@
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <AssemblyVersion>1.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.9.0.0</AssemblyVersion>
+    <AssemblyVersion>1.10.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -46,7 +47,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -63,7 +64,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.WebPubSub.WebPubSubClientProtocol</ReturnType>
@@ -85,20 +86,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[Microsoft.Azure.WebJobs.Description.ConnectionString]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.Azure.WebJobs.Description.ConnectionString&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Target Web PubSub service connection string.
+            The configuration section name that resolves to an identity-based connection or a connection string of the service.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -113,7 +108,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -141,7 +136,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
-        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

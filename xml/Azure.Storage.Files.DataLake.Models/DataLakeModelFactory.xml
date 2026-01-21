@@ -32,6 +32,7 @@
     <AssemblyVersion>12.23.0.0</AssemblyVersion>
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
+    <AssemblyVersion>12.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -54,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeFileReadResult</ReturnType>
@@ -82,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeFileReadStreamingResult</ReturnType>
@@ -110,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeQueryError</ReturnType>
@@ -142,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -214,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -288,6 +294,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -364,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileDownloadDetails</ReturnType>
@@ -436,6 +444,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -474,6 +483,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileSystemInfo</ReturnType>
@@ -502,6 +512,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -536,6 +547,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileSystemItem</ReturnType>
@@ -568,6 +580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -614,6 +627,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.FileSystemProperties</ReturnType>
@@ -660,6 +674,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.DataLakeLease</ReturnType>
@@ -692,6 +707,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathAccessControl</ReturnType>
@@ -724,6 +740,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathContentInfo</ReturnType>
@@ -772,6 +789,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathCreateInfo</ReturnType>
@@ -800,6 +818,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathInfo</ReturnType>
@@ -828,6 +847,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -874,6 +894,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -924,6 +945,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathItem</ReturnType>
@@ -970,6 +992,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1054,6 +1077,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1140,6 +1164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1228,6 +1253,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1322,6 +1348,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.PathProperties</ReturnType>
@@ -1412,7 +1439,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.DataLake.Models.UserDelegationKey</ReturnType>
       </ReturnValue>
@@ -1435,6 +1469,46 @@
         <param name="value">To be added.</param>
         <summary>
             Creates a new <see cref="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.UserDelegationKey(System.String,System.String,System.DateTimeOffset,System.DateTimeOffset,System.String,System.String,System.String)" /> instance for mocking.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDelegationKey">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.DataLake.Models.UserDelegationKey UserDelegationKey (string signedObjectId = default, string signedTenantId = default, DateTimeOffset signedStart = default, DateTimeOffset signedExpiry = default, string signedService = default, string signedVersion = default, string signedDelegatedUserTenantId = default, string value = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Files.DataLake.Models.UserDelegationKey UserDelegationKey(string signedObjectId, string signedTenantId, valuetype System.DateTimeOffset signedStart, valuetype System.DateTimeOffset signedExpiry, string signedService, string signedVersion, string signedDelegatedUserTenantId, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.UserDelegationKey(System.String,System.String,System.DateTimeOffset,System.DateTimeOffset,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UserDelegationKey (Optional signedObjectId As String = Nothing, Optional signedTenantId As String = Nothing, Optional signedStart As DateTimeOffset = Nothing, Optional signedExpiry As DateTimeOffset = Nothing, Optional signedService As String = Nothing, Optional signedVersion As String = Nothing, Optional signedDelegatedUserTenantId As String = Nothing, Optional value As String = Nothing) As UserDelegationKey" />
+      <MemberSignature Language="F#" Value="static member UserDelegationKey : string * string * DateTimeOffset * DateTimeOffset * string * string * string * string -&gt; Azure.Storage.Files.DataLake.Models.UserDelegationKey" Usage="Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.UserDelegationKey (signedObjectId, signedTenantId, signedStart, signedExpiry, signedService, signedVersion, signedDelegatedUserTenantId, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.DataLake.Models.UserDelegationKey</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="signedObjectId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedTenantId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedStart" Type="System.DateTimeOffset" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedExpiry" Type="System.DateTimeOffset" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedService" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedVersion" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedDelegatedUserTenantId" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="value" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="signedObjectId">To be added.</param>
+        <param name="signedTenantId">To be added.</param>
+        <param name="signedStart">To be added.</param>
+        <param name="signedExpiry">To be added.</param>
+        <param name="signedService">To be added.</param>
+        <param name="signedVersion">To be added.</param>
+        <param name="signedDelegatedUserTenantId">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>
+            Creates a new <see cref="M:Azure.Storage.Files.DataLake.Models.DataLakeModelFactory.UserDelegationKey(System.String,System.String,System.DateTimeOffset,System.DateTimeOffset,System.String,System.String,System.String,System.String)" /> instance for mocking.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

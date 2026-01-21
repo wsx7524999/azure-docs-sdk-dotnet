@@ -40,6 +40,7 @@
     <AssemblyVersion>12.25.1.0</AssemblyVersion>
     <AssemblyVersion>12.26.0.0</AssemblyVersion>
     <AssemblyVersion>12.27.0.0</AssemblyVersion>
+    <AssemblyVersion>12.28.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -60,6 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -94,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.AccountInfo</ReturnType>
@@ -124,6 +127,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -170,6 +174,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobAppendInfo</ReturnType>
@@ -212,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -246,6 +252,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobBlock</ReturnType>
@@ -274,6 +281,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobContainerAccessPolicy</ReturnType>
@@ -306,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobContainerInfo</ReturnType>
@@ -334,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -368,6 +378,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobContainerItem</ReturnType>
@@ -400,6 +411,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -448,6 +460,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -500,6 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -552,6 +566,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobContainerProperties</ReturnType>
@@ -602,6 +617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -642,6 +658,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -684,6 +701,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobContentInfo</ReturnType>
@@ -722,6 +740,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -760,6 +779,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobCopyInfo</ReturnType>
@@ -794,6 +814,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -880,6 +901,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -974,6 +996,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1072,6 +1095,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobDownloadDetails</ReturnType>
@@ -1166,6 +1190,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1254,6 +1279,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1344,6 +1370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1438,6 +1465,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobDownloadInfo</ReturnType>
@@ -1528,6 +1556,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobDownloadResult</ReturnType>
@@ -1556,6 +1585,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobDownloadStreamingResult</ReturnType>
@@ -1584,6 +1614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobGeoReplication</ReturnType>
@@ -1612,6 +1643,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobHierarchyItem</ReturnType>
@@ -1640,6 +1672,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobInfo</ReturnType>
@@ -1672,6 +1705,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobInfo</ReturnType>
@@ -1700,6 +1734,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1740,6 +1775,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1788,6 +1824,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobItem</ReturnType>
@@ -1832,6 +1869,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1924,6 +1962,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2018,6 +2057,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2120,6 +2160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobItemProperties</ReturnType>
@@ -2218,6 +2259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobLease</ReturnType>
@@ -2248,6 +2290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2342,6 +2385,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2438,6 +2482,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2550,6 +2595,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2664,6 +2710,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2782,6 +2829,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobProperties</ReturnType>
@@ -2894,6 +2942,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobQueryError</ReturnType>
@@ -2926,6 +2975,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobServiceStatistics</ReturnType>
@@ -2952,6 +3002,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2990,6 +3041,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobSnapshotInfo</ReturnType>
@@ -3024,6 +3076,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3060,6 +3113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlockInfo</ReturnType>
@@ -3092,6 +3146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlockList</ReturnType>
@@ -3120,6 +3175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.GetBlobTagResult</ReturnType>
@@ -3146,6 +3202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.ObjectReplicationPolicy</ReturnType>
@@ -3174,6 +3231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.ObjectReplicationRule</ReturnType>
@@ -3202,6 +3260,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.PageBlobInfo</ReturnType>
@@ -3232,6 +3291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3274,6 +3334,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.PageInfo</ReturnType>
@@ -3312,6 +3373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.PageRangesInfo</ReturnType>
@@ -3346,6 +3408,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3380,6 +3443,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.TaggedBlobItem</ReturnType>
@@ -3401,16 +3465,25 @@
       </Docs>
     </Member>
     <Member MemberName="UserDelegationKey">
-      <MemberSignature Language="C#" Value="public static Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey (string signedObjectId = default, string signedTenantId = default, DateTimeOffset signedStartsOn = default, DateTimeOffset signedExpiresOn = default, string signedService = default, string signedVersion = default, string value = default);" />
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey (string signedObjectId = default, string signedTenantId = default, DateTimeOffset signedStartsOn = default, DateTimeOffset signedExpiresOn = default, string signedService = default, string signedVersion = default, string value = default);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey(string signedObjectId, string signedTenantId, valuetype System.DateTimeOffset signedStartsOn, valuetype System.DateTimeOffset signedExpiresOn, string signedService, string signedVersion, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.Models.BlobsModelFactory.UserDelegationKey(System.String,System.String,System.DateTimeOffset,System.DateTimeOffset,System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UserDelegationKey (Optional signedObjectId As String = Nothing, Optional signedTenantId As String = Nothing, Optional signedStartsOn As DateTimeOffset = Nothing, Optional signedExpiresOn As DateTimeOffset = Nothing, Optional signedService As String = Nothing, Optional signedVersion As String = Nothing, Optional value As String = Nothing) As UserDelegationKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UserDelegationKey (Optional signedObjectId As String = Nothing, Optional signedTenantId As String = Nothing, Optional signedStartsOn As DateTimeOffset = Nothing, Optional signedExpiresOn As DateTimeOffset = Nothing, Optional signedService As String = Nothing, Optional signedVersion As String = Nothing, Optional value As String = Nothing) As UserDelegationKey" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="static member UserDelegationKey : string * string * DateTimeOffset * DateTimeOffset * string * string * string -&gt; Azure.Storage.Blobs.Models.UserDelegationKey" Usage="Azure.Storage.Blobs.Models.BlobsModelFactory.UserDelegationKey (signedObjectId, signedTenantId, signedStartsOn, signedExpiresOn, signedService, signedVersion, value)" />
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey (string signedObjectId, string signedTenantId, DateTimeOffset signedStartsOn, DateTimeOffset signedExpiresOn, string signedService, string signedVersion, string value);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UserDelegationKey (signedObjectId As String, signedTenantId As String, signedStartsOn As DateTimeOffset, signedExpiresOn As DateTimeOffset, signedService As String, signedVersion As String, value As String) As UserDelegationKey" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.UserDelegationKey</ReturnType>
       </ReturnValue>
@@ -3448,7 +3521,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.27.0.0</AssemblyVersion>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.UserDelegationKey</ReturnType>
       </ReturnValue>
@@ -3469,6 +3549,86 @@
         <param name="value">To be added.</param>
         <param name="signedExpiresOn">To be added.</param>
         <param name="signedStartsOn">To be added.</param>
+        <summary>
+            Creates a new UserDelegationKey instance for mocking.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDelegationKey">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey (string signedObjectId = default, string signedTenantId = default, DateTimeOffset signedStartsOn = default, DateTimeOffset signedExpiresOn = default, string signedService = default, string signedVersion = default, string signedDelegatedUserTenantId = default, string value = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey(string signedObjectId, string signedTenantId, valuetype System.DateTimeOffset signedStartsOn, valuetype System.DateTimeOffset signedExpiresOn, string signedService, string signedVersion, string signedDelegatedUserTenantId, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.Models.BlobsModelFactory.UserDelegationKey(System.String,System.String,System.DateTimeOffset,System.DateTimeOffset,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UserDelegationKey (Optional signedObjectId As String = Nothing, Optional signedTenantId As String = Nothing, Optional signedStartsOn As DateTimeOffset = Nothing, Optional signedExpiresOn As DateTimeOffset = Nothing, Optional signedService As String = Nothing, Optional signedVersion As String = Nothing, Optional signedDelegatedUserTenantId As String = Nothing, Optional value As String = Nothing) As UserDelegationKey" />
+      <MemberSignature Language="F#" Value="static member UserDelegationKey : string * string * DateTimeOffset * DateTimeOffset * string * string * string * string -&gt; Azure.Storage.Blobs.Models.UserDelegationKey" Usage="Azure.Storage.Blobs.Models.BlobsModelFactory.UserDelegationKey (signedObjectId, signedTenantId, signedStartsOn, signedExpiresOn, signedService, signedVersion, signedDelegatedUserTenantId, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Blobs.Models.UserDelegationKey</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="signedObjectId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedTenantId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedStartsOn" Type="System.DateTimeOffset" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedExpiresOn" Type="System.DateTimeOffset" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedService" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedVersion" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedDelegatedUserTenantId" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="value" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="signedObjectId"> The Azure Active Directory object ID in GUID format. </param>
+        <param name="signedTenantId"> The Azure Active Directory tenant ID in GUID format. </param>
+        <param name="signedStartsOn"> The date-time the key is active. </param>
+        <param name="signedExpiresOn"> The date-time the key expires. </param>
+        <param name="signedService"> Abbreviation of the Azure Storage service that accepts the key. </param>
+        <param name="signedVersion"> The service version that created the key. </param>
+        <param name="signedDelegatedUserTenantId"> The delegated user tenant id in Azure AD. </param>
+        <param name="value"> The key as a base64 string. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Storage.Blobs.Models.UserDelegationKey" />. </summary>
+        <returns> A new <see cref="T:Azure.Storage.Blobs.Models.UserDelegationKey" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="signedObjectId" />, <paramref name="signedTenantId" />, <paramref name="signedService" />, <paramref name="signedVersion" /> or <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDelegationKey">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey (string signedObjectId = default, string signedTenantId = default, string signedService = default, string signedVersion = default, string value = default, DateTimeOffset signedExpiresOn = default, DateTimeOffset signedStartsOn = default, string signedDelegatedUserTenantId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Storage.Blobs.Models.UserDelegationKey UserDelegationKey(string signedObjectId, string signedTenantId, string signedService, string signedVersion, string value, valuetype System.DateTimeOffset signedExpiresOn, valuetype System.DateTimeOffset signedStartsOn, string signedDelegatedUserTenantId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.Models.BlobsModelFactory.UserDelegationKey(System.String,System.String,System.String,System.String,System.String,System.DateTimeOffset,System.DateTimeOffset,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UserDelegationKey (Optional signedObjectId As String = Nothing, Optional signedTenantId As String = Nothing, Optional signedService As String = Nothing, Optional signedVersion As String = Nothing, Optional value As String = Nothing, Optional signedExpiresOn As DateTimeOffset = Nothing, Optional signedStartsOn As DateTimeOffset = Nothing, Optional signedDelegatedUserTenantId As String = Nothing) As UserDelegationKey" />
+      <MemberSignature Language="F#" Value="static member UserDelegationKey : string * string * string * string * string * DateTimeOffset * DateTimeOffset * string -&gt; Azure.Storage.Blobs.Models.UserDelegationKey" Usage="Azure.Storage.Blobs.Models.BlobsModelFactory.UserDelegationKey (signedObjectId, signedTenantId, signedService, signedVersion, value, signedExpiresOn, signedStartsOn, signedDelegatedUserTenantId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.28.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Blobs.Models.UserDelegationKey</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="signedObjectId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedTenantId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedService" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedVersion" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="value" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedExpiresOn" Type="System.DateTimeOffset" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedStartsOn" Type="System.DateTimeOffset" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="signedDelegatedUserTenantId" Type="System.String" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="signedObjectId">To be added.</param>
+        <param name="signedTenantId">To be added.</param>
+        <param name="signedService">To be added.</param>
+        <param name="signedVersion">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="signedExpiresOn">To be added.</param>
+        <param name="signedStartsOn">To be added.</param>
+        <param name="signedDelegatedUserTenantId">To be added.</param>
         <summary>
             Creates a new UserDelegationKey instance for mocking.
             </summary>

@@ -32,6 +32,7 @@
     <AssemblyVersion>12.23.0.0</AssemblyVersion>
     <AssemblyVersion>12.24.0.0</AssemblyVersion>
     <AssemblyVersion>12.25.0.0</AssemblyVersion>
+    <AssemblyVersion>12.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -56,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -78,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -98,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -118,6 +122,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -138,6 +143,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -158,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -178,6 +185,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -198,6 +206,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -218,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -238,6 +248,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -258,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -278,6 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -298,6 +311,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -318,6 +332,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -338,6 +353,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -358,6 +374,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -378,6 +395,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -398,6 +416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -418,6 +437,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -441,6 +461,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -466,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -497,6 +519,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -521,6 +544,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -541,6 +565,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -561,12 +586,33 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> FileShareProvisionedBandwidthDowngradeNotAllowed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileShareProvisionedBandwidthInvalid">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode FileShareProvisionedBandwidthInvalid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode FileShareProvisionedBandwidthInvalid" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.FileShareProvisionedBandwidthInvalid" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FileShareProvisionedBandwidthInvalid As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member FileShareProvisionedBandwidthInvalid : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.FileShareProvisionedBandwidthInvalid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> FileShareProvisionedBandwidthInvalid. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -581,12 +627,53 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> FileShareProvisionedIopsDowngradeNotAllowed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileShareProvisionedIopsInvalid">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode FileShareProvisionedIopsInvalid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode FileShareProvisionedIopsInvalid" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.FileShareProvisionedIopsInvalid" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FileShareProvisionedIopsInvalid As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member FileShareProvisionedIopsInvalid : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.FileShareProvisionedIopsInvalid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> FileShareProvisionedIopsInvalid. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileShareProvisionedStorageInvalid">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode FileShareProvisionedStorageInvalid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode FileShareProvisionedStorageInvalid" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.FileShareProvisionedStorageInvalid" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FileShareProvisionedStorageInvalid As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member FileShareProvisionedStorageInvalid : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.FileShareProvisionedStorageInvalid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> FileShareProvisionedStorageInvalid. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -601,6 +688,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -628,6 +716,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -648,6 +737,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -668,6 +758,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -688,6 +779,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -708,6 +800,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -728,6 +821,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -748,6 +842,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -768,6 +863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -788,6 +884,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -808,6 +905,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -828,6 +926,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -848,6 +947,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -868,6 +968,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -888,6 +989,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -908,6 +1010,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -928,6 +1031,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -948,6 +1052,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -968,6 +1073,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -988,6 +1094,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1008,6 +1115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1028,6 +1136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1048,6 +1157,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1068,6 +1178,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1094,6 +1205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1120,6 +1232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1146,6 +1259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1170,6 +1284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1196,6 +1311,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1222,6 +1338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1248,6 +1365,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1268,6 +1386,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1288,6 +1407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1308,6 +1428,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1328,6 +1449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1348,6 +1470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1368,6 +1491,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1388,6 +1512,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1408,6 +1533,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1428,6 +1554,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1448,6 +1575,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1468,6 +1596,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1488,6 +1617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1508,6 +1638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1528,6 +1659,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1548,6 +1680,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1568,6 +1701,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1588,6 +1722,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1608,6 +1743,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1628,6 +1764,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1648,6 +1785,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1668,6 +1806,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1688,6 +1827,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1696,6 +1836,86 @@
       <Docs>
         <summary>Returns the fully qualified type name of this instance.</summary>
         <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalSharesCountExceedsAccountLimit">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesCountExceedsAccountLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesCountExceedsAccountLimit" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesCountExceedsAccountLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalSharesCountExceedsAccountLimit As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member TotalSharesCountExceedsAccountLimit : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesCountExceedsAccountLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> TotalSharesCountExceedsAccountLimit. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalSharesProvisionedBandwidthExceedsAccountLimit">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesProvisionedBandwidthExceedsAccountLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesProvisionedBandwidthExceedsAccountLimit" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesProvisionedBandwidthExceedsAccountLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalSharesProvisionedBandwidthExceedsAccountLimit As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member TotalSharesProvisionedBandwidthExceedsAccountLimit : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesProvisionedBandwidthExceedsAccountLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> TotalSharesProvisionedBandwidthExceedsAccountLimit. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalSharesProvisionedCapacityExceedsAccountLimit">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesProvisionedCapacityExceedsAccountLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesProvisionedCapacityExceedsAccountLimit" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesProvisionedCapacityExceedsAccountLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalSharesProvisionedCapacityExceedsAccountLimit As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member TotalSharesProvisionedCapacityExceedsAccountLimit : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesProvisionedCapacityExceedsAccountLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> TotalSharesProvisionedCapacityExceedsAccountLimit. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalSharesProvisionedIopsExceedsAccountLimit">
+      <MemberSignature Language="C#" Value="public static Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesProvisionedIopsExceedsAccountLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Storage.Files.Shares.Models.ShareErrorCode TotalSharesProvisionedIopsExceedsAccountLimit" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesProvisionedIopsExceedsAccountLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TotalSharesProvisionedIopsExceedsAccountLimit As ShareErrorCode" />
+      <MemberSignature Language="F#" Value="static member TotalSharesProvisionedIopsExceedsAccountLimit : Azure.Storage.Files.Shares.Models.ShareErrorCode" Usage="Azure.Storage.Files.Shares.Models.ShareErrorCode.TotalSharesProvisionedIopsExceedsAccountLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> TotalSharesProvisionedIopsExceedsAccountLimit. </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1709,6 +1929,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1729,6 +1950,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1749,6 +1971,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
@@ -1769,6 +1992,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.Shares</AssemblyName>
         <AssemblyVersion>12.25.0.0</AssemblyVersion>
+        <AssemblyVersion>12.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Files.Shares.Models.ShareErrorCode</ReturnType>
