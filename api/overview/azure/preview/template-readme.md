@@ -1,23 +1,22 @@
 ---
 title: Azure Template client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Template, template
-ms.date: 08/21/2025
+ms.date: 01/21/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: template
 ---
-# Azure Template client library for .NET - version 1.0.3-beta.5246113 
+# Azure Template client library for .NET - version 1.0.3-beta.5775447 
 
 
-Azure Template is a managed service that helps developers get secret simply and securely.
+Azure Template is a template project for creating Azure SDK libraries generated from TypeSpec.
 
-Use the client library for to:
+Use this template as a starting point for:
 
-* [Get secret](https://learn.microsoft.com/azure)
+* Creating new TypeSpec-based Azure SDK client libraries
+* Understanding the project structure for TypeSpec-generated SDKs
 
-[Source code][source_root] | [Package (NuGet)][package] | [API reference documentation][reference_docs] | [Product documentation][azconfig_docs] | [Samples][source_samples]
-
-  [Source code](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5246113/sdk/template/Azure.Template/src) | [Package (NuGet)](https://www.nuget.org/packages) | [API reference documentation](https://azure.github.io/azure-sdk-for-net) | [Product documentation](https://learn.microsoft.com/azure)
+[Source code](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5775447/sdk/template/Azure.Template/src) | [Package (NuGet)](https://www.nuget.org/packages) | [API reference documentation](https://azure.github.io/azure-sdk-for-net) | [Product documentation](https://learn.microsoft.com/azure)
 
 ## Getting started
 
@@ -57,33 +56,26 @@ We guarantee that all client instance methods are thread-safe and independent of
 
 ### Additional concepts
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5246113/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5246113/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5246113/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5246113/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5246113/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5775447/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5775447/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5775447/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5775447/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Template_1.0.3-beta.5775447/sdk/core/Azure.Core/samples/Diagnostics.md) |
 [Mocking](https://learn.microsoft.com/dotnet/azure/sdk/unit-testing-mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
 ## Examples
 
-You can familiarize yourself with different APIs using [Samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Template_1.0.3-beta.5246113/sdk/template/Azure.Template/samples).
+You can familiarize yourself with different APIs using [Samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Template_1.0.3-beta.5775447/sdk/template/Azure.Template/samples).
 
-### Get secret
+### Basic usage example
 
-The `GetSecret` method retrieves a secret from the service.
+Replace this section with examples specific to your generated client library methods.
 
-```C# Snippet:Azure_Template_GetSecret
-string endpoint = "https://myvault.vault.azure.net";
-var credential = new DefaultAzureCredential();
-var client = new TemplateClient(endpoint, credential);
-
-SecretBundle secret = client.GetSecretValue("TestSecret");
-
-Console.WriteLine(secret.Value);
-```Python
-things = client.list_things()
+```C#
+// Example code will be generated based on your TypeSpec definition
+// See the samples directory for complete examples
 ```
 
 ## Troubleshooting
