@@ -22,6 +22,7 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Compute.Models.ComputeWriteableSubResourceData</BaseTypeName>
@@ -51,7 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -69,7 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeNetworkInterfaceAuxiliaryMode&gt;</ReturnType>
@@ -90,7 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeNetworkInterfaceAuxiliarySku&gt;</ReturnType>
@@ -111,7 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt;</ReturnType>
@@ -132,7 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -153,7 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -174,7 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -195,7 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -216,7 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -243,7 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpdateIPConfiguration&gt;</ReturnType>
@@ -264,7 +265,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -285,7 +286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -311,7 +312,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -332,7 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -353,7 +354,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -377,7 +378,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpdateNetworkConfiguration</ReturnType>
@@ -392,7 +393,7 @@
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
-        <returns>A <typeparamref name="T" /> representation of the JSON value.</returns>
+        <returns>A <see cref="T:Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpdateNetworkConfiguration" /> representation of the JSON value.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -410,7 +411,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -442,7 +443,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpdateNetworkConfiguration</ReturnType>
@@ -457,7 +458,7 @@
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
-        <returns>A <typeparamref name="T" /> representation of the data.</returns>
+        <returns>A <see cref="T:Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpdateNetworkConfiguration" /> representation of the data.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -475,7 +476,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -505,7 +506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -532,7 +533,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>

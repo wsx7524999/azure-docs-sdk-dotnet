@@ -1,0 +1,330 @@
+<Type Name="GalleryScriptParameterType" FullName="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType">
+  <TypeSignature Language="C#" Value="public readonly struct GalleryScriptParameterType : IEquatable&lt;Azure.ResourceManager.Compute.Models.GalleryScriptParameterType&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GalleryScriptParameterType extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+  <TypeSignature Language="VB.NET" Value="Public Structure GalleryScriptParameterType&#xA;Implements IEquatable(Of GalleryScriptParameterType)" />
+  <TypeSignature Language="F#" Value="type GalleryScriptParameterType = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.Compute.Models.GalleryScriptParameterType&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> Specifies the type of the Gallery Script parameter. Possible values are: String, Int, Double, Boolean, Enum. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GalleryScriptParameterType (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Compute.Models.GalleryScriptParameterType : string -&gt; Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="new Azure.ResourceManager.Compute.Models.GalleryScriptParameterType value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Boolean">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Boolean { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Boolean" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Boolean" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Boolean As GalleryScriptParameterType" />
+      <MemberSignature Language="F#" Value="static member Boolean : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.GalleryScriptParameterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Boolean gallery script parameter type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Double">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Double { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Double" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Double" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Double As GalleryScriptParameterType" />
+      <MemberSignature Language="F#" Value="static member Double : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.GalleryScriptParameterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Double gallery script parameter type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enum">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Enum { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Enum" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Enum" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Enum As GalleryScriptParameterType" />
+      <MemberSignature Language="F#" Value="static member Enum : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Enum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.GalleryScriptParameterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Enum gallery script parameter type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.Compute.Models.GalleryScriptParameterType other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Equals(Azure.ResourceManager.Compute.Models.GalleryScriptParameterType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As GalleryScriptParameterType) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType -&gt; bool" Usage="galleryScriptParameterType.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="galleryScriptParameterType.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="galleryScriptParameterType.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Int">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Int { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType Int" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Int" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Int As GalleryScriptParameterType" />
+      <MemberSignature Language="F#" Value="static member Int : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.Int" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.GalleryScriptParameterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Int gallery script parameter type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.Compute.Models.GalleryScriptParameterType left, Azure.ResourceManager.Compute.Models.GalleryScriptParameterType right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType left, valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.op_Equality(Azure.ResourceManager.Compute.Models.GalleryScriptParameterType,Azure.ResourceManager.Compute.Models.GalleryScriptParameterType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As GalleryScriptParameterType, right As GalleryScriptParameterType) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType * Azure.ResourceManager.Compute.Models.GalleryScriptParameterType -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Compute.Models.GalleryScriptParameterType (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.op_Implicit(System.String)~Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As GalleryScriptParameterType" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.GalleryScriptParameterType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.Compute.Models.GalleryScriptParameterType left, Azure.ResourceManager.Compute.Models.GalleryScriptParameterType right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType left, valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.op_Inequality(Azure.ResourceManager.Compute.Models.GalleryScriptParameterType,Azure.ResourceManager.Compute.Models.GalleryScriptParameterType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As GalleryScriptParameterType, right As GalleryScriptParameterType) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType * Azure.ResourceManager.Compute.Models.GalleryScriptParameterType -&gt; bool" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="String">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.GalleryScriptParameterType String { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.GalleryScriptParameterType String" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.String" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property String As GalleryScriptParameterType" />
+      <MemberSignature Language="F#" Value="static member String : Azure.ResourceManager.Compute.Models.GalleryScriptParameterType" Usage="Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.GalleryScriptParameterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> String gallery script parameter type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.GalleryScriptParameterType.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="galleryScriptParameterType.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

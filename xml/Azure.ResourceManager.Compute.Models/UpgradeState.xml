@@ -22,6 +22,7 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -41,7 +42,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.UpgradeState</ReturnType>
@@ -61,7 +62,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.UpgradeState</ReturnType>
@@ -81,7 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.UpgradeState</ReturnType>
@@ -101,7 +102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.UpgradeState</ReturnType>

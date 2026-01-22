@@ -1,127 +1,433 @@
 {
   "Assembly": "Azure.Template",
-  "GUID": "2DF45A05E97D489FBF915873DFC98177FFFFFFFF",
+  "GUID": "C8004B2F976A467CB6C60A6B17849306FFFFFFFF",
   "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
   "Types": [
     {
       "Members": [
         {
-          "DocsId": "M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddTemplateClient``1(``0,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientBuilderExtensions.cs#L23C13-L23C157"
+          "DocsId": "M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddWidgetAnalyticsClient``1(``0,System.Uri)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateClientBuilderExtensions.cs#L25C13-L27C186"
         },
         {
-          "DocsId": "M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddTemplateClient``2(``0,``1)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientBuilderExtensions.cs#L34C13-L34C104"
+          "DocsId": "M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddWidgetAnalyticsClient``2(``0,``1)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateClientBuilderExtensions.cs#L38C13-L38C118"
         }
       ],
       "DocsId": "T:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientBuilderExtensions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateClientBuilderExtensions.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "M:Azure.Template.TemplateClient.#ctor",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs#L32C9-L34C10"
+          "DocsId": "M:Azure.Template.AzureWidgets.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L24C9-L26C10"
         },
         {
-          "DocsId": "M:Azure.Template.TemplateClient.#ctor(System.String,Azure.Core.TokenCredential)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs#L40C82-L42C10"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidget(System.String,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L63C13-L77C10"
         },
         {
-          "DocsId": "M:Azure.Template.TemplateClient.#ctor(System.String,Azure.Core.TokenCredential,Azure.Template.TemplateClientOptions)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs#L49C9-L60C10"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetAsync(System.String,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
         },
         {
-          "DocsId": "M:Azure.Template.TemplateClient.GetSecretAsync(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidget(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L119C13-L122C68"
         },
         {
-          "DocsId": "M:Azure.Template.TemplateClient.GetSecret(System.String,Azure.RequestContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs#L116C13-L130C10"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
         },
         {
-          "DocsId": "M:Azure.Template.TemplateClient.GetSecretValueAsync(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetOperationStatus(System.String,System.String,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L156C13-L171C10"
         },
         {
-          "DocsId": "M:Azure.Template.TemplateClient.GetSecretValue(System.String,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/TemplateClient.cs#L47C13-L65C10"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetOperationStatusAsync(System.String,System.String,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
         },
         {
-          "DocsId": "P:Azure.Template.TemplateClient.Pipeline",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs#L29C49-L29C58"
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetOperationStatus(System.String,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L216C13-L220C107"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetOperationStatusAsync(System.String,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.CreateOrUpdateWidget(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L249C13-L264C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.CreateOrUpdateWidgetAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.DeleteWidget(Azure.WaitUntil,System.String,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L302C13-L316C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.DeleteWidgetAsync(Azure.WaitUntil,System.String,Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.DeleteWidget(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L351C13-L354C160"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.DeleteWidgetAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgets(Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L384C13-L384C78"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetsAsync(Azure.RequestContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L400C13-L400C83"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgets(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L408C13-L408C110"
+        },
+        {
+          "DocsId": "M:Azure.Template.AzureWidgets.GetWidgetsAsync(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L416C13-L416C115"
+        },
+        {
+          "DocsId": "P:Azure.Template.AzureWidgets.Pipeline",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs#L42C48-L42C52"
         }
       ],
-      "DocsId": "T:Azure.Template.TemplateClient",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClient.cs"
+      "DocsId": "T:Azure.Template.AzureWidgets",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/AzureWidgets.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "M:Azure.Template.TemplateClientOptions.#ctor(Azure.Template.TemplateClientOptions.ServiceVersion)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientOptions.cs#L28C9-L35C10"
+          "DocsId": "M:Azure.Template.AzureTemplateContext.TryGetTypeBuilderCore(System.Type,System.ClientModel.Primitives.ModelReaderWriterTypeBuilder@)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/artifacts/obj/Azure.Template/Release/netstandard2.0/generated/System.ClientModel.SourceGeneration/System.ClientModel.SourceGeneration.ModelReaderWriterContextGenerator/AzureTemplateContext.g.cs#L46C9-L68C6"
         },
         {
-          "DocsId": "T:Azure.Template.TemplateClientOptions.ServiceVersion",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientOptions.cs"
+          "DocsId": "P:Azure.Template.AzureTemplateContext.Default",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/artifacts/obj/Azure.Template/Release/netstandard2.0/generated/System.ClientModel.SourceGeneration/System.ClientModel.SourceGeneration.ModelReaderWriterContextGenerator/AzureTemplateContext.g.cs#L30C51-L30C82"
         }
       ],
-      "DocsId": "T:Azure.Template.TemplateClientOptions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientOptions.cs"
+      "DocsId": "T:Azure.Template.AzureTemplateContext",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/AzureTemplateContext.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "P:Azure.Template.Models.SecretBundle.Value",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs#L40C31-L40C35"
+          "DocsId": "M:Azure.Template.FakedSharedModel.#ctor(System.String,System.DateTimeOffset)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.cs#L23C9-L29C10"
         },
         {
-          "DocsId": "P:Azure.Template.Models.SecretBundle.Id",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs#L42C28-L42C32"
+          "DocsId": "M:Azure.Template.FakedSharedModel.System#ClientModel#Primitives#IJsonModel<Azure#Template#FakedSharedModel>#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L27C13-L30C10"
         },
         {
-          "DocsId": "P:Azure.Template.Models.SecretBundle.ContentType",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs#L44C37-L44C41"
+          "DocsId": "M:Azure.Template.FakedSharedModel.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L36C13-L60C10"
         },
         {
-          "DocsId": "P:Azure.Template.Models.SecretBundle.Tags",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs#L46C59-L46C63"
+          "DocsId": "M:Azure.Template.FakedSharedModel.System#ClientModel#Primitives#IJsonModel<Azure#Template#FakedSharedModel>#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L64C126-L64C166"
         },
         {
-          "DocsId": "P:Azure.Template.Models.SecretBundle.Kid",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs#L48C29-L48C33"
+          "DocsId": "M:Azure.Template.FakedSharedModel.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L70C13-L77C10"
         },
         {
-          "DocsId": "P:Azure.Template.Models.SecretBundle.Managed",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs#L50C32-L50C36"
+          "DocsId": "M:Azure.Template.FakedSharedModel.System#ClientModel#Primitives#IPersistableModel<Azure#Template#FakedSharedModel>#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L111C99-L111C133"
+        },
+        {
+          "DocsId": "M:Azure.Template.FakedSharedModel.PersistableModelWriteCore(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L116C13-L122C140"
+        },
+        {
+          "DocsId": "M:Azure.Template.FakedSharedModel.System#ClientModel#Primitives#IPersistableModel<Azure#Template#FakedSharedModel>#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L128C123-L128C164"
+        },
+        {
+          "DocsId": "M:Azure.Template.FakedSharedModel.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L134C13-L145C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.FakedSharedModel.System#ClientModel#Primitives#IPersistableModel<Azure#Template#FakedSharedModel>#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.Serialization.cs#L148C110-L148C113"
+        },
+        {
+          "DocsId": "P:Azure.Template.FakedSharedModel.Tag",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.cs#L43C29-L43C33"
+        },
+        {
+          "DocsId": "P:Azure.Template.FakedSharedModel.CreatedAt",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.cs#L46C43-L46C47"
         }
       ],
-      "DocsId": "T:Azure.Template.Models.SecretBundle",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/SecretBundle.cs"
+      "DocsId": "T:Azure.Template.FakedSharedModel",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/FakedSharedModel.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "M:Azure.Template.Models.TemplateModelFactory.SecretBundle(System.String,System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String},System.String,System.Nullable{System.Boolean})",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/TemplateModelFactory.cs#L24C13-L26C81"
+          "DocsId": "M:Azure.Template.OperationState.#ctor(System.String)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L33C13-L36C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.op_Equality(Azure.Template.OperationState,Azure.Template.OperationState)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L56C86-L56C104"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.op_Inequality(Azure.Template.OperationState,Azure.Template.OperationState)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L61C86-L61C105"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.op_Implicit(System.String)~Azure.Template.OperationState",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L65C73-L65C98"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.op_Implicit(System.String)~System.Nullable{Azure.Template.OperationState}",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L69C74-L69C122"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.Equals(System.Object)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L73C52-L73C96"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.Equals(Azure.Template.OperationState)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L76C53-L76C133"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.GetHashCode",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L80C46-L80C128"
+        },
+        {
+          "DocsId": "M:Azure.Template.OperationState.ToString",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L83C46-L83C52"
+        },
+        {
+          "DocsId": "P:Azure.Template.OperationState.NotStarted",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L39C51-L39C55"
+        },
+        {
+          "DocsId": "P:Azure.Template.OperationState.Running",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L42C48-L42C52"
+        },
+        {
+          "DocsId": "P:Azure.Template.OperationState.Succeeded",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L45C50-L45C54"
+        },
+        {
+          "DocsId": "P:Azure.Template.OperationState.Failed",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L48C47-L48C51"
+        },
+        {
+          "DocsId": "P:Azure.Template.OperationState.Canceled",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs#L51C49-L51C53"
         }
       ],
-      "DocsId": "T:Azure.Template.Models.TemplateModelFactory",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Models/TemplateModelFactory.cs"
+      "DocsId": "T:Azure.Template.OperationState",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/OperationState.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "F:Azure.Template.TemplateClientOptions.ServiceVersion.value__",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientOptions.cs"
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IJsonModel<Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError>#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L29C13-L32C10"
         },
         {
-          "DocsId": "F:Azure.Template.TemplateClientOptions.ServiceVersion.V7_0",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientOptions.cs"
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L38C13-L72C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IJsonModel<Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError>#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L76C194-L76C234"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L82C13-L89C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IPersistableModel<Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError>#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L143C133-L143C167"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.PersistableModelWriteCore(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L148C13-L154C174"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IPersistableModel<Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError>#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L160C191-L160C232"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L166C13-L177C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IPersistableModel<Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError>#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L180C144-L180C147"
+        },
+        {
+          "DocsId": "M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.op_Explicit(Azure.Response)~Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.Serialization.cs#L185C13-L187C10"
+        },
+        {
+          "DocsId": "P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Id",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.cs#L45C28-L45C32"
+        },
+        {
+          "DocsId": "P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Status",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.cs#L48C40-L48C44"
+        },
+        {
+          "DocsId": "P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Error",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.cs#L51C38-L51C42"
+        },
+        {
+          "DocsId": "P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Result",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.cs#L54C37-L54C41"
         }
       ],
-      "DocsId": "T:Azure.Template.TemplateClientOptions.ServiceVersion",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/c952bf324d6786a70390bf3d4eefadebfdd5a750/sdk/template/Azure.Template/src/Generated/TemplateClientOptions.cs"
+      "DocsId": "T:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/ResourceOperationStatusWidgetSuiteWidgetSuiteError.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.#ctor(System.String)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.cs#L22C9-L27C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IJsonModel<Azure#Template#WidgetSuite>#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L28C13-L31C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L37C13-L69C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IJsonModel<Azure#Template#WidgetSuite>#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L73C116-L73C156"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L79C13-L86C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IPersistableModel<Azure#Template#WidgetSuite>#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L130C94-L130C128"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.PersistableModelWriteCore(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L135C13-L141C135"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IPersistableModel<Azure#Template#WidgetSuite>#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L147C113-L147C154"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L153C13-L164C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IPersistableModel<Azure#Template#WidgetSuite>#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L167C105-L167C108"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetSuite.op_Explicit(Azure.Response)~Azure.Template.WidgetSuite",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.Serialization.cs#L172C13-L174C10"
+        },
+        {
+          "DocsId": "P:Azure.Template.WidgetSuite.Name",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.cs#L43C30-L43C34"
+        },
+        {
+          "DocsId": "P:Azure.Template.WidgetSuite.ManufacturerId",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.cs#L46C40-L46C44"
+        },
+        {
+          "DocsId": "P:Azure.Template.WidgetSuite.SharedModel",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.cs#L49C47-L49C51"
+        }
+      ],
+      "DocsId": "T:Azure.Template.WidgetSuite",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/Models/WidgetSuite.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.Template.TemplateModelFactory.WidgetSuite(System.String,System.String,Azure.Template.FakedSharedModel)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateModelFactory.cs#L25C13-L25C109"
+        },
+        {
+          "DocsId": "M:Azure.Template.TemplateModelFactory.FakedSharedModel(System.String,System.DateTimeOffset)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateModelFactory.cs#L34C13-L34C95"
+        },
+        {
+          "DocsId": "M:Azure.Template.TemplateModelFactory.ResourceOperationStatusWidgetSuiteWidgetSuiteError(System.String,Azure.Template.OperationState,Azure.ResponseError,Azure.Template.WidgetSuite)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateModelFactory.cs#L45C13-L45C140"
+        }
+      ],
+      "DocsId": "T:Azure.Template.TemplateModelFactory",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/TemplateModelFactory.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.Template.WidgetAnalyticsClient.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClient.cs#L26C9-L28C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetAnalyticsClient.#ctor(System.Uri,Azure.Core.TokenCredential)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClient.cs#L34C82-L36C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetAnalyticsClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Template.WidgetAnalyticsClientOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClient.cs#L43C9-L55C10"
+        },
+        {
+          "DocsId": "M:Azure.Template.WidgetAnalyticsClient.GetAzureWidgetsClient",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClient.cs#L66C13-L66C215"
+        },
+        {
+          "DocsId": "P:Azure.Template.WidgetAnalyticsClient.Pipeline",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClient.cs#L58C48-L58C52"
+        }
+      ],
+      "DocsId": "T:Azure.Template.WidgetAnalyticsClient",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClient.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.Template.WidgetAnalyticsClientOptions.#ctor(Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClientOptions.cs#L20C9-L27C10"
+        },
+        {
+          "DocsId": "T:Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClientOptions.cs"
+        }
+      ],
+      "DocsId": "T:Azure.Template.WidgetAnalyticsClientOptions",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClientOptions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion.value__",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClientOptions.cs"
+        },
+        {
+          "DocsId": "F:Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion.V2022_12_01",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClientOptions.cs"
+        }
+      ],
+      "DocsId": "T:Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/59e17d8bbcef770649ab218fdee8e2b27228c2f1/sdk/template/Azure.Template/src/Generated/WidgetAnalyticsClientOptions.cs"
     }
   ]
 }

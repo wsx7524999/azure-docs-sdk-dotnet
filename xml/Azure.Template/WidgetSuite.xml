@@ -1,0 +1,378 @@
+<Type Name="WidgetSuite" FullName="Azure.Template.WidgetSuite">
+  <TypeSignature Language="C#" Value="public class WidgetSuite : System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WidgetSuite extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.Template.WidgetSuite&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.Template.WidgetSuite&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.WidgetSuite" />
+  <TypeSignature Language="VB.NET" Value="Public Class WidgetSuite&#xA;Implements IJsonModel(Of WidgetSuite), IPersistableModel(Of WidgetSuite)" />
+  <TypeSignature Language="F#" Value="type WidgetSuite = class&#xA;    interface IJsonModel&lt;WidgetSuite&gt;&#xA;    interface IPersistableModel&lt;WidgetSuite&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> A widget. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WidgetSuite (string manufacturerId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string manufacturerId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (manufacturerId As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Template.WidgetSuite : string -&gt; Azure.Template.WidgetSuite" Usage="new Azure.Template.WidgetSuite manufacturerId" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="manufacturerId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="manufacturerId"> The ID of the widget's manufacturer. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Template.WidgetSuite" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="manufacturerId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelCreateCore">
+      <MemberSignature Language="C#" Value="protected virtual Azure.Template.WidgetSuite JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.Template.WidgetSuite JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As WidgetSuite" />
+      <MemberSignature Language="F#" Value="abstract member JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite&#xA;override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite" Usage="widgetSuite.JsonModelCreateCore (reader, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader"> The JSON reader. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelWriteCore">
+      <MemberSignature Language="C#" Value="protected virtual void JsonModelWriteCore (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void JsonModelWriteCore(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub JsonModelWriteCore (writer As Utf8JsonWriter, options As ModelReaderWriterOptions)" />
+      <MemberSignature Language="F#" Value="abstract member JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="widgetSuite.JsonModelWriteCore (writer, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManufacturerId">
+      <MemberSignature Language="C#" Value="public string ManufacturerId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManufacturerId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.WidgetSuite.ManufacturerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManufacturerId As String" />
+      <MemberSignature Language="F#" Value="member this.ManufacturerId : string with get, set" Usage="Azure.Template.WidgetSuite.ManufacturerId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The ID of the widget's manufacturer. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.WidgetSuite.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Azure.Template.WidgetSuite.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The widget name. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Explicit">
+      <MemberSignature Language="C#" Value="public static explicit operator Azure.Template.WidgetSuite (Azure.Response response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Template.WidgetSuite op_Explicit(class Azure.Response response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.op_Explicit(Azure.Response)~Azure.Template.WidgetSuite" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (response As Response) As WidgetSuite" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : Azure.Response -&gt; Azure.Template.WidgetSuite" Usage="Azure.Template.WidgetSuite.op_Explicit response" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="Azure.Response" />
+      </Parameters>
+      <Docs>
+        <param name="response"> The <see cref="T:Azure.Response" /> to deserialize the <see cref="T:Azure.Template.WidgetSuite" /> from. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistableModelCreateCore">
+      <MemberSignature Language="C#" Value="protected virtual Azure.Template.WidgetSuite PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.Template.WidgetSuite PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As WidgetSuite" />
+      <MemberSignature Language="F#" Value="abstract member PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite&#xA;override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite" Usage="widgetSuite.PersistableModelCreateCore (data, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data"> The data to parse. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistableModelWriteCore">
+      <MemberSignature Language="C#" Value="protected virtual BinaryData PersistableModelWriteCore (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.BinaryData PersistableModelWriteCore(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.PersistableModelWriteCore(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PersistableModelWriteCore (options As ModelReaderWriterOptions) As BinaryData" />
+      <MemberSignature Language="F#" Value="abstract member PersistableModelWriteCore : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.PersistableModelWriteCore : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="widgetSuite.PersistableModelWriteCore options" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedModel">
+      <MemberSignature Language="C#" Value="public Azure.Template.FakedSharedModel SharedModel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Template.FakedSharedModel SharedModel" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.WidgetSuite.SharedModel" />
+      <MemberSignature Language="VB.NET" Value="Public Property SharedModel As FakedSharedModel" />
+      <MemberSignature Language="F#" Value="member this.SharedModel : Azure.Template.FakedSharedModel with get, set" Usage="Azure.Template.WidgetSuite.SharedModel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.FakedSharedModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The faked shared model. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.Template.WidgetSuite IJsonModel&lt;WidgetSuite&gt;.Create (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.Template.WidgetSuite System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Create(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IJsonModel&lt;Azure#Template#WidgetSuite&gt;#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As WidgetSuite Implements IJsonModel(Of WidgetSuite).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite" Usage="widgetSuite.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Create (reader, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader"> The JSON reader. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Write">
+      <MemberSignature Language="C#" Value="void IJsonModel&lt;WidgetSuite&gt;.Write (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Write(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IJsonModel&lt;Azure#Template#WidgetSuite&gt;#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Sub Write (writer As Utf8JsonWriter, options As ModelReaderWriterOptions) Implements IJsonModel(Of WidgetSuite).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="widgetSuite.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.WidgetSuite&gt;.Write (writer, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.Template.WidgetSuite IPersistableModel&lt;WidgetSuite&gt;.Create (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.Template.WidgetSuite System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Create(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IPersistableModel&lt;Azure#Template#WidgetSuite&gt;#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (data As BinaryData, options As ModelReaderWriterOptions) As WidgetSuite Implements IPersistableModel(Of WidgetSuite).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.WidgetSuite" Usage="widgetSuite.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Create (data, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data"> The data to parse. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.GetFormatFromOptions">
+      <MemberSignature Language="C#" Value="string IPersistableModel&lt;WidgetSuite&gt;.GetFormatFromOptions (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.GetFormatFromOptions(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IPersistableModel&lt;Azure#Template#WidgetSuite&gt;#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function GetFormatFromOptions (options As ModelReaderWriterOptions) As String Implements IPersistableModel(Of WidgetSuite).GetFormatFromOptions" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string" Usage="widgetSuite.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.GetFormatFromOptions options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Write">
+      <MemberSignature Language="C#" Value="BinaryData IPersistableModel&lt;WidgetSuite&gt;.Write (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.BinaryData System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Write(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetSuite.System#ClientModel#Primitives#IPersistableModel&lt;Azure#Template#WidgetSuite&gt;#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Write (options As ModelReaderWriterOptions) As BinaryData Implements IPersistableModel(Of WidgetSuite).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="widgetSuite.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.WidgetSuite&gt;.Write options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Write(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

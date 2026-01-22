@@ -1,0 +1,41 @@
+<Type Name="WidgetAnalyticsClientOptions" FullName="Azure.Template.WidgetAnalyticsClientOptions">
+  <TypeSignature Language="C#" Value="public class WidgetAnalyticsClientOptions : Azure.Core.ClientOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WidgetAnalyticsClientOptions extends Azure.Core.ClientOptions" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.WidgetAnalyticsClientOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class WidgetAnalyticsClientOptions&#xA;Inherits ClientOptions" />
+  <TypeSignature Language="F#" Value="type WidgetAnalyticsClientOptions = class&#xA;    inherit ClientOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Core.ClientOptions</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Client options for <see cref="T:Azure.Template.WidgetAnalyticsClient" />. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WidgetAnalyticsClientOptions (Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion version = Azure.Template.WidgetAnalyticsClientOptions+ServiceVersion.V2022_12_01);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Template.WidgetAnalyticsClientOptions/ServiceVersion version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClientOptions.#ctor(Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As WidgetAnalyticsClientOptions.ServiceVersion = Azure.Template.WidgetAnalyticsClientOptions+ServiceVersion.V2022_12_01)" />
+      <MemberSignature Language="F#" Value="new Azure.Template.WidgetAnalyticsClientOptions : Azure.Template.WidgetAnalyticsClientOptions.ServiceVersion -&gt; Azure.Template.WidgetAnalyticsClientOptions" Usage="new Azure.Template.WidgetAnalyticsClientOptions version" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="version" Type="Azure.Template.WidgetAnalyticsClientOptions+ServiceVersion" />
+      </Parameters>
+      <Docs>
+        <param name="version"> The service version. </param>
+        <summary> Initializes a new instance of WidgetAnalyticsClientOptions. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

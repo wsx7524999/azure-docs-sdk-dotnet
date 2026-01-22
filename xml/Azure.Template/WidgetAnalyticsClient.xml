@@ -1,0 +1,128 @@
+<Type Name="WidgetAnalyticsClient" FullName="Azure.Template.WidgetAnalyticsClient">
+  <TypeSignature Language="C#" Value="public class WidgetAnalyticsClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WidgetAnalyticsClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.WidgetAnalyticsClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class WidgetAnalyticsClient" />
+  <TypeSignature Language="F#" Value="type WidgetAnalyticsClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The WidgetAnalyticsClient. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected WidgetAnalyticsClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of WidgetAnalyticsClient for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WidgetAnalyticsClient (Uri endpoint, Azure.Core.TokenCredential credential);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClient.#ctor(System.Uri,Azure.Core.TokenCredential)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential)" />
+      <MemberSignature Language="F#" Value="new Azure.Template.WidgetAnalyticsClient : Uri * Azure.Core.TokenCredential -&gt; Azure.Template.WidgetAnalyticsClient" Usage="new Azure.Template.WidgetAnalyticsClient (endpoint, credential)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <summary> Initializes a new instance of WidgetAnalyticsClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WidgetAnalyticsClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Template.WidgetAnalyticsClientOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Template.WidgetAnalyticsClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Template.WidgetAnalyticsClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, options As WidgetAnalyticsClientOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Template.WidgetAnalyticsClient : Uri * Azure.Core.TokenCredential * Azure.Template.WidgetAnalyticsClientOptions -&gt; Azure.Template.WidgetAnalyticsClient" Usage="new Azure.Template.WidgetAnalyticsClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="options" Type="Azure.Template.WidgetAnalyticsClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> Service endpoint. </param>
+        <param name="credential"> A credential used to authenticate to the service. </param>
+        <param name="options"> The options for configuring the client. </param>
+        <summary> Initializes a new instance of WidgetAnalyticsClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureWidgetsClient">
+      <MemberSignature Language="C#" Value="public virtual Azure.Template.AzureWidgets GetAzureWidgetsClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Template.AzureWidgets GetAzureWidgetsClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.WidgetAnalyticsClient.GetAzureWidgetsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAzureWidgetsClient () As AzureWidgets" />
+      <MemberSignature Language="F#" Value="abstract member GetAzureWidgetsClient : unit -&gt; Azure.Template.AzureWidgets&#xA;override this.GetAzureWidgetsClient : unit -&gt; Azure.Template.AzureWidgets" Usage="widgetAnalyticsClient.GetAzureWidgetsClient " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.AzureWidgets</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of AzureWidgets. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pipeline">
+      <MemberSignature Language="C#" Value="public virtual Azure.Core.Pipeline.HttpPipeline Pipeline { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Pipeline.HttpPipeline Pipeline" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.WidgetAnalyticsClient.Pipeline" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Pipeline As HttpPipeline" />
+      <MemberSignature Language="F#" Value="member this.Pipeline : Azure.Core.Pipeline.HttpPipeline" Usage="Azure.Template.WidgetAnalyticsClient.Pipeline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

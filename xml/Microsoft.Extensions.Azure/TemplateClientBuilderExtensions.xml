@@ -13,23 +13,23 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Extension methods to add <see cref="T:Azure.Template.TemplateClient" /> to client builder. </summary>
+    <summary> Extension methods to add clients to <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName="AddTemplateClient&lt;TBuilder&gt;">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.TemplateClient,Azure.Template.TemplateClientOptions&gt; AddTemplateClient&lt;TBuilder&gt; (this TBuilder builder, string vaultBaseUrl) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Template.TemplateClient, class Azure.Template.TemplateClientOptions&gt; AddTemplateClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string vaultBaseUrl) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddTemplateClient``1(``0,System.String)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddTemplateClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, vaultBaseUrl As String) As IAzureClientBuilder(Of TemplateClient, TemplateClientOptions)" />
-      <MemberSignature Language="F#" Value="static member AddTemplateClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.TemplateClient, Azure.Template.TemplateClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddTemplateClient (builder, vaultBaseUrl)" />
+    <Member MemberName="AddWidgetAnalyticsClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.WidgetAnalyticsClient,Azure.Template.WidgetAnalyticsClientOptions&gt; AddWidgetAnalyticsClient&lt;TBuilder&gt; (this TBuilder builder, Uri endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Template.WidgetAnalyticsClient, class Azure.Template.WidgetAnalyticsClientOptions&gt; AddWidgetAnalyticsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, class System.Uri endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddWidgetAnalyticsClient``1(``0,System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddWidgetAnalyticsClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As Uri) As IAzureClientBuilder(Of WidgetAnalyticsClient, WidgetAnalyticsClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddWidgetAnalyticsClient : 'Builder * Uri -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.WidgetAnalyticsClient, Azure.Template.WidgetAnalyticsClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddWidgetAnalyticsClient (builder, endpoint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Template</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.TemplateClient,Azure.Template.TemplateClientOptions&gt;</ReturnType>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.WidgetAnalyticsClient,Azure.Template.WidgetAnalyticsClientOptions&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TBuilder">
@@ -40,30 +40,32 @@
       </TypeParameters>
       <Parameters>
         <Parameter Name="builder" Type="TBuilder" RefType="this" />
-        <Parameter Name="vaultBaseUrl" Type="System.String" />
+        <Parameter Name="endpoint" Type="System.Uri" />
       </Parameters>
       <Docs>
         <typeparam name="TBuilder">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="vaultBaseUrl"> The vault name, for example https://myvault.vault.azure.net. </param>
-        <summary> Registers a <see cref="T:Azure.Template.TemplateClient" /> instance. </summary>
+        <param name="endpoint"> Service endpoint. </param>
+        <summary> Registers a <see cref="T:Azure.Template.WidgetAnalyticsClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="AddTemplateClient&lt;TBuilder,TConfiguration&gt;">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.TemplateClient,Azure.Template.TemplateClientOptions&gt; AddTemplateClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Template.TemplateClient, class Azure.Template.TemplateClientOptions&gt; AddTemplateClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddTemplateClient``2(``0,``1)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddTemplateClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of TemplateClient, TemplateClientOptions)" />
-      <MemberSignature Language="F#" Value="static member AddTemplateClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.TemplateClient, Azure.Template.TemplateClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddTemplateClient (builder, configuration)" />
+    <Member MemberName="AddWidgetAnalyticsClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.WidgetAnalyticsClient,Azure.Template.WidgetAnalyticsClientOptions&gt; AddWidgetAnalyticsClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Template.WidgetAnalyticsClient, class Azure.Template.WidgetAnalyticsClientOptions&gt; AddWidgetAnalyticsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddWidgetAnalyticsClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddWidgetAnalyticsClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of WidgetAnalyticsClient, WidgetAnalyticsClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddWidgetAnalyticsClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.WidgetAnalyticsClient, Azure.Template.WidgetAnalyticsClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.TemplateClientBuilderExtensions.AddWidgetAnalyticsClient (builder, configuration)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Template</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.TemplateClient,Azure.Template.TemplateClientOptions&gt;</ReturnType>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Template.WidgetAnalyticsClient,Azure.Template.WidgetAnalyticsClientOptions&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TBuilder">
@@ -81,8 +83,8 @@
         <typeparam name="TBuilder">To be added.</typeparam>
         <typeparam name="TConfiguration">To be added.</typeparam>
         <param name="builder"> The builder to register with. </param>
-        <param name="configuration"> The configuration values. </param>
-        <summary> Registers a <see cref="T:Azure.Template.TemplateClient" /> instance. </summary>
+        <param name="configuration"> The configuration to use for the client. </param>
+        <summary> Registers a <see cref="T:Azure.Template.WidgetAnalyticsClient" /> client with the specified <see cref="T:Azure.Core.Extensions.IAzureClientBuilder`2" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

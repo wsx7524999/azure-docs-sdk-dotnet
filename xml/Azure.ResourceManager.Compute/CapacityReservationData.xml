@@ -22,6 +22,7 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -55,7 +56,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -80,7 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.CapacityReservationInstanceView</ReturnType>
@@ -101,7 +102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -127,7 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -148,7 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -169,7 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -190,7 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -210,7 +211,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.ScheduleProfile</ReturnType>
@@ -231,7 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.ComputeSku</ReturnType>
@@ -255,7 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CapacityReservationData</ReturnType>
@@ -270,7 +271,7 @@
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
-        <returns>A <typeparamref name="T" /> representation of the JSON value.</returns>
+        <returns>A <see cref="T:Azure.ResourceManager.Compute.CapacityReservationData" /> representation of the JSON value.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -288,7 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -320,7 +321,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CapacityReservationData</ReturnType>
@@ -335,7 +336,7 @@
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
-        <returns>A <typeparamref name="T" /> representation of the data.</returns>
+        <returns>A <see cref="T:Azure.ResourceManager.Compute.CapacityReservationData" /> representation of the data.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -353,7 +354,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -383,7 +384,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -411,7 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -432,7 +433,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.Models.SubResource&gt;</ReturnType>
@@ -453,7 +454,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>

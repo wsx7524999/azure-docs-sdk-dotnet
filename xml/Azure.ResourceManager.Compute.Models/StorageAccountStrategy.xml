@@ -1,0 +1,270 @@
+<Type Name="StorageAccountStrategy" FullName="Azure.ResourceManager.Compute.Models.StorageAccountStrategy">
+  <TypeSignature Language="C#" Value="public readonly struct StorageAccountStrategy : IEquatable&lt;Azure.ResourceManager.Compute.Models.StorageAccountStrategy&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit StorageAccountStrategy extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+  <TypeSignature Language="VB.NET" Value="Public Structure StorageAccountStrategy&#xA;Implements IEquatable(Of StorageAccountStrategy)" />
+  <TypeSignature Language="F#" Value="type StorageAccountStrategy = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.Compute.Models.StorageAccountStrategy&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> Specifies the strategy to be used when selecting the storage account type. Cannot be specified along with storageAccountType, but can be overridden per region by specifying targetRegions[].storageAccountType. This property is not updatable. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StorageAccountStrategy (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Compute.Models.StorageAccountStrategy : string -&gt; Azure.ResourceManager.Compute.Models.StorageAccountStrategy" Usage="new Azure.ResourceManager.Compute.Models.StorageAccountStrategy value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultStandardLrs">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountStrategy DefaultStandardLrs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy DefaultStandardLrs" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.DefaultStandardLrs" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultStandardLrs As StorageAccountStrategy" />
+      <MemberSignature Language="F#" Value="static member DefaultStandardLrs : Azure.ResourceManager.Compute.Models.StorageAccountStrategy" Usage="Azure.ResourceManager.Compute.Models.StorageAccountStrategy.DefaultStandardLrs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountStrategy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Choose Standard_LRS storage unless overridden by specifying regional storageAccountType. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.Compute.Models.StorageAccountStrategy other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.Equals(Azure.ResourceManager.Compute.Models.StorageAccountStrategy)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As StorageAccountStrategy) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.Compute.Models.StorageAccountStrategy -&gt; bool" Usage="storageAccountStrategy.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="storageAccountStrategy.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="storageAccountStrategy.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.Compute.Models.StorageAccountStrategy left, Azure.ResourceManager.Compute.Models.StorageAccountStrategy right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy left, valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.op_Equality(Azure.ResourceManager.Compute.Models.StorageAccountStrategy,Azure.ResourceManager.Compute.Models.StorageAccountStrategy)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As StorageAccountStrategy, right As StorageAccountStrategy) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.Compute.Models.StorageAccountStrategy * Azure.ResourceManager.Compute.Models.StorageAccountStrategy -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Compute.Models.StorageAccountStrategy" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Compute.Models.StorageAccountStrategy (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.op_Implicit(System.String)~Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As StorageAccountStrategy" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.Compute.Models.StorageAccountStrategy" Usage="Azure.ResourceManager.Compute.Models.StorageAccountStrategy.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountStrategy</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.Compute.Models.StorageAccountStrategy left, Azure.ResourceManager.Compute.Models.StorageAccountStrategy right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy left, valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.op_Inequality(Azure.ResourceManager.Compute.Models.StorageAccountStrategy,Azure.ResourceManager.Compute.Models.StorageAccountStrategy)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As StorageAccountStrategy, right As StorageAccountStrategy) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.Compute.Models.StorageAccountStrategy * Azure.ResourceManager.Compute.Models.StorageAccountStrategy -&gt; bool" Usage="Azure.ResourceManager.Compute.Models.StorageAccountStrategy.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Compute.Models.StorageAccountStrategy" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Compute.Models.StorageAccountStrategy" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreferStandardZrs">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountStrategy PreferStandardZrs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy PreferStandardZrs" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.PreferStandardZrs" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PreferStandardZrs As StorageAccountStrategy" />
+      <MemberSignature Language="F#" Value="static member PreferStandardZrs : Azure.ResourceManager.Compute.Models.StorageAccountStrategy" Usage="Azure.ResourceManager.Compute.Models.StorageAccountStrategy.PreferStandardZrs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountStrategy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Choose Standard_ZRS storage if the region supports it, else choose Standard_LRS storage, unless overridden by specifying regional storageAccountType. If no storageAccountStrategy is specified, this is the default strategy (from API version 2025-03-03 onwards). </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.Models.StorageAccountStrategy.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="storageAccountStrategy.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -22,6 +22,7 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -51,7 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -69,7 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -90,7 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -119,7 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -140,7 +141,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -166,7 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -187,7 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -208,13 +209,33 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryReplicationMode&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Optional parameter which specifies the mode to be used for replication. This property is not updatable. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageAccountStrategy">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.StorageAccountStrategy? StorageAccountStrategy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.StorageAccountStrategy&gt; StorageAccountStrategy" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.GalleryArtifactPublishingProfileBase.StorageAccountStrategy" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageAccountStrategy As Nullable(Of StorageAccountStrategy)" />
+      <MemberSignature Language="F#" Value="member this.StorageAccountStrategy : Nullable&lt;Azure.ResourceManager.Compute.Models.StorageAccountStrategy&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.GalleryArtifactPublishingProfileBase.StorageAccountStrategy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.StorageAccountStrategy&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Specifies the strategy to be used when selecting the storage account type. Cannot be specified along with storageAccountType, but can be overridden per region by specifying targetRegions[].storageAccountType. This property is not updatable. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -229,13 +250,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ImageStorageAccountType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Specifies the storage account type to be used to store the image. This property is not updatable. </summary>
+        <summary> Specifies the storage account type to be used to store the image. Cannot be specified along with storageAccountStrategy. This property is not updatable. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,7 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.GalleryArtifactPublishingProfileBase</ReturnType>
@@ -268,7 +289,7 @@
         <summary>
             Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
             </summary>
-        <returns>A <typeparamref name="T" /> representation of the JSON value.</returns>
+        <returns>A <see cref="T:Azure.ResourceManager.Compute.Models.GalleryArtifactPublishingProfileBase" /> representation of the JSON value.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -286,7 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -318,7 +339,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.GalleryArtifactPublishingProfileBase</ReturnType>
@@ -333,7 +354,7 @@
         <summary>
             Converts the provided <see cref="T:System.BinaryData" /> into a model.
             </summary>
-        <returns>A <typeparamref name="T" /> representation of the data.</returns>
+        <returns>A <see cref="T:Azure.ResourceManager.Compute.Models.GalleryArtifactPublishingProfileBase" /> representation of the data.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
@@ -351,7 +372,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -381,7 +402,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -409,7 +430,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Compute.Models.GalleryTargetExtendedLocation&gt;</ReturnType>
@@ -430,7 +451,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Compute.Models.TargetRegion&gt;</ReturnType>

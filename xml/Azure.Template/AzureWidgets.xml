@@ -1,0 +1,627 @@
+<Type Name="AzureWidgets" FullName="Azure.Template.AzureWidgets">
+  <TypeSignature Language="C#" Value="public class AzureWidgets" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureWidgets extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.AzureWidgets" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureWidgets" />
+  <TypeSignature Language="F#" Value="type AzureWidgets = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The AzureWidgets sub-client. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AzureWidgets ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of AzureWidgets for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateWidget">
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;BinaryData&gt; CreateOrUpdateWidget (Azure.WaitUntil waitUntil, string widgetName, Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class System.BinaryData&gt; CreateOrUpdateWidget(valuetype Azure.WaitUntil waitUntil, string widgetName, class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.CreateOrUpdateWidget(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateWidget (waitUntil As WaitUntil, widgetName As String, content As RequestContent, Optional context As RequestContext = Nothing) As Operation(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateWidget : Azure.WaitUntil * string * Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;&#xA;override this.CreateOrUpdateWidget : Azure.WaitUntil * string * Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;" Usage="azureWidgets.CreateOrUpdateWidget (waitUntil, widgetName, content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Operation&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="widgetName"> The widget name. </param>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Creates or updates a Widget asynchronously. </summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> or <paramref name="content" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateWidgetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt; CreateOrUpdateWidgetAsync (Azure.WaitUntil waitUntil, string widgetName, Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class System.BinaryData&gt;&gt; CreateOrUpdateWidgetAsync(valuetype Azure.WaitUntil waitUntil, string widgetName, class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.CreateOrUpdateWidgetAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateWidgetAsync (waitUntil As WaitUntil, widgetName As String, content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Operation(Of BinaryData))" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateWidgetAsync : Azure.WaitUntil * string * Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;&#xA;override this.CreateOrUpdateWidgetAsync : Azure.WaitUntil * string * Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;" Usage="azureWidgets.CreateOrUpdateWidgetAsync (waitUntil, widgetName, content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;System.BinaryData&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="widgetName"> The widget name. </param>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Creates or updates a Widget asynchronously. </summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> or <paramref name="content" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteWidget">
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;BinaryData&gt; DeleteWidget (Azure.WaitUntil waitUntil, string widgetName, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class System.BinaryData&gt; DeleteWidget(valuetype Azure.WaitUntil waitUntil, string widgetName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.DeleteWidget(Azure.WaitUntil,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteWidget (waitUntil As WaitUntil, widgetName As String, context As RequestContext) As Operation(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteWidget : Azure.WaitUntil * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;&#xA;override this.DeleteWidget : Azure.WaitUntil * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;" Usage="azureWidgets.DeleteWidget (waitUntil, widgetName, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Operation&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="widgetName"> The widget name. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Delete a Widget asynchronously. </summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteWidget">
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;Azure.Template.WidgetSuite&gt; DeleteWidget (Azure.WaitUntil waitUntil, string widgetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class Azure.Template.WidgetSuite&gt; DeleteWidget(valuetype Azure.WaitUntil waitUntil, string widgetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.DeleteWidget(Azure.WaitUntil,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteWidget (waitUntil As WaitUntil, widgetName As String, Optional cancellationToken As CancellationToken = Nothing) As Operation(Of WidgetSuite)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteWidget : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; Azure.Operation&lt;Azure.Template.WidgetSuite&gt;&#xA;override this.DeleteWidget : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; Azure.Operation&lt;Azure.Template.WidgetSuite&gt;" Usage="azureWidgets.DeleteWidget (waitUntil, widgetName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Operation&lt;Azure.Template.WidgetSuite&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="widgetName"> The widget name. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Delete a Widget asynchronously. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteWidgetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt; DeleteWidgetAsync (Azure.WaitUntil waitUntil, string widgetName, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class System.BinaryData&gt;&gt; DeleteWidgetAsync(valuetype Azure.WaitUntil waitUntil, string widgetName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.DeleteWidgetAsync(Azure.WaitUntil,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteWidgetAsync (waitUntil As WaitUntil, widgetName As String, context As RequestContext) As Task(Of Operation(Of BinaryData))" />
+      <MemberSignature Language="F#" Value="abstract member DeleteWidgetAsync : Azure.WaitUntil * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;&#xA;override this.DeleteWidgetAsync : Azure.WaitUntil * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;" Usage="azureWidgets.DeleteWidgetAsync (waitUntil, widgetName, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;System.BinaryData&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="widgetName"> The widget name. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Delete a Widget asynchronously. </summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteWidgetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;Azure.Template.WidgetSuite&gt;&gt; DeleteWidgetAsync (Azure.WaitUntil waitUntil, string widgetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class Azure.Template.WidgetSuite&gt;&gt; DeleteWidgetAsync(valuetype Azure.WaitUntil waitUntil, string widgetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.DeleteWidgetAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteWidgetAsync (waitUntil As WaitUntil, widgetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Operation(Of WidgetSuite))" />
+      <MemberSignature Language="F#" Value="abstract member DeleteWidgetAsync : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;Azure.Template.WidgetSuite&gt;&gt;&#xA;override this.DeleteWidgetAsync : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;Azure.Template.WidgetSuite&gt;&gt;" Usage="azureWidgets.DeleteWidgetAsync (waitUntil, widgetName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;Azure.Template.WidgetSuite&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="widgetName"> The widget name. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Delete a Widget asynchronously. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidget">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetWidget (string widgetName, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetWidget(string widgetName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidget(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidget (widgetName As String, context As RequestContext) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetWidget : string * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetWidget : string * Azure.RequestContext -&gt; Azure.Response" Usage="azureWidgets.GetWidget (widgetName, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Fetch a Widget by name.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidget">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Template.WidgetSuite&gt; GetWidget (string widgetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Template.WidgetSuite&gt; GetWidget(string widgetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidget(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidget (widgetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of WidgetSuite)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidget : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Template.WidgetSuite&gt;&#xA;override this.GetWidget : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Template.WidgetSuite&gt;" Usage="azureWidgets.GetWidget (widgetName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Template.WidgetSuite&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Fetch a Widget by name. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetWidgetAsync (string widgetName, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetWidgetAsync(string widgetName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetAsync(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetAsync (widgetName As String, context As RequestContext) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetWidgetAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="azureWidgets.GetWidgetAsync (widgetName, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Fetch a Widget by name.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.WidgetSuite&gt;&gt; GetWidgetAsync (string widgetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Template.WidgetSuite&gt;&gt; GetWidgetAsync(string widgetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetAsync (widgetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of WidgetSuite))" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.WidgetSuite&gt;&gt;&#xA;override this.GetWidgetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.WidgetSuite&gt;&gt;" Usage="azureWidgets.GetWidgetAsync (widgetName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.WidgetSuite&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Fetch a Widget by name. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetOperationStatus">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetWidgetOperationStatus (string widgetName, string operationId, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetWidgetOperationStatus(string widgetName, string operationId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetOperationStatus(System.String,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetOperationStatus (widgetName As String, operationId As String, context As RequestContext) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetOperationStatus : string * string * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetWidgetOperationStatus : string * string * Azure.RequestContext -&gt; Azure.Response" Usage="azureWidgets.GetWidgetOperationStatus (widgetName, operationId, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="operationId"> The unique ID of the operation. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Gets status of a Widget operation.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetOperationStatus">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt; GetWidgetOperationStatus (string widgetName, string operationId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt; GetWidgetOperationStatus(string widgetName, string operationId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetOperationStatus(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetOperationStatus (widgetName As String, operationId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetOperationStatus : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&#xA;override this.GetWidgetOperationStatus : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;" Usage="azureWidgets.GetWidgetOperationStatus (widgetName, operationId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="operationId"> The unique ID of the operation. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Gets status of a Widget operation. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetOperationStatusAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetWidgetOperationStatusAsync (string widgetName, string operationId, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetWidgetOperationStatusAsync(string widgetName, string operationId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetOperationStatusAsync(System.String,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetOperationStatusAsync (widgetName As String, operationId As String, context As RequestContext) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetOperationStatusAsync : string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetWidgetOperationStatusAsync : string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="azureWidgets.GetWidgetOperationStatusAsync (widgetName, operationId, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="operationId"> The unique ID of the operation. </param>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Gets status of a Widget operation.
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetOperationStatusAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&gt; GetWidgetOperationStatusAsync (string widgetName, string operationId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&gt; GetWidgetOperationStatusAsync(string widgetName, string operationId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetOperationStatusAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetOperationStatusAsync (widgetName As String, operationId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError))" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetOperationStatusAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&gt;&#xA;override this.GetWidgetOperationStatusAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&gt;" Usage="azureWidgets.GetWidgetOperationStatusAsync (widgetName, operationId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="widgetName" Type="System.String" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="widgetName"> The widget name. </param>
+        <param name="operationId"> The unique ID of the operation. </param>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> Gets status of a Widget operation. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="widgetName" /> or <paramref name="operationId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgets">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetWidgets (Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetWidgets(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgets(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgets (context As RequestContext) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgets : Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetWidgets : Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="azureWidgets.GetWidgets context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] List Widget resources
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgets">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.Template.WidgetSuite&gt; GetWidgets (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.Template.WidgetSuite&gt; GetWidgets(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgets(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgets (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of WidgetSuite)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgets : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Template.WidgetSuite&gt;&#xA;override this.GetWidgets : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Template.WidgetSuite&gt;" Usage="azureWidgets.GetWidgets cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.Template.WidgetSuite&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> List Widget resources. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetWidgetsAsync (Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetWidgetsAsync(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetsAsync(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetsAsync (context As RequestContext) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetsAsync : Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetWidgetsAsync : Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="azureWidgets.GetWidgetsAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request options, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] List Widget resources
+            <list type="bullet"><item><description> This <see href="https://aka.ms/azsdk/net/protocol-methods">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios. </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWidgetsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.Template.WidgetSuite&gt; GetWidgetsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.Template.WidgetSuite&gt; GetWidgetsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.AzureWidgets.GetWidgetsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWidgetsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of WidgetSuite)" />
+      <MemberSignature Language="F#" Value="abstract member GetWidgetsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Template.WidgetSuite&gt;&#xA;override this.GetWidgetsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Template.WidgetSuite&gt;" Usage="azureWidgets.GetWidgetsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.Template.WidgetSuite&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token that can be used to cancel the operation. </param>
+        <summary> List Widget resources. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Pipeline">
+      <MemberSignature Language="C#" Value="public virtual Azure.Core.Pipeline.HttpPipeline Pipeline { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Pipeline.HttpPipeline Pipeline" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.AzureWidgets.Pipeline" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Pipeline As HttpPipeline" />
+      <MemberSignature Language="F#" Value="member this.Pipeline : Azure.Core.Pipeline.HttpPipeline" Usage="Azure.Template.AzureWidgets.Pipeline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

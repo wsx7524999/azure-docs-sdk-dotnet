@@ -1,0 +1,105 @@
+<Type Name="TemplateModelFactory" FullName="Azure.Template.TemplateModelFactory">
+  <TypeSignature Language="C#" Value="public static class TemplateModelFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TemplateModelFactory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.TemplateModelFactory" />
+  <TypeSignature Language="VB.NET" Value="Public Class TemplateModelFactory" />
+  <TypeSignature Language="F#" Value="type TemplateModelFactory = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A factory class for creating instances of the models for mocking. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FakedSharedModel">
+      <MemberSignature Language="C#" Value="public static Azure.Template.FakedSharedModel FakedSharedModel (string tag = default, DateTimeOffset createdAt = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Template.FakedSharedModel FakedSharedModel(string tag, valuetype System.DateTimeOffset createdAt) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.TemplateModelFactory.FakedSharedModel(System.String,System.DateTimeOffset)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FakedSharedModel (Optional tag As String = Nothing, Optional createdAt As DateTimeOffset = Nothing) As FakedSharedModel" />
+      <MemberSignature Language="F#" Value="static member FakedSharedModel : string * DateTimeOffset -&gt; Azure.Template.FakedSharedModel" Usage="Azure.Template.TemplateModelFactory.FakedSharedModel (tag, createdAt)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.FakedSharedModel</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tag" Type="System.String" />
+        <Parameter Name="createdAt" Type="System.DateTimeOffset" />
+      </Parameters>
+      <Docs>
+        <param name="tag"> The tag. </param>
+        <param name="createdAt"> The created date. </param>
+        <summary> Faked shared model. </summary>
+        <returns> A new <see cref="T:Azure.Template.FakedSharedModel" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceOperationStatusWidgetSuiteWidgetSuiteError">
+      <MemberSignature Language="C#" Value="public static Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError ResourceOperationStatusWidgetSuiteWidgetSuiteError (string id = default, Azure.Template.OperationState status = default, Azure.ResponseError error = default, Azure.Template.WidgetSuite result = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError ResourceOperationStatusWidgetSuiteWidgetSuiteError(string id, valuetype Azure.Template.OperationState status, class Azure.ResponseError error, class Azure.Template.WidgetSuite result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.TemplateModelFactory.ResourceOperationStatusWidgetSuiteWidgetSuiteError(System.String,Azure.Template.OperationState,Azure.ResponseError,Azure.Template.WidgetSuite)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ResourceOperationStatusWidgetSuiteWidgetSuiteError (Optional id As String = Nothing, Optional status As OperationState = Nothing, Optional error As ResponseError = Nothing, Optional result As WidgetSuite = Nothing) As ResourceOperationStatusWidgetSuiteWidgetSuiteError" />
+      <MemberSignature Language="F#" Value="static member ResourceOperationStatusWidgetSuiteWidgetSuiteError : string * Azure.Template.OperationState * Azure.ResponseError * Azure.Template.WidgetSuite -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" Usage="Azure.Template.TemplateModelFactory.ResourceOperationStatusWidgetSuiteWidgetSuiteError (id, status, error, result)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="status" Type="Azure.Template.OperationState" />
+        <Parameter Name="error" Type="Azure.ResponseError" />
+        <Parameter Name="result" Type="Azure.Template.WidgetSuite" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The unique ID of the operation. </param>
+        <param name="status"> The status of the operation. </param>
+        <param name="error"> Error object that describes the error when status is "Failed". </param>
+        <param name="result"> The result of the operation. </param>
+        <summary> Provides status details for long running operations. </summary>
+        <returns> A new <see cref="T:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WidgetSuite">
+      <MemberSignature Language="C#" Value="public static Azure.Template.WidgetSuite WidgetSuite (string name = default, string manufacturerId = default, Azure.Template.FakedSharedModel sharedModel = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Template.WidgetSuite WidgetSuite(string name, string manufacturerId, class Azure.Template.FakedSharedModel sharedModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.TemplateModelFactory.WidgetSuite(System.String,System.String,Azure.Template.FakedSharedModel)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function WidgetSuite (Optional name As String = Nothing, Optional manufacturerId As String = Nothing, Optional sharedModel As FakedSharedModel = Nothing) As WidgetSuite" />
+      <MemberSignature Language="F#" Value="static member WidgetSuite : string * string * Azure.Template.FakedSharedModel -&gt; Azure.Template.WidgetSuite" Usage="Azure.Template.TemplateModelFactory.WidgetSuite (name, manufacturerId, sharedModel)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="manufacturerId" Type="System.String" />
+        <Parameter Name="sharedModel" Type="Azure.Template.FakedSharedModel" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The widget name. </param>
+        <param name="manufacturerId"> The ID of the widget's manufacturer. </param>
+        <param name="sharedModel"> The faked shared model. </param>
+        <summary> A widget. </summary>
+        <returns> A new <see cref="T:Azure.Template.WidgetSuite" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

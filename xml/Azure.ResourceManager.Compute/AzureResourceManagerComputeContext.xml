@@ -10,6 +10,7 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
+    <AssemblyVersion>1.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ClientModel.Primitives.ModelReaderWriterContext</BaseTypeName>
@@ -861,6 +862,58 @@
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryResourceProfilePropertiesBase))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptParameter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptParameter))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptVersionData))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptVersionData))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionList))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionList))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionPatch))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionPatch))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionProperties))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionProperties))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionPublishingProfile))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionPublishingProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptVersionResource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.GalleryScriptVersionResource))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionSafetyProfile))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryScriptVersionSafetyProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GallerySoftDeletedResourceDetails))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GallerySoftDeletedResourceDetails))&gt;]</AttributeName>
     </Attribute>
@@ -871,6 +924,10 @@
     <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryTargetExtendedLocation))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GalleryTargetExtendedLocation))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GenericGalleryParameter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GenericGalleryParameter))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.GrantAccessData))]</AttributeName>
@@ -1319,6 +1376,10 @@
     <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.ScheduleProfile))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.ScheduleProfile))&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.ScriptSource))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.ScriptSource))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.ModelReaderWriterBuildable(typeof(Azure.ResourceManager.Compute.Models.SecurityPostureReferenceUpdate))]</AttributeName>
@@ -2086,7 +2147,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.AzureResourceManagerComputeContext</ReturnType>
@@ -2106,7 +2167,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.13.0.0</AssemblyVersion>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

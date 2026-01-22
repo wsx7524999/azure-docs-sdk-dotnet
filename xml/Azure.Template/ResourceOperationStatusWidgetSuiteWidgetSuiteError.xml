@@ -1,0 +1,376 @@
+<Type Name="ResourceOperationStatusWidgetSuiteWidgetSuiteError" FullName="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError">
+  <TypeSignature Language="C#" Value="public class ResourceOperationStatusWidgetSuiteWidgetSuiteError : System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceOperationStatusWidgetSuiteWidgetSuiteError extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResourceOperationStatusWidgetSuiteWidgetSuiteError&#xA;Implements IJsonModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError), IPersistableModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError)" />
+  <TypeSignature Language="F#" Value="type ResourceOperationStatusWidgetSuiteWidgetSuiteError = class&#xA;    interface IJsonModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;&#xA;    interface IPersistableModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> Provides status details for long running operations. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public Azure.ResponseError Error { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResponseError Error" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Error" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Error As ResponseError" />
+      <MemberSignature Language="F#" Value="member this.Error : Azure.ResponseError" Usage="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResponseError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Error object that describes the error when status is "Failed". </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The unique ID of the operation. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelCreateCore">
+      <MemberSignature Language="C#" Value="protected virtual Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError JsonModelCreateCore (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError JsonModelCreateCore(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.JsonModelCreateCore(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function JsonModelCreateCore (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ResourceOperationStatusWidgetSuiteWidgetSuiteError" />
+      <MemberSignature Language="F#" Value="abstract member JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&#xA;override this.JsonModelCreateCore : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.JsonModelCreateCore (reader, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader"> The JSON reader. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelWriteCore">
+      <MemberSignature Language="C#" Value="protected virtual void JsonModelWriteCore (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void JsonModelWriteCore(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub JsonModelWriteCore (writer As Utf8JsonWriter, options As ModelReaderWriterOptions)" />
+      <MemberSignature Language="F#" Value="abstract member JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.JsonModelWriteCore (writer, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Explicit">
+      <MemberSignature Language="C#" Value="public static explicit operator Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError (Azure.Response response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError op_Explicit(class Azure.Response response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.op_Explicit(Azure.Response)~Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (response As Response) As ResourceOperationStatusWidgetSuiteWidgetSuiteError" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : Azure.Response -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" Usage="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.op_Explicit response" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="Azure.Response" />
+      </Parameters>
+      <Docs>
+        <param name="response"> The <see cref="T:Azure.Response" /> to deserialize the <see cref="T:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" /> from. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistableModelCreateCore">
+      <MemberSignature Language="C#" Value="protected virtual Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.PersistableModelCreateCore(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PersistableModelCreateCore (data As BinaryData, options As ModelReaderWriterOptions) As ResourceOperationStatusWidgetSuiteWidgetSuiteError" />
+      <MemberSignature Language="F#" Value="abstract member PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&#xA;override this.PersistableModelCreateCore : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.PersistableModelCreateCore (data, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data"> The data to parse. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersistableModelWriteCore">
+      <MemberSignature Language="C#" Value="protected virtual BinaryData PersistableModelWriteCore (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.BinaryData PersistableModelWriteCore(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.PersistableModelWriteCore(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function PersistableModelWriteCore (options As ModelReaderWriterOptions) As BinaryData" />
+      <MemberSignature Language="F#" Value="abstract member PersistableModelWriteCore : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.PersistableModelWriteCore : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.PersistableModelWriteCore options" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public Azure.Template.WidgetSuite Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Template.WidgetSuite Result" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As WidgetSuite" />
+      <MemberSignature Language="F#" Value="member this.Result : Azure.Template.WidgetSuite" Usage="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Result" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.WidgetSuite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The result of the operation. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Azure.Template.OperationState Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Template.OperationState Status" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As OperationState" />
+      <MemberSignature Language="F#" Value="member this.Status : Azure.Template.OperationState" Usage="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.OperationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The status of the operation. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError IJsonModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IJsonModel&lt;Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ResourceOperationStatusWidgetSuiteWidgetSuiteError Implements IJsonModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create (reader, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader"> The JSON reader. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write">
+      <MemberSignature Language="C#" Value="void IJsonModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IJsonModel&lt;Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Sub Write (writer As Utf8JsonWriter, options As ModelReaderWriterOptions) Implements IJsonModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.System.ClientModel.Primitives.IJsonModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write (writer, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError IPersistableModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IPersistableModel&lt;Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (data As BinaryData, options As ModelReaderWriterOptions) As ResourceOperationStatusWidgetSuiteWidgetSuiteError Implements IPersistableModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Create (data, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data"> The data to parse. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.GetFormatFromOptions">
+      <MemberSignature Language="C#" Value="string IPersistableModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.GetFormatFromOptions (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.GetFormatFromOptions(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IPersistableModel&lt;Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function GetFormatFromOptions (options As ModelReaderWriterOptions) As String Implements IPersistableModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError).GetFormatFromOptions" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.GetFormatFromOptions options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write">
+      <MemberSignature Language="C#" Value="BinaryData IPersistableModel&lt;ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.BinaryData System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError.System#ClientModel#Primitives#IPersistableModel&lt;Azure#Template#ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Write (options As ModelReaderWriterOptions) As BinaryData Implements IPersistableModel(Of ResourceOperationStatusWidgetSuiteWidgetSuiteError).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="resourceOperationStatusWidgetSuiteWidgetSuiteError.System.ClientModel.Primitives.IPersistableModel&lt;Azure.Template.ResourceOperationStatusWidgetSuiteWidgetSuiteError&gt;.Write options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Write(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
