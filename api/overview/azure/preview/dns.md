@@ -1,7 +1,7 @@
 ---
-title: Azure DNS SDK for .NET
-description: Reference for Azure DNS SDK for .NET
-ms.date: 01/21/2026
+title: Azure Dns SDK for .NET
+description: Reference for Azure Dns SDK for .NET
+ms.date: 01/22/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: dns
