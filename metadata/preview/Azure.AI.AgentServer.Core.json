@@ -1,6 +1,6 @@
 {
   "Name": "Azure.AI.AgentServer.Core",
-  "Version": "1.0.0-beta.5",
+  "Version": "1.0.0-beta.6",
   "DevVersion": null,
   "DirectoryPath": "sdk/agentserver/Azure.AI.AgentServer.Core",
   "ServiceDirectory": "agentserver",
@@ -10,12 +10,12 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.AI.AgentServer.Core",
-  "ReleaseStatus": "2025-12-05",
+  "ReleaseStatus": "2026-01-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "Azure.AI.AgentServer.Core",
     "safeName": "AzureAIAgentServerCore",
+    "name": "Azure.AI.AgentServer.Core",
     "triggeringPaths": [
       "/sdk/agentserver/ci.yml"
     ]
@@ -33,7 +33,17 @@
     "Azure.AI.AgentServer.Core.Common.Id",
     "Azure.AI.AgentServer.Core.Context",
     "Azure.AI.AgentServer.Core.HealthCheck",
+    "Azure.AI.AgentServer.Core.Server",
+    "Azure.AI.AgentServer.Core.Server.Middleware",
     "Azure.AI.AgentServer.Core.Telemetry",
+    "Azure.AI.AgentServer.Core.Tools",
+    "Azure.AI.AgentServer.Core.Tools.Exceptions",
+    "Azure.AI.AgentServer.Core.Tools.Models",
+    "Azure.AI.AgentServer.Core.Tools.Runtime",
+    "Azure.AI.AgentServer.Core.Tools.Runtime.Catalog",
+    "Azure.AI.AgentServer.Core.Tools.Runtime.Facade",
+    "Azure.AI.AgentServer.Core.Tools.Runtime.Invocation",
+    "Azure.AI.AgentServer.Core.Tools.Runtime.User",
     "Azure.AI.AgentServer.Responses.Endpoint",
     "Azure.AI.AgentServer.Responses.Invocation",
     "Azure.AI.AgentServer.Responses.Invocation.Stream"
