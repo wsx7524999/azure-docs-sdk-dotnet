@@ -1144,7 +1144,7 @@
         - Azure.ResourceManager.DisconnectedOperations
         - Azure.ResourceManager.DisconnectedOperations.Mocking
         - Azure.ResourceManager.DisconnectedOperations.Models
-  - name: Dns
+  - name: DNS
     href: ~/api/overview/azure/preview/dns.md
     landingPageType: Service
     items:

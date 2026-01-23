@@ -1012,7 +1012,7 @@
         - Azure.ResourceManager.DevTestLabs
         - Azure.ResourceManager.DevTestLabs.Mocking
         - Azure.ResourceManager.DevTestLabs.Models
-  - name: Dns
+  - name: DNS
     href: ~/api/overview/azure/latest/dns.md
     landingPageType: Service
     items:
