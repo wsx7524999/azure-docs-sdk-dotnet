@@ -1,7 +1,7 @@
 azureaiagentspersistent,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.Agents.Persistent,1.2.0-beta.8
-azureaiagentserveragentframework,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.AgentServer.AgentFramework,1.0.0-beta.5
-azureaiagentservercontracts,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.AgentServer.Contracts,1.0.0-beta.5
-azureaiagentservercore,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.AgentServer.Core,1.0.0-beta.5
+azureaiagentserveragentframework,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.AgentServer.AgentFramework,1.0.0-beta.6
+azureaiagentservercontracts,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.AgentServer.Contracts,1.0.0-beta.6
+azureaiagentservercore,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.AgentServer.Core,1.0.0-beta.6
 azureaianomalydetector,[isPrerelease=true;tfm=netstandard2.0]Azure.AI.AnomalyDetector,3.0.0-preview.7
 azureaicontentsafety,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.ContentSafety,1.0.0-beta.1
 azureaicontentunderstanding,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.ContentUnderstanding,1.0.0-beta.1

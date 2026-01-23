@@ -5252,7 +5252,17 @@
       - Azure.AI.AgentServer.Core.Common.Id
       - Azure.AI.AgentServer.Core.Context
       - Azure.AI.AgentServer.Core.HealthCheck
+      - Azure.AI.AgentServer.Core.Server
+      - Azure.AI.AgentServer.Core.Server.Middleware
       - Azure.AI.AgentServer.Core.Telemetry
+      - Azure.AI.AgentServer.Core.Tools
+      - Azure.AI.AgentServer.Core.Tools.Exceptions
+      - Azure.AI.AgentServer.Core.Tools.Models
+      - Azure.AI.AgentServer.Core.Tools.Runtime
+      - Azure.AI.AgentServer.Core.Tools.Runtime.Catalog
+      - Azure.AI.AgentServer.Core.Tools.Runtime.Facade
+      - Azure.AI.AgentServer.Core.Tools.Runtime.Invocation
+      - Azure.AI.AgentServer.Core.Tools.Runtime.User
       - Azure.AI.AgentServer.Responses.Endpoint
       - Azure.AI.AgentServer.Responses.Invocation
       - Azure.AI.AgentServer.Responses.Invocation.Stream
@@ -5445,10 +5455,6 @@
           children:
           - Azure.Core.Amqp
         - name: Core
-          href: ~/api/overview/azure/{moniker}/core.expressions.datafactory-readme.md
-          children:
-          - Azure.Core.Expressions.DataFactory
-        - name: Core
           href: ~/api/overview/azure/{moniker}/core-readme.md
           children:
           - Azure
@@ -5460,6 +5466,10 @@
           - Azure.Core.Pipeline
           - Azure.Core.Serialization
           - Azure.Messaging
+        - name: Core
+          href: ~/api/overview/azure/{moniker}/core.expressions.datafactory-readme.md
+          children:
+          - Azure.Core.Expressions.DataFactory
         - name: Spatial
           href: ~/api/overview/azure/{moniker}/microsoft.azure.core.spatial-readme.md
           children:
