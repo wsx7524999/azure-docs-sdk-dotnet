@@ -1,12 +1,13 @@
 ---
 title: Azure AI.AgentServer.AgentFramework client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.AI.AgentServer.AgentFramework, agentserver
-ms.date: 12/07/2025
+ms.date: 01/23/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: agentserver
 ---
-# Azure AI.AgentServer.AgentFramework client library for .NET - version 1.0.0-beta.5 
+# Azure AI.AgentServer.AgentFramework client library for .NET - version 1.0.0-beta.6 
+
 
 With hosted agents developers can deploy existing agents — whether built with supported agent
 frameworks or custom code — into Microsoft AI Foundry with minimal effort.
@@ -69,7 +70,6 @@ First run your agent with Azure.AI.AgentServer locally.
 
 If it works on local by failed on cloud. Check your logs in the application insight connected to your Azure AI Foundry Project.
 
-
 ### Reporting issues
 
 To report an issue with the client library, or request additional features, please open a GitHub issue [here](https://github.com/Azure/azure-sdk-for-net/issues). Mention the package name "Azure.AI.AgentServer" in the title or content.
@@ -85,18 +85,30 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct][code_of_conduct]. For more information see the [Code of Conduct FAQ][code_of_conduct_faq] or contact [opencode@microsoft.com][email_opencode] with any additional questions or comments.
 
 <!-- LINKS -->
+
 [RequestFailedException]: https://learn.microsoft.com/dotnet/api/azure.requestfailedexception?view=azure-dotnet
-[samples]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.AI.AgentServer.AgentFramework_1.0.0-beta.5/sdk/ai/Azure.AI.Projects/tests/Samples
+[samples]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.AI.AgentServer.AgentFramework_1.0.0-beta.6/sdk/ai/Azure.AI.Projects/tests/Samples
 [api_ref_docs]: https://learn.microsoft.com/dotnet/api/azure.ai.projects?view=azure-dotnet-preview
 [nuget]: https://www.nuget.org/packages/Azure.AI.Projects
-[source_code]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.AI.AgentServer.AgentFramework_1.0.0-beta.5/sdk/ai/Azure.AI.Projects
+[source_code]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.AI.AgentServer.AgentFramework_1.0.0-beta.6/sdk/ai/Azure.AI.Projects
 [product_doc]: https://learn.microsoft.com/azure/ai-studio/
 [azure_identity]: https://learn.microsoft.com/dotnet/api/overview/azure/identity-readme?view=azure-dotnet
 [azure_identity_dac]: https://learn.microsoft.com/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet
-[aiprojects_contrib]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.AI.AgentServer.AgentFramework_1.0.0-beta.5/CONTRIBUTING.md
+[aiprojects_contrib]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.AI.AgentServer.AgentFramework_1.0.0-beta.6/CONTRIBUTING.md
 [cla]: https://cla.microsoft.com
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [code_of_conduct_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [email_opencode]: mailto:opencode@microsoft.com
 
+## Unit Tests
+
+```shell
+  # x64 architecture
+  dotnet test Azure.AI.AgentServer.AgentFramework/tests/Unit.Tests/Azure.AI.AgentServer.AgentFramework.Unit.Tests.csproj
+```
+
+```shell
+  # arm64 architecture
+  dotnet test Azure.AI.AgentServer.AgentFramework/tests/Unit.Tests/Azure.AI.AgentServer.AgentFramework.Unit.Tests.csproj --settings Azure.AI.AgentServer.AgentFramework/tests/Unit.Tests/test.runsettings
+```
 

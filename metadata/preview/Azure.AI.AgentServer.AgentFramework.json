@@ -1,6 +1,6 @@
 {
   "Name": "Azure.AI.AgentServer.AgentFramework",
-  "Version": "1.0.0-beta.5",
+  "Version": "1.0.0-beta.6",
   "DevVersion": null,
   "DirectoryPath": "sdk/agentserver/Azure.AI.AgentServer.AgentFramework",
   "ServiceDirectory": "agentserver",
@@ -10,12 +10,12 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.AI.AgentServer.AgentFramework",
-  "ReleaseStatus": "2025-12-05",
+  "ReleaseStatus": "2026-01-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "Azure.AI.AgentServer.AgentFramework",
     "safeName": "AzureAIAgentServerAgentFramework",
+    "name": "Azure.AI.AgentServer.AgentFramework",
     "triggeringPaths": [
       "/sdk/agentserver/ci.yml"
     ]
