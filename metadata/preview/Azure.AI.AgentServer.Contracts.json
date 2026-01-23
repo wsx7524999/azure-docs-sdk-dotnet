@@ -1,6 +1,6 @@
 {
   "Name": "Azure.AI.AgentServer.Contracts",
-  "Version": "1.0.0-beta.5",
+  "Version": "1.0.0-beta.6",
   "DevVersion": null,
   "DirectoryPath": "sdk/agentserver/Azure.AI.AgentServer.Contracts",
   "ServiceDirectory": "agentserver",
@@ -10,21 +10,21 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.AI.AgentServer.Contracts",
-  "ReleaseStatus": "2025-12-05",
+  "ReleaseStatus": "2026-01-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "Azure.AI.AgentServer.Contracts",
-    "safeName": "AzureAIAgentServerContracts",
     "triggeringPaths": [
       "/sdk/agentserver/ci.yml"
-    ]
+    ],
+    "name": "Azure.AI.AgentServer.Contracts",
+    "safeName": "AzureAIAgentServerContracts"
   },
   "CIParameters": {
-    "CIMatrixConfigs": [],
     "BuildSnippets": true,
-    "AOTTestInputs": [],
-    "CheckAOTCompat": false
+    "CIMatrixConfigs": [],
+    "CheckAOTCompat": false,
+    "AOTTestInputs": []
   },
   "Namespaces": [
     "Azure.AI.AgentServer.Contracts.Generated",
