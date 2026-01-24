@@ -1,0 +1,89 @@
+<Type Name="AgentRunContextMiddleware" FullName="Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware">
+  <TypeSignature Language="C#" Value="public class AgentRunContextMiddleware" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AgentRunContextMiddleware extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware" />
+  <TypeSignature Language="VB.NET" Value="Public Class AgentRunContextMiddleware" />
+  <TypeSignature Language="F#" Value="type AgentRunContextMiddleware = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Middleware that creates and sets up AgentRunContext for agent run endpoints (/runs and /responses).
+            Parses the request body, retrieves user information, and sets up OpenTelemetry baggage for tracing.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AgentRunContextMiddleware (Microsoft.AspNetCore.Http.RequestDelegate next, Microsoft.Extensions.Logging.ILogger&lt;Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware&gt; logger, System.Collections.Generic.IEnumerable&lt;object&gt;? agentTools = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.AspNetCore.Http.RequestDelegate next, class Microsoft.Extensions.Logging.ILogger`1&lt;class Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware&gt; logger, class System.Collections.Generic.IEnumerable`1&lt;object&gt; agentTools) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware},System.Collections.Generic.IEnumerable{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (next As RequestDelegate, logger As ILogger(Of AgentRunContextMiddleware), Optional agentTools As IEnumerable(Of Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware : Microsoft.AspNetCore.Http.RequestDelegate * Microsoft.Extensions.Logging.ILogger&lt;Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware&gt; * seq&lt;obj&gt; -&gt; Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware" Usage="new Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware (next, logger, agentTools)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="next" Type="Microsoft.AspNetCore.Http.RequestDelegate" />
+        <Parameter Name="logger" Type="Microsoft.Extensions.Logging.ILogger&lt;Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware&gt;" />
+        <Parameter Name="agentTools" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="next">The next middleware in the pipeline.</param>
+        <param name="logger">The logger instance.</param>
+        <param name="agentTools">Optional collection of agent tools to include in the context.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task InvokeAsync (Microsoft.AspNetCore.Http.HttpContext httpContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task InvokeAsync(class Microsoft.AspNetCore.Http.HttpContext httpContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InvokeAsync (httpContext As HttpContext) As Task" />
+      <MemberSignature Language="F#" Value="member this.InvokeAsync : Microsoft.AspNetCore.Http.HttpContext -&gt; System.Threading.Tasks.Task" Usage="agentRunContextMiddleware.InvokeAsync httpContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="httpContext" Type="Microsoft.AspNetCore.Http.HttpContext" />
+      </Parameters>
+      <Docs>
+        <param name="httpContext">The HTTP context.</param>
+        <summary>
+            Invokes the middleware to create and set up agent run context.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

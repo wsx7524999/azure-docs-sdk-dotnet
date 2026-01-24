@@ -1,0 +1,119 @@
+<Type Name="MCPToolApprovalRequiredException" FullName="Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException">
+  <TypeSignature Language="C#" Value="public class MCPToolApprovalRequiredException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MCPToolApprovalRequiredException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException" />
+  <TypeSignature Language="VB.NET" Value="Public Class MCPToolApprovalRequiredException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type MCPToolApprovalRequiredException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Exception thrown when MCP tool approval is required before invocation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MCPToolApprovalRequiredException (string message, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? approvalArguments = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? payload = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; approvalArguments, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; payload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException.#ctor(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, Optional approvalArguments As IReadOnlyDictionary(Of String, Object) = Nothing, Optional payload As IReadOnlyDictionary(Of String, Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException : string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException" Usage="new Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException (message, approvalArguments, payload)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="approvalArguments" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="payload" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="message">The error message.</param>
+        <param name="approvalArguments">The approval arguments.</param>
+        <param name="payload">Additional error payload.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalArguments">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? ApprovalArguments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; ApprovalArguments" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException.ApprovalArguments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalArguments As IReadOnlyDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.ApprovalArguments : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException.ApprovalArguments" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the approval arguments containing information about the approval request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Payload">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? Payload { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; Payload" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException.Payload" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Payload As IReadOnlyDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.Payload : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Azure.AI.AgentServer.Core.Tools.Exceptions.MCPToolApprovalRequiredException.Payload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the payload containing additional error information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,64 @@
+<Type Name="FoundryToolSource" FullName="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource">
+  <TypeSignature Language="C#" Value="public enum FoundryToolSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FoundryToolSource extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FoundryToolSource" />
+  <TypeSignature Language="F#" Value="type FoundryToolSource = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Represents the source of a tool.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CONNECTED">
+      <MemberSignature Language="C#" Value="CONNECTED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource CONNECTED = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource.CONNECTED" />
+      <MemberSignature Language="VB.NET" Value="CONNECTED" />
+      <MemberSignature Language="F#" Value="CONNECTED = 1" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource.CONNECTED" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Tools from remote Azure AI Tools API.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HOSTED_MCP">
+      <MemberSignature Language="C#" Value="HOSTED_MCP" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource HOSTED_MCP = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource.HOSTED_MCP" />
+      <MemberSignature Language="VB.NET" Value="HOSTED_MCP" />
+      <MemberSignature Language="F#" Value="HOSTED_MCP = 0" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource.HOSTED_MCP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Tools from Model Context Protocol (MCP) servers.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

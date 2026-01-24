@@ -14,6 +14,10 @@
   <Interfaces />
   <Attributes>
     <Attribute>
+      <AttributeName Language="C#">[System.Obsolete("AgentInvocationContext is deprecated. Use AgentRunContext from Azure.AI.AgentServer.Responses.Invocation namespace instead. See MIGRATION_GUIDE.md for details.", false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("AgentInvocationContext is deprecated. Use AgentRunContext from Azure.AI.AgentServer.Responses.Invocation namespace instead. See MIGRATION_GUIDE.md for details.", false)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
@@ -25,7 +29,11 @@
     <summary>
             Provides context information for agent invocations including ID generation and conversation tracking.
             </summary>
-    <remarks>To be added.</remarks>
+    <remarks>
+            NOTE: This class is deprecated. Use <see cref="T:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" /> instead,
+            which provides richer context including request data, user information, and tool definitions.
+            See the MIGRATION_GUIDE.md for detailed migration instructions.
+            </remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -51,7 +59,11 @@
         <summary>
             Provides context information for agent invocations including ID generation and conversation tracking.
             </summary>
-        <remarks>To be added.</remarks>
+        <remarks>
+            NOTE: This class is deprecated. Use <see cref="T:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" /> instead,
+            which provides richer context including request data, user information, and tool definitions.
+            See the MIGRATION_GUIDE.md for detailed migration instructions.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationId">

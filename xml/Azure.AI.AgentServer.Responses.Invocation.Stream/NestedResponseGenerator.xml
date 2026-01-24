@@ -59,11 +59,11 @@
       </Docs>
     </Member>
     <Member MemberName="Context">
-      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext Context { get; init; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext Context" />
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Responses.Invocation.AgentRunContext Context { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Responses.Invocation.AgentRunContext Context" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator.Context" />
-      <MemberSignature Language="VB.NET" Value="Public Property Context As AgentInvocationContext" />
-      <MemberSignature Language="F#" Value="member this.Context : Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext with get, set" Usage="Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator.Context" />
+      <MemberSignature Language="VB.NET" Value="Public Property Context As AgentRunContext" />
+      <MemberSignature Language="F#" Value="member this.Context : Azure.AI.AgentServer.Responses.Invocation.AgentRunContext with get, set" Usage="Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator.Context" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
@@ -76,11 +76,11 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext</ReturnType>
+        <ReturnType>Azure.AI.AgentServer.Responses.Invocation.AgentRunContext</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or initializes the agent invocation context.
+            Gets or initializes the agent run context containing request and context information.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -99,8 +99,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.AsyncIteratorStateMachine(typeof(Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator+&lt;Generate&gt;d__20))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.AsyncIteratorStateMachine(typeof(Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator+&lt;Generate&gt;d__20))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.AsyncIteratorStateMachine(typeof(Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator+&lt;Generate&gt;d__16))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.AsyncIteratorStateMachine(typeof(Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator+&lt;Generate&gt;d__16))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -138,34 +138,6 @@
       <Docs>
         <summary>
             Gets or initializes the output generator for item resources.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Request">
-      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest Request { get; init; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest Request" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator.Request" />
-      <MemberSignature Language="VB.NET" Value="Public Property Request As CreateResponseRequest" />
-      <MemberSignature Language="F#" Value="member this.Request : Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest with get, set" Usage="Azure.AI.AgentServer.Responses.Invocation.Stream.NestedResponseGenerator.Request" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.RequiredMember]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.RequiredMember&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets or initializes the create response request.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

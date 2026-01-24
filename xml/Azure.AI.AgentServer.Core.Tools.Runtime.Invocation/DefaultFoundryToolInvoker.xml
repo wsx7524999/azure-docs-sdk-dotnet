@@ -1,0 +1,127 @@
+<Type Name="DefaultFoundryToolInvoker" FullName="Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker">
+  <TypeSignature Language="C#" Value="public class DefaultFoundryToolInvoker : Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DefaultFoundryToolInvoker extends System.Object implements class Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker" />
+  <TypeSignature Language="VB.NET" Value="Public Class DefaultFoundryToolInvoker&#xA;Implements IFoundryToolInvoker" />
+  <TypeSignature Language="F#" Value="type DefaultFoundryToolInvoker = class&#xA;    interface IFoundryToolInvoker" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Default implementation of <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker" /> that wraps a resolved tool
+            and provides invocation capability through the tool client.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DefaultFoundryToolInvoker (Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool resolvedTool, Azure.AI.AgentServer.Core.Tools.FoundryToolClient client);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool resolvedTool, class Azure.AI.AgentServer.Core.Tools.FoundryToolClient client) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker.#ctor(Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool,Azure.AI.AgentServer.Core.Tools.FoundryToolClient)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (resolvedTool As ResolvedFoundryTool, client As FoundryToolClient)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker : Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool * Azure.AI.AgentServer.Core.Tools.FoundryToolClient -&gt; Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker" Usage="new Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker (resolvedTool, client)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="resolvedTool" Type="Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool" />
+        <Parameter Name="client" Type="Azure.AI.AgentServer.Core.Tools.FoundryToolClient" />
+      </Parameters>
+      <Docs>
+        <param name="resolvedTool">The resolved tool to invoke.</param>
+        <param name="client">The Foundry tool client for executing tool invocations.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;object?&gt; InvokeAsync (System.Collections.Generic.IDictionary&lt;string,object?&gt;? arguments = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;object&gt; InvokeAsync(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; arguments, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker.InvokeAsync(System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InvokeAsync (Optional arguments As IDictionary(Of String, Object) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
+      <MemberSignature Language="F#" Value="abstract member InvokeAsync : System.Collections.Generic.IDictionary&lt;string, obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;&#xA;override this.InvokeAsync : System.Collections.Generic.IDictionary&lt;string, obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="defaultFoundryToolInvoker.InvokeAsync (arguments, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker.InvokeAsync(System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arguments" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="arguments">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Invokes the tool with the given arguments.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolvedTool">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool ResolvedTool { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool ResolvedTool" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker.ResolvedTool" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResolvedTool As ResolvedFoundryTool" />
+      <MemberSignature Language="F#" Value="member this.ResolvedTool : Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool" Usage="Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.DefaultFoundryToolInvoker.ResolvedTool" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker.ResolvedTool</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the resolved tool definition associated with this invoker.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

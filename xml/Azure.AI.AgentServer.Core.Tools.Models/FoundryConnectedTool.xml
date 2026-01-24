@@ -1,0 +1,477 @@
+<Type Name="FoundryConnectedTool" FullName="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool">
+  <TypeSignature Language="C#" Value="public sealed class FoundryConnectedTool : Azure.AI.AgentServer.Core.Tools.Models.FoundryTool, IEquatable&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FoundryConnectedTool extends Azure.AI.AgentServer.Core.Tools.Models.FoundryTool implements class System.IEquatable`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FoundryConnectedTool&#xA;Inherits FoundryTool&#xA;Implements IEquatable(Of FoundryConnectedTool)" />
+  <TypeSignature Language="F#" Value="type FoundryConnectedTool = class&#xA;    inherit FoundryTool&#xA;    interface IEquatable&lt;FoundryConnectedTool&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.AI.AgentServer.Core.Tools.Models.FoundryTool</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents a connected tool configuration definition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FoundryConnectedTool (Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol protocol, string projectConnectionId, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? additionalProperties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol protocol, string projectConnectionId, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.#ctor(Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (protocol As FoundryToolProtocol, projectConnectionId As String, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool : Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol * string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" Usage="new Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool (protocol, projectConnectionId, additionalProperties)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="protocol" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol" />
+        <Parameter Name="projectConnectionId" Type="System.String" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="protocol">The tool protocol.</param>
+        <param name="projectConnectionId">The project connection ID for the tool.</param>
+        <param name="additionalProperties">Optional additional properties for the tool configuration.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="&lt;Clone&gt;$">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool &lt;Clone&gt;$ ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool &lt;Clone&gt;$() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.&lt;Clone&gt;$" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function &lt;Clone&gt;$ () As FoundryConnectedTool" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.PreserveBaseOverrides]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.PreserveBaseOverrides&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="A2a">
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool A2a (string projectConnectionId, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? additionalProperties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool A2a(string projectConnectionId, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.A2a(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function A2a (projectConnectionId As String, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing) As FoundryConnectedTool" />
+      <MemberSignature Language="F#" Value="static member A2a : string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.A2a (projectConnectionId, additionalProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="projectConnectionId" Type="System.String" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="projectConnectionId">To be added.</param>
+        <param name="additionalProperties">To be added.</param>
+        <summary>
+            Creates an A2A connected tool definition.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EqualityContract">
+      <MemberSignature Language="C#" Value="protected override Type EqualityContract { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.EqualityContract" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property EqualityContract As Type" />
+      <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.EqualityContract" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool? other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Equals(Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As FoundryConnectedTool) As Boolean" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override sealed bool Equals (Azure.AI.AgentServer.Core.Tools.Models.FoundryTool? other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Equals(Azure.AI.AgentServer.Core.Tools.Models.FoundryTool)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides NotOverridable Function Equals (other As FoundryTool) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryTool" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public override string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the unique identifier for the tool.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mcp">
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool Mcp (string projectConnectionId, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? additionalProperties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool Mcp(string projectConnectionId, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Mcp(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Mcp (projectConnectionId As String, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing) As FoundryConnectedTool" />
+      <MemberSignature Language="F#" Value="static member Mcp : string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Mcp (projectConnectionId, additionalProperties)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="projectConnectionId" Type="System.String" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="projectConnectionId">To be added.</param>
+        <param name="additionalProperties">To be added.</param>
+        <summary>
+            Creates an MCP connected tool definition.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool? left, Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool left, class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.op_Equality(Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool,Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As FoundryConnectedTool, right As FoundryConnectedTool) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" />
+        <Parameter Name="right" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool? left, Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool? right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool left, class Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.op_Inequality(Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool,Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As FoundryConnectedTool, right As FoundryConnectedTool) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" />
+        <Parameter Name="right" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintMembers">
+      <MemberSignature Language="C#" Value="protected override bool PrintMembers (System.Text.StringBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool PrintMembers(class System.Text.StringBuilder builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.PrintMembers(System.Text.StringBuilder)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function PrintMembers (builder As StringBuilder) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="builder" Type="System.Text.StringBuilder" />
+      </Parameters>
+      <Docs>
+        <param name="builder">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProjectConnectionId">
+      <MemberSignature Language="C#" Value="public string ProjectConnectionId { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProjectConnectionId" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.ProjectConnectionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProjectConnectionId As String" />
+      <MemberSignature Language="F#" Value="member this.ProjectConnectionId : string with get, set" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.ProjectConnectionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or initializes the project connection ID for the tool.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Protocol">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol Protocol { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol Protocol" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public Property Protocol As FoundryToolProtocol" />
+      <MemberSignature Language="F#" Value="member this.Protocol : Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol with get, set" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Protocol" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or initializes the tool protocol.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public override Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource Source { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource Source" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Source As FoundryToolSource" />
+      <MemberSignature Language="F#" Value="member this.Source : Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Source" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryToolSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the source of the tool.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As String" />
+      <MemberSignature Language="F#" Value="member this.Type : string" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryConnectedTool.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the type string for API payloads (e.g., "mcp", "a2a").
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

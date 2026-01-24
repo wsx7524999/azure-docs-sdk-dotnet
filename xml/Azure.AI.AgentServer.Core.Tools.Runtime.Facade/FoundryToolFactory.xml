@@ -1,0 +1,132 @@
+<Type Name="FoundryToolFactory" FullName="Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory">
+  <TypeSignature Language="C#" Value="public static class FoundryToolFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FoundryToolFactory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory" />
+  <TypeSignature Language="VB.NET" Value="Public Class FoundryToolFactory" />
+  <TypeSignature Language="F#" Value="type FoundryToolFactory = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Factory for creating FoundryTool instances from various input types.
+            Supports discriminator-based dispatch for flexible tool definition formats.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Core.Tools.Models.FoundryTool Create (Azure.AI.AgentServer.Core.Tools.Models.FoundryTool tool);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool Create(class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool tool) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory.Create(Azure.AI.AgentServer.Core.Tools.Models.FoundryTool)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (tool As FoundryTool) As FoundryTool" />
+      <MemberSignature Language="F#" Value="static member Create : Azure.AI.AgentServer.Core.Tools.Models.FoundryTool -&gt; Azure.AI.AgentServer.Core.Tools.Models.FoundryTool" Usage="Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory.Create tool" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryTool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tool" Type="Azure.AI.AgentServer.Core.Tools.Models.FoundryTool" />
+      </Parameters>
+      <Docs>
+        <param name="tool">The FoundryTool instance.</param>
+        <summary>
+            Creates a FoundryTool from a FoundryTool instance (passthrough).
+            </summary>
+        <returns>The same FoundryTool instance.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when tool is null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Core.Tools.Models.FoundryTool Create (System.Collections.Generic.IDictionary&lt;string,object?&gt; facade);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool Create(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; facade) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory.Create(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (facade As IDictionary(Of String, Object)) As FoundryTool" />
+      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IDictionary&lt;string, obj&gt; -&gt; Azure.AI.AgentServer.Core.Tools.Models.FoundryTool" Usage="Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory.Create facade" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryTool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="facade" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="facade">
+            A dictionary containing tool definition with required "type" field.
+            The "type" field can be:
+            <list type="bullet"><item>A protocol name (e.g., "MCP", "A2A") - creates a FoundryConnectedTool (requires "project_connection_id")</item><item>A custom string - creates a FoundryHostedMcpTool with the string as the tool name</item></list></param>
+        <summary>
+            Creates a FoundryTool from a dictionary-based facade with a "type" discriminator field.
+            </summary>
+        <returns>
+            A strongly-typed FoundryTool instance:
+            <list type="bullet"><item>FoundryConnectedTool if type matches a known protocol</item><item>FoundryHostedMcpTool for custom tool names</item></list></returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when facade is null.</exception>
+        <exception cref="T:System.ArgumentException">
+            Thrown when:
+            <list type="bullet"><item>The facade is missing the required "type" field</item><item>The "type" field is not a string or is empty</item><item>A protocol type is used but "project_connection_id" is missing or empty</item></list></exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Core.Tools.Models.FoundryTool Create (object tool);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool Create(object tool) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory.Create(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (tool As Object) As FoundryTool" />
+      <MemberSignature Language="F#" Value="static member Create : obj -&gt; Azure.AI.AgentServer.Core.Tools.Models.FoundryTool" Usage="Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory.Create tool" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryTool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tool" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="tool">
+            The tool input, which can be:
+            <list type="bullet"><item>A FoundryTool instance (returned as-is)</item><item>A dictionary with a "type" discriminator field</item></list></param>
+        <summary>
+            Creates a FoundryTool from an object input.
+            Dispatches to the appropriate overload based on the runtime type.
+            </summary>
+        <returns>A strongly-typed FoundryTool instance.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when tool is null.</exception>
+        <exception cref="T:System.ArgumentException">
+            Thrown when the tool type is not supported or format is invalid.
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

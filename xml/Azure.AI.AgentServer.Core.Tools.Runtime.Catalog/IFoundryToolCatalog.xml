@@ -1,0 +1,96 @@
+<Type Name="IFoundryToolCatalog" FullName="Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog">
+  <TypeSignature Language="C#" Value="public interface IFoundryToolCatalog" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IFoundryToolCatalog" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFoundryToolCatalog" />
+  <TypeSignature Language="F#" Value="type IFoundryToolCatalog = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Provides access to the catalog of available Foundry tools.
+            Implementations may include caching to optimize repeated tool lookups.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool?&gt; GetAsync (object tool, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt; GetAsync(object tool, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog.GetAsync(System.Object,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (tool As Object, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ResolvedFoundryTool)" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : obj * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;" Usage="iFoundryToolCatalog.GetAsync (tool, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tool" Type="System.Object" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tool">
+            The tool definition. This can be a FoundryTool instance or a dictionary-based facade
+            that will be converted to a FoundryTool using <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.Facade.FoundryToolFactory" />.
+            </param>
+        <param name="cancellationToken">The cancellation token.</param>
+        <summary>
+            Gets a single resolved tool by its definition.
+            </summary>
+        <returns>
+            A task representing the asynchronous operation.
+            The task result contains the resolved tool, or null if the tool could not be resolved.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt; ListAsync (System.Collections.Generic.IEnumerable&lt;object&gt; tools, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt; ListAsync(class System.Collections.Generic.IEnumerable`1&lt;object&gt; tools, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog.ListAsync(System.Collections.Generic.IEnumerable{System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListAsync (tools As IEnumerable(Of Object), Optional cancellationToken As CancellationToken = Nothing) As Task(Of IReadOnlyList(Of ResolvedFoundryTool))" />
+      <MemberSignature Language="F#" Value="abstract member ListAsync : seq&lt;obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt;" Usage="iFoundryToolCatalog.ListAsync (tools, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tools" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tools">
+            The collection of tool definitions. Each can be a FoundryTool instance or a dictionary-based facade.
+            </param>
+        <param name="cancellationToken">The cancellation token.</param>
+        <summary>
+            Lists multiple resolved tools by their definitions.
+            Implementations should batch requests and use caching for efficiency.
+            </summary>
+        <returns>
+            A task representing the asynchronous operation.
+            The task result contains the list of successfully resolved tools.
+            Tools that could not be resolved are omitted from the result.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

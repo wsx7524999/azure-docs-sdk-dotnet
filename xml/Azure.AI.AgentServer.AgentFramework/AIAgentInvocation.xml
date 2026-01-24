@@ -49,11 +49,11 @@
       </Docs>
     </Member>
     <Member MemberName="DoInvokeStreamAsync">
-      <MemberSignature Language="C#" Value="protected override Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; DoInvokeStreamAsync (Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext context, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator`1&lt;class Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; DoInvokeStreamAsync(class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, class Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext context, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.DoInvokeStreamAsync(Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function DoInvokeStreamAsync (request As CreateResponseRequest, context As AgentInvocationContext, cancellationToken As CancellationToken) As INestedStreamEventGenerator(Of Response)" />
-      <MemberSignature Language="F#" Value="override this.DoInvokeStreamAsync : Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest * Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext * System.Threading.CancellationToken -&gt; Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt;" Usage="aIAgentInvocation.DoInvokeStreamAsync (request, context, cancellationToken)" />
+      <MemberSignature Language="C#" Value="protected override Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; DoInvokeStreamAsync (Azure.AI.AgentServer.Responses.Invocation.AgentRunContext context, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator`1&lt;class Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; DoInvokeStreamAsync(class Azure.AI.AgentServer.Responses.Invocation.AgentRunContext context, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.DoInvokeStreamAsync(Azure.AI.AgentServer.Responses.Invocation.AgentRunContext,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function DoInvokeStreamAsync (context As AgentRunContext, cancellationToken As CancellationToken) As INestedStreamEventGenerator(Of Response)" />
+      <MemberSignature Language="F#" Value="override this.DoInvokeStreamAsync : Azure.AI.AgentServer.Responses.Invocation.AgentRunContext * System.Threading.CancellationToken -&gt; Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt;" Usage="aIAgentInvocation.DoInvokeStreamAsync (context, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.AgentFramework</AssemblyName>
@@ -63,13 +63,11 @@
         <ReturnType>Azure.AI.AgentServer.Responses.Invocation.Stream.INestedStreamEventGenerator&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="request" Type="Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest" />
-        <Parameter Name="context" Type="Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext" />
+        <Parameter Name="context" Type="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="request">The create response request.</param>
-        <param name="context">The agent invocation context.</param>
+        <param name="context">The agent run context.</param>
         <param name="cancellationToken">Cancellation token.</param>
         <summary>
             Executes the agent invocation with streaming support.
@@ -79,11 +77,11 @@
       </Docs>
     </Member>
     <Member MemberName="InvokeAsync">
-      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; InvokeAsync (Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext context, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; InvokeAsync(class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, class Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext context, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.InvokeAsync(Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function InvokeAsync (request As CreateResponseRequest, context As AgentInvocationContext, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="override this.InvokeAsync : Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest * Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt;" Usage="aIAgentInvocation.InvokeAsync (request, context, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; InvokeAsync (Azure.AI.AgentServer.Responses.Invocation.AgentRunContext context, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt; InvokeAsync(class Azure.AI.AgentServer.Responses.Invocation.AgentRunContext context, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.InvokeAsync(Azure.AI.AgentServer.Responses.Invocation.AgentRunContext,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function InvokeAsync (context As AgentRunContext, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="override this.InvokeAsync : Azure.AI.AgentServer.Responses.Invocation.AgentRunContext * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt;" Usage="aIAgentInvocation.InvokeAsync (context, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.AgentFramework</AssemblyName>
@@ -93,13 +91,11 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Contracts.Generated.Responses.Response&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="request" Type="Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest" />
-        <Parameter Name="context" Type="Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext" />
+        <Parameter Name="context" Type="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="request">The create response request.</param>
-        <param name="context">The agent invocation context.</param>
+        <param name="context">The agent run context.</param>
         <param name="cancellationToken">Cancellation token.</param>
         <summary>
             Invokes the agent asynchronously and returns a complete response.

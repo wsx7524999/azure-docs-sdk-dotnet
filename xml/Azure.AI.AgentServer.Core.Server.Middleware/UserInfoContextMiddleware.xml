@@ -1,0 +1,90 @@
+<Type Name="UserInfoContextMiddleware" FullName="Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware">
+  <TypeSignature Language="C#" Value="public class UserInfoContextMiddleware" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserInfoContextMiddleware extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserInfoContextMiddleware" />
+  <TypeSignature Language="F#" Value="type UserInfoContextMiddleware = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Middleware that resolves user information from HTTP headers and stores it in AsyncLocal storage.
+            This makes user context available throughout the async request flow.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserInfoContextMiddleware (Microsoft.AspNetCore.Http.RequestDelegate next, Func&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo?&gt;&gt;? userResolver = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.AspNetCore.Http.RequestDelegate next, class System.Func`2&lt;class Microsoft.AspNetCore.Http.HttpContext, class System.Threading.Tasks.Task`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt;&gt; userResolver) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Func{Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task{Azure.AI.AgentServer.Core.Tools.Models.UserInfo}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (next As RequestDelegate, Optional userResolver As Func(Of HttpContext, Task(Of UserInfo)) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware : Microsoft.AspNetCore.Http.RequestDelegate * Func&lt;Microsoft.AspNetCore.Http.HttpContext, System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt;&gt; -&gt; Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware" Usage="new Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware (next, userResolver)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="next" Type="Microsoft.AspNetCore.Http.RequestDelegate" />
+        <Parameter Name="userResolver" Type="System.Func&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt;&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="next">The next middleware in the pipeline.</param>
+        <param name="userResolver">
+            Optional custom user resolver function. If not provided, uses the default header-based resolver
+            that extracts user info from x-aml-oid and x-aml-tid headers.
+            </param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task InvokeAsync (Microsoft.AspNetCore.Http.HttpContext httpContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task InvokeAsync(class Microsoft.AspNetCore.Http.HttpContext httpContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Server.Middleware.UserInfoContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InvokeAsync (httpContext As HttpContext) As Task" />
+      <MemberSignature Language="F#" Value="member this.InvokeAsync : Microsoft.AspNetCore.Http.HttpContext -&gt; System.Threading.Tasks.Task" Usage="userInfoContextMiddleware.InvokeAsync httpContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="httpContext" Type="Microsoft.AspNetCore.Http.HttpContext" />
+      </Parameters>
+      <Docs>
+        <param name="httpContext">The HTTP context.</param>
+        <summary>
+            Invokes the middleware to resolve and set user context.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

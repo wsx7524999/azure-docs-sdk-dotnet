@@ -1,0 +1,58 @@
+<Type Name="AgentRunContextMiddlewareExtensions" FullName="Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddlewareExtensions">
+  <TypeSignature Language="C#" Value="public static class AgentRunContextMiddlewareExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AgentRunContextMiddlewareExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddlewareExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AgentRunContextMiddlewareExtensions" />
+  <TypeSignature Language="F#" Value="type AgentRunContextMiddlewareExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for registering agent run context middleware.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseAgentRunContext">
+      <MemberSignature Language="C#" Value="public static Microsoft.AspNetCore.Builder.IApplicationBuilder UseAgentRunContext (this Microsoft.AspNetCore.Builder.IApplicationBuilder app, System.Collections.Generic.IEnumerable&lt;object&gt;? agentTools = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.AspNetCore.Builder.IApplicationBuilder UseAgentRunContext(class Microsoft.AspNetCore.Builder.IApplicationBuilder app, class System.Collections.Generic.IEnumerable`1&lt;object&gt; agentTools) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddlewareExtensions.UseAgentRunContext(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Collections.Generic.IEnumerable{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseAgentRunContext (app As IApplicationBuilder, Optional agentTools As IEnumerable(Of Object) = Nothing) As IApplicationBuilder" />
+      <MemberSignature Language="F#" Value="static member UseAgentRunContext : Microsoft.AspNetCore.Builder.IApplicationBuilder * seq&lt;obj&gt; -&gt; Microsoft.AspNetCore.Builder.IApplicationBuilder" Usage="Azure.AI.AgentServer.Core.Server.Middleware.AgentRunContextMiddlewareExtensions.UseAgentRunContext (app, agentTools)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.AspNetCore.Builder.IApplicationBuilder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="app" Type="Microsoft.AspNetCore.Builder.IApplicationBuilder" RefType="this" />
+        <Parameter Name="agentTools" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="app">The application builder.</param>
+        <param name="agentTools">Optional collection of agent tools to include in the context.</param>
+        <summary>
+            Adds the agent run context middleware to the application pipeline.
+            </summary>
+        <returns>The application builder for chaining.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

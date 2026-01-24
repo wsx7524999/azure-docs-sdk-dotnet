@@ -1,0 +1,167 @@
+<Type Name="FoundryToolClientOptions" FullName="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions">
+  <TypeSignature Language="C#" Value="public class FoundryToolClientOptions : Azure.Core.ClientOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FoundryToolClientOptions extends Azure.Core.ClientOptions" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class FoundryToolClientOptions&#xA;Inherits ClientOptions" />
+  <TypeSignature Language="F#" Value="type FoundryToolClientOptions = class&#xA;    inherit ClientOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Core.ClientOptions</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Options for configuring the Azure AI Tool Client.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FoundryToolClientOptions (Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ServiceVersion version = Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions+ServiceVersion.V1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions/ServiceVersion version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.#ctor(Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ServiceVersion)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As FoundryToolClientOptions.ServiceVersion = Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions+ServiceVersion.V1)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions : Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ServiceVersion -&gt; Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions" Usage="new Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions version" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="version" Type="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions+ServiceVersion" />
+      </Parameters>
+      <Docs>
+        <param name="version">To be added.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AgentName">
+      <MemberSignature Language="C#" Value="public string AgentName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AgentName" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.AgentName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AgentName As String" />
+      <MemberSignature Language="F#" Value="member this.AgentName : string with get, set" Usage="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.AgentName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the agent. Defaults to "$default".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ApiVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApiVersion As String" />
+      <MemberSignature Language="F#" Value="member this.ApiVersion : string with get, set" Usage="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the API version to use. Defaults to "2025-05-15-preview".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CredentialScopes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; CredentialScopes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; CredentialScopes" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.CredentialScopes" />
+      <MemberSignature Language="VB.NET" Value="Public Property CredentialScopes As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.CredentialScopes : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.CredentialScopes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the credential scopes for authentication.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tools">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt; Tools { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt; Tools" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.Tools" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tools As IList(Of FoundryTool)" />
+      <MemberSignature Language="F#" Value="member this.Tools : System.Collections.Generic.IList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt; with get, set" Usage="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.Tools" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the list of tool definitions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Models.UserInfo? User { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Tools.Models.UserInfo User" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.User" />
+      <MemberSignature Language="VB.NET" Value="Public Property User As UserInfo" />
+      <MemberSignature Language="F#" Value="member this.User : Azure.AI.AgentServer.Core.Tools.Models.UserInfo with get, set" Usage="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.User" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.UserInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the user information for tool invocations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

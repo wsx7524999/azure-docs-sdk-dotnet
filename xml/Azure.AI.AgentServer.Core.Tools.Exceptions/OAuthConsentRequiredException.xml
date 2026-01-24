@@ -1,0 +1,119 @@
+<Type Name="OAuthConsentRequiredException" FullName="Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException">
+  <TypeSignature Language="C#" Value="public class OAuthConsentRequiredException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OAuthConsentRequiredException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException" />
+  <TypeSignature Language="VB.NET" Value="Public Class OAuthConsentRequiredException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type OAuthConsentRequiredException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Exception thrown when OAuth consent is required for a tool operation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OAuthConsentRequiredException (string message, string? consentUrl = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? payload = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, string consentUrl, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; payload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException.#ctor(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, Optional consentUrl As String = Nothing, Optional payload As IReadOnlyDictionary(Of String, Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException : string * string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException" Usage="new Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException (message, consentUrl, payload)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="consentUrl" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="payload" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="message">The error message.</param>
+        <param name="consentUrl">The consent URL.</param>
+        <param name="payload">Additional error payload.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsentUrl">
+      <MemberSignature Language="C#" Value="public string? ConsentUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConsentUrl" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException.ConsentUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConsentUrl As String" />
+      <MemberSignature Language="F#" Value="member this.ConsentUrl : string" Usage="Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException.ConsentUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the consent URL where the user can grant consent.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Payload">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? Payload { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; Payload" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException.Payload" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Payload As IReadOnlyDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.Payload : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Azure.AI.AgentServer.Core.Tools.Exceptions.OAuthConsentRequiredException.Payload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the payload containing additional error information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

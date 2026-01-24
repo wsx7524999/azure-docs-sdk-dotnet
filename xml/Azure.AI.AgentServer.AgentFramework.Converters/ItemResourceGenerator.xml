@@ -88,11 +88,11 @@
       </Docs>
     </Member>
     <Member MemberName="Context">
-      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext Context { get; init; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext Context" />
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Responses.Invocation.AgentRunContext Context { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Responses.Invocation.AgentRunContext Context" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.Context" />
-      <MemberSignature Language="VB.NET" Value="Public Property Context As AgentInvocationContext" />
-      <MemberSignature Language="F#" Value="member this.Context : Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext with get, set" Usage="Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.Context" />
+      <MemberSignature Language="VB.NET" Value="Public Property Context As AgentRunContext" />
+      <MemberSignature Language="F#" Value="member this.Context : Azure.AI.AgentServer.Responses.Invocation.AgentRunContext with get, set" Usage="Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.Context" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.AgentFramework</AssemblyName>
@@ -105,11 +105,11 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext</ReturnType>
+        <ReturnType>Azure.AI.AgentServer.Responses.Invocation.AgentRunContext</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or initializes the agent invocation context.
+            Gets or initializes the agent run context.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -1,0 +1,88 @@
+<Type Name="IFoundryToolInvoker" FullName="Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker">
+  <TypeSignature Language="C#" Value="public interface IFoundryToolInvoker" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IFoundryToolInvoker" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFoundryToolInvoker" />
+  <TypeSignature Language="F#" Value="type IFoundryToolInvoker = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Provides invocation capability for a resolved tool.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InvokeAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;object?&gt; InvokeAsync (System.Collections.Generic.IDictionary&lt;string,object?&gt;? arguments = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;object&gt; InvokeAsync(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; arguments, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker.InvokeAsync(System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InvokeAsync (Optional arguments As IDictionary(Of String, Object) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
+      <MemberSignature Language="F#" Value="abstract member InvokeAsync : System.Collections.Generic.IDictionary&lt;string, obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="iFoundryToolInvoker.InvokeAsync (arguments, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arguments" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="arguments">
+            The arguments to pass to the tool invocation, or null for no arguments.
+            </param>
+        <param name="cancellationToken">The cancellation token.</param>
+        <summary>
+            Invokes the tool with the given arguments.
+            </summary>
+        <returns>
+            A task representing the asynchronous operation.
+            The task result contains the tool invocation result.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolvedTool">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool ResolvedTool { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool ResolvedTool" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker.ResolvedTool" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResolvedTool As ResolvedFoundryTool" />
+      <MemberSignature Language="F#" Value="member this.ResolvedTool : Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool" Usage="Azure.AI.AgentServer.Core.Tools.Runtime.Invocation.IFoundryToolInvoker.ResolvedTool" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the resolved tool definition associated with this invoker.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

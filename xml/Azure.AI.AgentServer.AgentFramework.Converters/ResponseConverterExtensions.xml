@@ -168,11 +168,11 @@
       </Docs>
     </Member>
     <Member MemberName="ToResponse">
-      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Contracts.Generated.Responses.Response ToResponse (this Microsoft.Agents.AI.AgentRunResponse agentRunResponse, Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Contracts.Generated.Responses.Response ToResponse(class Microsoft.Agents.AI.AgentRunResponse agentRunResponse, class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, class Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext context) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponse(Microsoft.Agents.AI.AgentRunResponse,Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToResponse (agentRunResponse As AgentRunResponse, request As CreateResponseRequest, context As AgentInvocationContext) As Response" />
-      <MemberSignature Language="F#" Value="static member ToResponse : Microsoft.Agents.AI.AgentRunResponse * Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest * Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext -&gt; Azure.AI.AgentServer.Contracts.Generated.Responses.Response" Usage="Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponse (agentRunResponse, request, context)" />
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Contracts.Generated.Responses.Response ToResponse (this Microsoft.Agents.AI.AgentRunResponse agentRunResponse, Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, Azure.AI.AgentServer.Responses.Invocation.AgentRunContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.AgentServer.Contracts.Generated.Responses.Response ToResponse(class Microsoft.Agents.AI.AgentRunResponse agentRunResponse, class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, class Azure.AI.AgentServer.Responses.Invocation.AgentRunContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponse(Microsoft.Agents.AI.AgentRunResponse,Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentRunContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToResponse (agentRunResponse As AgentRunResponse, request As CreateResponseRequest, context As AgentRunContext) As Response" />
+      <MemberSignature Language="F#" Value="static member ToResponse : Microsoft.Agents.AI.AgentRunResponse * Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest * Azure.AI.AgentServer.Responses.Invocation.AgentRunContext -&gt; Azure.AI.AgentServer.Contracts.Generated.Responses.Response" Usage="Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponse (agentRunResponse, request, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.AgentFramework</AssemblyName>
@@ -184,12 +184,12 @@
       <Parameters>
         <Parameter Name="agentRunResponse" Type="Microsoft.Agents.AI.AgentRunResponse" RefType="this" />
         <Parameter Name="request" Type="Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest" />
-        <Parameter Name="context" Type="Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext" />
+        <Parameter Name="context" Type="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" />
       </Parameters>
       <Docs>
         <param name="agentRunResponse">The agent run response to convert.</param>
         <param name="request">The create response request.</param>
-        <param name="context">The agent invocation context.</param>
+        <param name="context">The agent run context.</param>
         <summary>
             Converts an agent run response to a response contract object.
             </summary>

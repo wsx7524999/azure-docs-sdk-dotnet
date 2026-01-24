@@ -1,113 +1,127 @@
 {
   "Assembly": "Azure.AI.AgentServer.AgentFramework",
-  "GUID": "289CBEDA68264715891E0B54165D17B2FFFFFFFF",
+  "GUID": "C00DB1ACF9474B4291EE86A4B46B6B95FFFFFFFF",
   "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
   "Types": [
     {
       "Members": [
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.#ctor(Microsoft.Agents.AI.AIAgent)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs#L19C14-L19C46"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs#L18C14-L18C46"
         },
         {
-          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.InvokeAsync(Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs"
+          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.InvokeAsync(Azure.AI.AgentServer.Responses.Invocation.AgentRunContext,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs"
         },
         {
-          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.DoInvokeStreamAsync(Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext,System.Threading.CancellationToken)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs#L51C9-L80C11"
+          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation.DoInvokeStreamAsync(Azure.AI.AgentServer.Responses.Invocation.AgentRunContext,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs#L48C9-L77C11"
         }
       ],
       "DocsId": "T:Azure.AI.AgentServer.AgentFramework.AIAgentInvocation",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/AIAgentInvocation.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Extensions.AIAgentExtensions.RunAIAgentAsync(Microsoft.Agents.AI.AIAgent,System.IServiceProvider,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs#L27C9-L30C56"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs#L27C9-L30C56"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Extensions.AIAgentExtensions.RunAIAgentAsync(Microsoft.Agents.AI.AIAgent,Microsoft.Extensions.Logging.ILoggerFactory,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs#L43C9-L46C56"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs#L43C9-L46C56"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Extensions.AIAgentExtensions.RunAIAgentAsync(System.IServiceProvider,Microsoft.Agents.AI.AIAgent,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs#L59C9-L72C56"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs#L59C9-L72C56"
         }
       ],
       "DocsId": "T:Azure.AI.AgentServer.AgentFramework.Extensions.AIAgentExtensions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/AIAgentExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Extensions.ChatClientBuilderExtensions.UseFoundryTools(Microsoft.Extensions.AI.ChatClientBuilder,Azure.AI.AgentServer.Core.Tools.Models.FoundryTool[])",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/ChatClientBuilderExtensions.cs#L27C9-L30C63"
+        },
+        {
+          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Extensions.ChatClientBuilderExtensions.UseFoundryTools(Microsoft.Extensions.AI.ChatClientBuilder,System.Object[])",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/ChatClientBuilderExtensions.cs#L47C9-L51C60"
+        }
+      ],
+      "DocsId": "T:Azure.AI.AgentServer.AgentFramework.Extensions.ChatClientBuilderExtensions",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Extensions/ChatClientBuilderExtensions.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.Changed(Microsoft.Agents.AI.AgentRunResponseUpdate,Microsoft.Agents.AI.AgentRunResponseUpdate)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L42C9-L42C56"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L42C9-L42C56"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.CreateGroup(System.Collections.Generic.IAsyncEnumerable{Microsoft.Agents.AI.AgentRunResponseUpdate})",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L69C9-L74C11"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L69C9-L74C11"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.#ctor",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs"
         },
         {
           "DocsId": "P:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.Context",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L27C54-L27C58"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L27C47-L27C51"
         },
         {
           "DocsId": "P:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator.NotifyOnUsageUpdate",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L32C57-L32C61"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs#L32C57-L32C61"
         }
       ],
       "DocsId": "T:Azure.AI.AgentServer.AgentFramework.Converters.ItemResourceGenerator",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ItemResourceGenerator.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.RequestConverterExtensions.GetInputMessages(Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/RequestConverterExtensions.cs#L29C9-L78C61"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/RequestConverterExtensions.cs#L29C9-L78C61"
         }
       ],
       "DocsId": "T:Azure.AI.AgentServer.AgentFramework.Converters.RequestConverterExtensions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/RequestConverterExtensions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/RequestConverterExtensions.cs"
     },
     {
       "Members": [
         {
-          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponse(Microsoft.Agents.AI.AgentRunResponse,Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentInvocationContext)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L36C9-L44C11"
+          "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponse(Microsoft.Agents.AI.AgentRunResponse,Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,Azure.AI.AgentServer.Responses.Invocation.AgentRunContext)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L36C9-L44C11"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToItemResource(Microsoft.Extensions.AI.ChatMessage,Azure.AI.AgentServer.Core.Common.Id.IIdGenerator,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToFunctionToolCallItemResource(Microsoft.Extensions.AI.FunctionCallContent,System.String,Azure.AI.AgentServer.Contracts.Generated.OpenAI.CreatedBy)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L127C9-L136C11"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L127C9-L136C11"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToFunctionToolCallOutputItemResource(Microsoft.Extensions.AI.FunctionResultContent,System.String,Azure.AI.AgentServer.Contracts.Generated.OpenAI.CreatedBy)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L151C9-L162C11"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L151C9-L162C11"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponseUsage(Microsoft.Extensions.AI.UsageDetails)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L172C9-L194C11"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L172C9-L194C11"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToItemContent(Microsoft.Extensions.AI.AIContent)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L207C17-L211C29"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L207C17-L211C29"
         },
         {
           "DocsId": "M:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions.ToResponseError(Microsoft.Extensions.AI.ErrorContent)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L222C9-L231C22"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs#L222C9-L231C22"
         }
       ],
       "DocsId": "T:Azure.AI.AgentServer.AgentFramework.Converters.ResponseConverterExtensions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/e1ec0fc1cb36af8f023ebff18f41bd3c90b7398c/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/b79bcd421a4b7255ffa4e174093fe18c53fe06d6/sdk/agentserver/Azure.AI.AgentServer.AgentFramework/src/Converters/ResponseConverterExtensions.cs"
     }
   ]
 }

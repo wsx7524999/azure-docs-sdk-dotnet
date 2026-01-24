@@ -1,0 +1,43 @@
+<Type Name="FoundryToolClientOptions+ServiceVersion" FullName="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions+ServiceVersion">
+  <TypeSignature Language="C#" Value="public enum FoundryToolClientOptions.ServiceVersion" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed FoundryToolClientOptions/ServiceVersion extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ServiceVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FoundryToolClientOptions.ServiceVersion" />
+  <TypeSignature Language="F#" Value="type FoundryToolClientOptions.ServiceVersion = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Service version.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="V1">
+      <MemberSignature Language="C#" Value="V1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions/ServiceVersion V1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ServiceVersion.V1" />
+      <MemberSignature Language="VB.NET" Value="V1" />
+      <MemberSignature Language="F#" Value="V1 = 1" Usage="Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions.ServiceVersion.V1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.FoundryToolClientOptions+ServiceVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Default version.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

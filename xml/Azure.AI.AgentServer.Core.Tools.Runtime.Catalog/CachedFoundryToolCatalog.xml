@@ -1,0 +1,282 @@
+<Type Name="CachedFoundryToolCatalog" FullName="Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog">
+  <TypeSignature Language="C#" Value="public abstract class CachedFoundryToolCatalog : Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CachedFoundryToolCatalog extends System.Object implements class Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CachedFoundryToolCatalog&#xA;Implements IDisposable, IFoundryToolCatalog" />
+  <TypeSignature Language="F#" Value="type CachedFoundryToolCatalog = class&#xA;    interface IFoundryToolCatalog&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Base implementation of <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog" /> with TTL-based caching.
+            Provides concurrency-safe tool metadata caching to optimize repeated tool lookups.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CachedFoundryToolCatalog (TimeSpan? cacheTtl = default, long maxCacheEntries = 1024);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; cacheTtl, int64 maxCacheEntries) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.#ctor(System.Nullable{System.TimeSpan},System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (Optional cacheTtl As Nullable(Of TimeSpan) = Nothing, Optional maxCacheEntries As Long = 1024)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog : Nullable&lt;TimeSpan&gt; * int64 -&gt; Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog" Usage="new Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog (cacheTtl, maxCacheEntries)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="cacheTtl" Type="System.Nullable&lt;System.TimeSpan&gt;" />
+        <Parameter Name="maxCacheEntries" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="cacheTtl">
+            The time-to-live for cached tool metadata. Defaults to 10 minutes (600 seconds).
+            </param>
+        <param name="maxCacheEntries">
+            The maximum number of entries to cache. Defaults to 1024.
+            </param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearCache">
+      <MemberSignature Language="C#" Value="public void ClearCache ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearCache() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.ClearCache" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearCache ()" />
+      <MemberSignature Language="F#" Value="member this.ClearCache : unit -&gt; unit" Usage="cachedFoundryToolCatalog.ClearCache " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Clears all cached tool metadata.
+            Useful for testing or manual cache invalidation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="cachedFoundryToolCatalog.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Disposes the catalog and releases resources.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="cachedFoundryToolCatalog.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>
+            Disposes the catalog and releases resources.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FetchToolsAsync">
+      <MemberSignature Language="C#" Value="protected abstract System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyDictionary&lt;string,System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryToolDetails&gt;&gt;&gt; FetchToolsAsync (System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt; tools, Azure.AI.AgentServer.Core.Tools.Models.UserInfo? userInfo, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.FoundryToolDetails&gt;&gt;&gt; FetchToolsAsync(class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt; tools, class Azure.AI.AgentServer.Core.Tools.Models.UserInfo userInfo, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.FetchToolsAsync(System.Collections.Generic.IReadOnlyList{Azure.AI.AgentServer.Core.Tools.Models.FoundryTool},Azure.AI.AgentServer.Core.Tools.Models.UserInfo,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function FetchToolsAsync (tools As IReadOnlyList(Of FoundryTool), userInfo As UserInfo, cancellationToken As CancellationToken) As Task(Of IReadOnlyDictionary(Of String, IReadOnlyList(Of FoundryToolDetails)))" />
+      <MemberSignature Language="F#" Value="abstract member FetchToolsAsync : System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt; * Azure.AI.AgentServer.Core.Tools.Models.UserInfo * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyDictionary&lt;string, System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryToolDetails&gt;&gt;&gt;" Usage="cachedFoundryToolCatalog.FetchToolsAsync (tools, userInfo, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryToolDetails&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tools" Type="System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.FoundryTool&gt;" />
+        <Parameter Name="userInfo" Type="Azure.AI.AgentServer.Core.Tools.Models.UserInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tools">The tools to fetch.</param>
+        <param name="userInfo">The user context for fetching tools (used for connected tools).</param>
+        <param name="cancellationToken">The cancellation token.</param>
+        <summary>
+            Fetches tool details from the underlying source.
+            Derived classes must implement this method to provide the actual tool data.
+            </summary>
+        <returns>
+            A dictionary mapping each tool Id to its resolved details.
+            Tools that could not be resolved should be omitted.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool?&gt; GetAsync (object tool, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt; GetAsync(object tool, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.GetAsync(System.Object,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (tool As Object, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ResolvedFoundryTool)" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : obj * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&#xA;override this.GetAsync : obj * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;" Usage="cachedFoundryToolCatalog.GetAsync (tool, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog.GetAsync(System.Object,System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tool" Type="System.Object" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tool">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Gets a single resolved tool by its definition.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserContextAsync">
+      <MemberSignature Language="C#" Value="protected virtual System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo?&gt; GetUserContextAsync (System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt; GetUserContextAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.GetUserContextAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetUserContextAsync (cancellationToken As CancellationToken) As Task(Of UserInfo)" />
+      <MemberSignature Language="F#" Value="abstract member GetUserContextAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt;&#xA;override this.GetUserContextAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt;" Usage="cachedFoundryToolCatalog.GetUserContextAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.AgentServer.Core.Tools.Models.UserInfo&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Gets the user context for the current request.
+            Derived classes may override this to provide custom user resolution.
+            Default implementation returns null.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt; ListAsync (System.Collections.Generic.IEnumerable&lt;object&gt; tools, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt; ListAsync(class System.Collections.Generic.IEnumerable`1&lt;object&gt; tools, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.CachedFoundryToolCatalog.ListAsync(System.Collections.Generic.IEnumerable{System.Object},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListAsync (tools As IEnumerable(Of Object), Optional cancellationToken As CancellationToken = Nothing) As Task(Of IReadOnlyList(Of ResolvedFoundryTool))" />
+      <MemberSignature Language="F#" Value="abstract member ListAsync : seq&lt;obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt;&#xA;override this.ListAsync : seq&lt;obj&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt;" Usage="cachedFoundryToolCatalog.ListAsync (tools, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Azure.AI.AgentServer.Core.Tools.Runtime.Catalog.IFoundryToolCatalog.ListAsync(System.Collections.Generic.IEnumerable{System.Object},System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.AgentServer.Core.Tools.Models.ResolvedFoundryTool&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tools" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tools">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Lists multiple resolved tools by their definitions.
+            Uses Task-based deduplication to prevent concurrent fetches of the same tool.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

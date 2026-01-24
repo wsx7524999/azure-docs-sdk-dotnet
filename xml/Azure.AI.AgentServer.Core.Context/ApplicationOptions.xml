@@ -26,6 +26,18 @@
     <param name="ConfigureServices">Action to configure application services.</param>
     <param name="LoggerFactory">Optional factory for creating loggers.</param>
     <param name="TelemetrySourceName">The name of the telemetry source. Defaults to "Agents".</param>
+    <param name="ToolRuntime">
+            Optional tool runtime for accessing and invoking tools. If not provided, the application
+            will check if IFoundryToolRuntime is registered in the service collection.
+            </param>
+    <param name="UserProvider">
+            Optional user provider for resolving user context. If not provided, defaults to
+            <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.User.AsyncLocalUserProvider" /> which reads from AsyncLocal storage set by middleware.
+            </param>
+    <param name="AgentTools">
+            Optional collection of agent tool definitions to include in agent run contexts.
+            Tools can be FoundryTool instances or dictionary-based facades.
+            </param>
     <summary>
             Configuration options for the agent server application.
             </summary>
@@ -52,11 +64,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ApplicationOptions (Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices, Func&lt;Microsoft.Extensions.Logging.ILoggerFactory&gt;? LoggerFactory = default, string TelemetrySourceName = &quot;Agents&quot;);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;class Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices, class System.Func`1&lt;class Microsoft.Extensions.Logging.ILoggerFactory&gt; LoggerFactory, string TelemetrySourceName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Context.ApplicationOptions.#ctor(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection},System.Func{Microsoft.Extensions.Logging.ILoggerFactory},System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (ConfigureServices As Action(Of IServiceCollection), Optional LoggerFactory As Func(Of ILoggerFactory) = Nothing, Optional TelemetrySourceName As String = &quot;Agents&quot;)" />
-      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Context.ApplicationOptions : Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; * Func&lt;Microsoft.Extensions.Logging.ILoggerFactory&gt; * string -&gt; Azure.AI.AgentServer.Core.Context.ApplicationOptions" Usage="new Azure.AI.AgentServer.Core.Context.ApplicationOptions (ConfigureServices, LoggerFactory, TelemetrySourceName)" />
+      <MemberSignature Language="C#" Value="public ApplicationOptions (Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices, Func&lt;Microsoft.Extensions.Logging.ILoggerFactory&gt;? LoggerFactory = default, string TelemetrySourceName = &quot;Agents&quot;, Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime? ToolRuntime = default, Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider? UserProvider = default, System.Collections.Generic.IEnumerable&lt;object&gt;? AgentTools = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;class Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices, class System.Func`1&lt;class Microsoft.Extensions.Logging.ILoggerFactory&gt; LoggerFactory, string TelemetrySourceName, class Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime ToolRuntime, class Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider UserProvider, class System.Collections.Generic.IEnumerable`1&lt;object&gt; AgentTools) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Context.ApplicationOptions.#ctor(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection},System.Func{Microsoft.Extensions.Logging.ILoggerFactory},System.String,Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime,Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider,System.Collections.Generic.IEnumerable{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ConfigureServices As Action(Of IServiceCollection), Optional LoggerFactory As Func(Of ILoggerFactory) = Nothing, Optional TelemetrySourceName As String = &quot;Agents&quot;, Optional ToolRuntime As IFoundryToolRuntime = Nothing, Optional UserProvider As IUserProvider = Nothing, Optional AgentTools As IEnumerable(Of Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Core.Context.ApplicationOptions : Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; * Func&lt;Microsoft.Extensions.Logging.ILoggerFactory&gt; * string * Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime * Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider * seq&lt;obj&gt; -&gt; Azure.AI.AgentServer.Core.Context.ApplicationOptions" Usage="new Azure.AI.AgentServer.Core.Context.ApplicationOptions (ConfigureServices, LoggerFactory, TelemetrySourceName, ToolRuntime, UserProvider, AgentTools)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
@@ -73,11 +85,47 @@
           </Attributes>
         </Parameter>
         <Parameter Name="TelemetrySourceName" Type="System.String" />
+        <Parameter Name="ToolRuntime" Type="Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="UserProvider" Type="Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="AgentTools" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="ConfigureServices">Action to configure application services.</param>
         <param name="LoggerFactory">Optional factory for creating loggers.</param>
         <param name="TelemetrySourceName">The name of the telemetry source. Defaults to "Agents".</param>
+        <param name="ToolRuntime">
+            Optional tool runtime for accessing and invoking tools. If not provided, the application
+            will check if IFoundryToolRuntime is registered in the service collection.
+            </param>
+        <param name="UserProvider">
+            Optional user provider for resolving user context. If not provided, defaults to
+            <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.User.AsyncLocalUserProvider" /> which reads from AsyncLocal storage set by middleware.
+            </param>
+        <param name="AgentTools">
+            Optional collection of agent tool definitions to include in agent run contexts.
+            Tools can be FoundryTool instances or dictionary-based facades.
+            </param>
         <summary>
             Configuration options for the agent server application.
             </summary>
@@ -104,6 +152,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="AgentTools">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;object&gt;? AgentTools { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;object&gt; AgentTools" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Context.ApplicationOptions.AgentTools" />
+      <MemberSignature Language="VB.NET" Value="Public Property AgentTools As IEnumerable(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.AgentTools : seq&lt;obj&gt; with get, set" Usage="Azure.AI.AgentServer.Core.Context.ApplicationOptions.AgentTools" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional collection of agent tool definitions to include in agent run contexts.
+            Tools can be FoundryTool instances or dictionary-based facades.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ConfigureServices">
       <MemberSignature Language="C#" Value="public Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices { get; init; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Action`1&lt;class Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices" />
@@ -125,10 +202,10 @@
       </Docs>
     </Member>
     <Member MemberName="Deconstruct">
-      <MemberSignature Language="C#" Value="public void Deconstruct (out Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices, out Func&lt;Microsoft.Extensions.Logging.ILoggerFactory&gt;? LoggerFactory, out string TelemetrySourceName);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] class System.Action`1&lt;class Microsoft.Extensions.DependencyInjection.IServiceCollection&gt;&amp; ConfigureServices, [out] class System.Func`1&lt;class Microsoft.Extensions.Logging.ILoggerFactory&gt;&amp; LoggerFactory, [out] string&amp; TelemetrySourceName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Context.ApplicationOptions.Deconstruct(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection}@,System.Func{Microsoft.Extensions.Logging.ILoggerFactory}@,System.String@)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef ConfigureServices As Action(Of IServiceCollection), ByRef LoggerFactory As Func(Of ILoggerFactory), ByRef TelemetrySourceName As String)" />
+      <MemberSignature Language="C#" Value="public void Deconstruct (out Action&lt;Microsoft.Extensions.DependencyInjection.IServiceCollection&gt; ConfigureServices, out Func&lt;Microsoft.Extensions.Logging.ILoggerFactory&gt;? LoggerFactory, out string TelemetrySourceName, out Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime? ToolRuntime, out Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider? UserProvider, out System.Collections.Generic.IEnumerable&lt;object&gt;? AgentTools);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] class System.Action`1&lt;class Microsoft.Extensions.DependencyInjection.IServiceCollection&gt;&amp; ConfigureServices, [out] class System.Func`1&lt;class Microsoft.Extensions.Logging.ILoggerFactory&gt;&amp; LoggerFactory, [out] string&amp; TelemetrySourceName, [out] class Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime&amp; ToolRuntime, [out] class Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider&amp; UserProvider, [out] class System.Collections.Generic.IEnumerable`1&lt;object&gt;&amp; AgentTools) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Core.Context.ApplicationOptions.Deconstruct(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection}@,System.Func{Microsoft.Extensions.Logging.ILoggerFactory}@,System.String@,Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime@,Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider@,System.Collections.Generic.IEnumerable{System.Object}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef ConfigureServices As Action(Of IServiceCollection), ByRef LoggerFactory As Func(Of ILoggerFactory), ByRef TelemetrySourceName As String, ByRef ToolRuntime As IFoundryToolRuntime, ByRef UserProvider As IUserProvider, ByRef AgentTools As IEnumerable(Of Object))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
@@ -148,11 +225,38 @@
           </Attributes>
         </Parameter>
         <Parameter Name="TelemetrySourceName" Type="System.String" RefType="out" />
+        <Parameter Name="ToolRuntime" Type="Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime" RefType="out">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="UserProvider" Type="Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider" RefType="out">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="AgentTools" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;" RefType="out">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="ConfigureServices">To be added.</param>
         <param name="LoggerFactory">To be added.</param>
         <param name="TelemetrySourceName">To be added.</param>
+        <param name="ToolRuntime">To be added.</param>
+        <param name="UserProvider">To be added.</param>
+        <param name="AgentTools">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -365,6 +469,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ToolRuntime">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime? ToolRuntime { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime ToolRuntime" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Context.ApplicationOptions.ToolRuntime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToolRuntime As IFoundryToolRuntime" />
+      <MemberSignature Language="F#" Value="member this.ToolRuntime : Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime with get, set" Usage="Azure.AI.AgentServer.Core.Context.ApplicationOptions.ToolRuntime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Runtime.IFoundryToolRuntime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional tool runtime for accessing and invoking tools. If not provided, the application
+            will check if IFoundryToolRuntime is registered in the service collection.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ToString">
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
@@ -382,6 +515,35 @@
       <Docs>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserProvider">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider? UserProvider { get; init; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider UserProvider" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Core.Context.ApplicationOptions.UserProvider" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserProvider As IUserProvider" />
+      <MemberSignature Language="F#" Value="member this.UserProvider : Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider with get, set" Usage="Azure.AI.AgentServer.Core.Context.ApplicationOptions.UserProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Runtime.User.IUserProvider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional user provider for resolving user context. If not provided, defaults to
+            <see cref="T:Azure.AI.AgentServer.Core.Tools.Runtime.User.AsyncLocalUserProvider" /> which reads from AsyncLocal storage set by middleware.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

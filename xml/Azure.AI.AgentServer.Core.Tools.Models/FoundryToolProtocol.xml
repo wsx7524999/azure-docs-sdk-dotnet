@@ -1,0 +1,64 @@
+<Type Name="FoundryToolProtocol" FullName="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol">
+  <TypeSignature Language="C#" Value="public enum FoundryToolProtocol" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FoundryToolProtocol extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FoundryToolProtocol" />
+  <TypeSignature Language="F#" Value="type FoundryToolProtocol = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Supported tool protocols.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="A2A">
+      <MemberSignature Language="C#" Value="A2A" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol A2A = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol.A2A" />
+      <MemberSignature Language="VB.NET" Value="A2A" />
+      <MemberSignature Language="F#" Value="A2A = 1" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol.A2A" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Agent-to-agent tools.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MCP">
+      <MemberSignature Language="C#" Value="MCP" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol MCP = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol.MCP" />
+      <MemberSignature Language="VB.NET" Value="MCP" />
+      <MemberSignature Language="F#" Value="MCP = 0" Usage="Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol.MCP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.FoundryToolProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Model Context Protocol tools.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

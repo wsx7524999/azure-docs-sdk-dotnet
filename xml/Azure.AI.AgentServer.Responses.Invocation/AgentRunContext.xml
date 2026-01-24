@@ -1,0 +1,367 @@
+<Type Name="AgentRunContext" FullName="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext">
+  <TypeSignature Language="C#" Value="public class AgentRunContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AgentRunContext extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class AgentRunContext" />
+  <TypeSignature Language="F#" Value="type AgentRunContext = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Provides rich context information for agent runs, including request data, user information,
+            tool definitions, and ID generation capabilities.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AgentRunContext (Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt;? rawPayload = default, Azure.AI.AgentServer.Core.Tools.Models.UserInfo? userInfo = default, System.Collections.Generic.IReadOnlyList&lt;object&gt;? agentTools = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest request, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; rawPayload, class Azure.AI.AgentServer.Core.Tools.Models.UserInfo userInfo, class System.Collections.Generic.IReadOnlyList`1&lt;object&gt; agentTools) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.#ctor(Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},Azure.AI.AgentServer.Core.Tools.Models.UserInfo,System.Collections.Generic.IReadOnlyList{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (request As CreateResponseRequest, Optional rawPayload As IReadOnlyDictionary(Of String, Object) = Nothing, Optional userInfo As UserInfo = Nothing, Optional agentTools As IReadOnlyList(Of Object) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.AgentServer.Responses.Invocation.AgentRunContext : Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; * Azure.AI.AgentServer.Core.Tools.Models.UserInfo * System.Collections.Generic.IReadOnlyList&lt;obj&gt; -&gt; Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" Usage="new Azure.AI.AgentServer.Responses.Invocation.AgentRunContext (request, rawPayload, userInfo, agentTools)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="request" Type="Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest" />
+        <Parameter Name="rawPayload" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="userInfo" Type="Azure.AI.AgentServer.Core.Tools.Models.UserInfo">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="agentTools" Type="System.Collections.Generic.IReadOnlyList&lt;System.Object&gt;">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="request">The create response request.</param>
+        <param name="rawPayload">The raw JSON payload as a dictionary.</param>
+        <param name="userInfo">Optional user information.</param>
+        <param name="agentTools">Optional list of agent tool definitions.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AgentTools">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;object&gt; AgentTools { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;object&gt; AgentTools" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.AgentTools" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AgentTools As IReadOnlyList(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.AgentTools : System.Collections.Generic.IReadOnlyList&lt;obj&gt;" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.AgentTools" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the list of agent tool definitions.
+            These can be FoundryTool instances or dictionary-based facades.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public string ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As String" />
+      <MemberSignature Language="F#" Value="member this.ConversationId : string" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.ConversationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the conversation ID for this agent run.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Current">
+      <MemberSignature Language="C#" Value="public static Azure.AI.AgentServer.Responses.Invocation.AgentRunContext? Current { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Azure.AI.AgentServer.Responses.Invocation.AgentRunContext Current" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.Current" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As AgentRunContext" />
+      <MemberSignature Language="F#" Value="static member Current : Azure.AI.AgentServer.Responses.Invocation.AgentRunContext" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.Current" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Responses.Invocation.AgentRunContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current agent run context from the async local storage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAgentIdObject">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Contracts.Generated.Agents.AgentReference? GetAgentIdObject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.AI.AgentServer.Contracts.Generated.Agents.AgentReference GetAgentIdObject() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.GetAgentIdObject" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAgentIdObject () As AgentReference" />
+      <MemberSignature Language="F#" Value="member this.GetAgentIdObject : unit -&gt; Azure.AI.AgentServer.Contracts.Generated.Agents.AgentReference" Usage="agentRunContext.GetAgentIdObject " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Contracts.Generated.Agents.AgentReference</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the agent reference from the request, if available.
+            </summary>
+        <returns>The agent reference, or null if not present in the request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConversationObject">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Contracts.Generated.Conversations.ResponseConversation1? GetConversationObject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.AI.AgentServer.Contracts.Generated.Conversations.ResponseConversation1 GetConversationObject() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.GetConversationObject" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConversationObject () As ResponseConversation1" />
+      <MemberSignature Language="F#" Value="member this.GetConversationObject : unit -&gt; Azure.AI.AgentServer.Contracts.Generated.Conversations.ResponseConversation1" Usage="agentRunContext.GetConversationObject " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Contracts.Generated.Conversations.ResponseConversation1</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the conversation object from the request, if available.
+            </summary>
+        <returns>The conversation object, or null if not present in the request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTools">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;object&gt; GetTools ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IReadOnlyList`1&lt;object&gt; GetTools() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.GetTools" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTools () As IReadOnlyList(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.GetTools : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;obj&gt;" Usage="agentRunContext.GetTools " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the list of tools from the request.
+            </summary>
+        <returns>The list of tools, or an empty list if no tools are present.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdGenerator">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Common.Id.IIdGenerator IdGenerator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Common.Id.IIdGenerator IdGenerator" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.IdGenerator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdGenerator As IIdGenerator" />
+      <MemberSignature Language="F#" Value="member this.IdGenerator : Azure.AI.AgentServer.Core.Common.Id.IIdGenerator" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.IdGenerator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Common.Id.IIdGenerator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the ID generator for creating unique identifiers.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawPayload">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object?&gt; RawPayload { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; RawPayload" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.RawPayload" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawPayload As IReadOnlyDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.RawPayload : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.RawPayload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2 })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2 })&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the raw JSON payload as a dictionary.
+            Useful for accessing properties not available in the typed request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Request">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest Request { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest Request" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.Request" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Request As CreateResponseRequest" />
+      <MemberSignature Language="F#" Value="member this.Request : Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.Request" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Contracts.Generated.Responses.CreateResponseRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the create response request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseId">
+      <MemberSignature Language="C#" Value="public string ResponseId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResponseId" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.ResponseId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseId As String" />
+      <MemberSignature Language="F#" Value="member this.ResponseId : string" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.ResponseId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the response ID for this agent run.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stream">
+      <MemberSignature Language="C#" Value="public bool Stream { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Stream" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.Stream" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stream As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Stream : bool" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.Stream" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets whether this is a streaming request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserInfo">
+      <MemberSignature Language="C#" Value="public Azure.AI.AgentServer.Core.Tools.Models.UserInfo? UserInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.AI.AgentServer.Core.Tools.Models.UserInfo UserInfo" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.UserInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserInfo As UserInfo" />
+      <MemberSignature Language="F#" Value="member this.UserInfo : Azure.AI.AgentServer.Core.Tools.Models.UserInfo" Usage="Azure.AI.AgentServer.Responses.Invocation.AgentRunContext.UserInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.AgentServer.Core</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.AI.AgentServer.Core.Tools.Models.UserInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the user information for this request, if available.
+            This is populated from HTTP headers by the UserInfoContextMiddleware.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
