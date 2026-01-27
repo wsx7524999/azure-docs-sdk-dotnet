@@ -1144,7 +1144,7 @@
         - Azure.ResourceManager.DisconnectedOperations
         - Azure.ResourceManager.DisconnectedOperations.Mocking
         - Azure.ResourceManager.DisconnectedOperations.Models
-  - name: DNS
+  - name: Dns
     href: ~/api/overview/azure/preview/dns.md
     landingPageType: Service
     items:
@@ -3305,6 +3305,11 @@
       - Azure.AI.AgentServer.Responses.Endpoint
       - Azure.AI.AgentServer.Responses.Invocation
       - Azure.AI.AgentServer.Responses.Invocation.Stream
+    - name: unknown
+      href: ~/api/overview/azure/preview/ai.contentunderstanding-readme.md
+      children:
+      - Azure.AI.ContentUnderstanding
+      - Microsoft.Extensions.Azure
     - name: unknown
       href: ~/api/overview/azure/preview/ai.language.questionanswering.authoring-readme.md
       children:

@@ -1012,7 +1012,7 @@
         - Azure.ResourceManager.DevTestLabs
         - Azure.ResourceManager.DevTestLabs.Mocking
         - Azure.ResourceManager.DevTestLabs.Models
-  - name: DNS
+  - name: Dns
     href: ~/api/overview/azure/latest/dns.md
     landingPageType: Service
     items:
@@ -2769,6 +2769,11 @@
     href: ~/api/overview/azure/latest/unknown.md
     landingPageType: Service
     items:
+    - name: unknown
+      children:
+      - Azure.AI.ContentUnderstanding
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: unknown
       children:
       - Azure.AI.Language.QuestionAnswering.Authoring
