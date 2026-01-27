@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Provisioning",
-  "Version": "1.4.0-beta.3",
+  "Version": "1.5.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/provisioning/Azure.Provisioning",
   "ServiceDirectory": "provisioning",
@@ -10,22 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Provisioning",
-  "ReleaseStatus": "2025-11-26",
+  "ReleaseStatus": "2026-01-23",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "name": "Azure.Provisioning",
+    "safeName": "AzureProvisioning",
     "triggeringPaths": [
       "/sdk/provisioning/ci.compute.yml"
-    ],
-    "name": "Azure.Provisioning",
-    "safeName": "AzureProvisioning"
+    ]
   },
   "CIParameters": {
-    "CheckAOTCompat": true,
     "BuildSnippets": true,
-    "AOTTestInputs": [],
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.Provisioning",
     "Azure.Provisioning.Authorization",
