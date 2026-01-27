@@ -1,6 +1,6 @@
 {
   "Name": "System.ClientModel",
-  "Version": "1.8.1",
+  "Version": "1.9.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/core/System.ClientModel",
   "ServiceDirectory": "core",
@@ -10,22 +10,21 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "System.ClientModel",
-  "ReleaseStatus": "2025-11-10",
+  "ReleaseStatus": "2026-01-27",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "SystemClientModel",
+    "name": "System.ClientModel",
     "triggeringPaths": [
       "/sdk/core/ci.yml"
     ],
-    "name": "System.ClientModel"
+    "safeName": "SystemClientModel"
   },
   "CIParameters": {
     "CIMatrixConfigs": [],
-    "BuildSnippets": false,
-    "CheckAOTCompat": true,
-    "AOTTestInputs": null
+    "BuildSnippets": false
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "System.ClientModel",
     "System.ClientModel.Primitives"
