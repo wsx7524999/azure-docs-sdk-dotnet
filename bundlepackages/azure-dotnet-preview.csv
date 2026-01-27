@@ -88,7 +88,7 @@ azureprojects,[tfm=netstandard2.0;isPrerelease=true]Azure.Projects,1.0.0-beta.1
 azureprojectsai,[tfm=netstandard2.0;isPrerelease=true]Azure.Projects.AI,1.0.0-beta.1
 azureprojectsprovisioning,[tfm=netstandard2.0;isPrerelease=true]Azure.Projects.Provisioning,1.0.0-beta.1
 azureprojectsweb,[tfm=netstandard2.0;isPrerelease=true]Azure.Projects.Web,1.0.0-beta.1
-azureprovisioning,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning,1.4.0-beta.3
+azureprovisioning,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning,1.5.0-beta.1
 azureprovisioningappconfiguration,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.AppConfiguration,1.0.0-beta.1
 azureprovisioningappcontainers,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.AppContainers,1.0.0-beta.1
 azureprovisioningapplicationinsights,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.ApplicationInsights,1.0.0-beta.1
