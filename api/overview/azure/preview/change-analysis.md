@@ -1,7 +1,7 @@
 ---
 title: Azure Change Analysis SDK for .NET
 description: Reference for Azure Change Analysis SDK for .NET
-ms.date: 01/27/2026
+ms.date: 01/28/2026
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: changeanalysis
