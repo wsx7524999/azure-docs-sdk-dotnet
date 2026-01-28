@@ -13,6 +13,7 @@
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <AssemblyVersion>1.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.8.1.0</AssemblyVersion>
+    <AssemblyVersion>1.9.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ClientModel.Primitives.PipelinePolicy</BaseTypeName>
@@ -34,11 +35,37 @@
       <AssemblyInfo>
         <AssemblyName>System.ClientModel</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
-        <AssemblyVersion>1.8.1.0</AssemblyVersion>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static System.ClientModel.Primitives.AuthenticationPolicy Create (System.ClientModel.Primitives.ClientSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ClientModel.Primitives.AuthenticationPolicy Create(class System.ClientModel.Primitives.ClientSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.AuthenticationPolicy.Create(System.ClientModel.Primitives.ClientSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (settings As ClientSettings) As AuthenticationPolicy" />
+      <MemberSignature Language="F#" Value="static member Create : System.ClientModel.Primitives.ClientSettings -&gt; System.ClientModel.Primitives.AuthenticationPolicy" Usage="System.ClientModel.Primitives.AuthenticationPolicy.Create settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.AuthenticationPolicy</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="System.ClientModel.Primitives.ClientSettings" Index="0" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="settings">The <see cref="T:System.ClientModel.Primitives.ClientSettings" /> to use.</param>
+        <summary>
+            Creates an <see cref="T:System.ClientModel.Primitives.AuthenticationPolicy" /> based on the provided <see cref="T:System.ClientModel.Primitives.ClientSettings" /> and scope.
+            </summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

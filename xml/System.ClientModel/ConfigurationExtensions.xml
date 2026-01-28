@@ -1,0 +1,248 @@
+<Type Name="ConfigurationExtensions" FullName="System.ClientModel.ConfigurationExtensions">
+  <TypeSignature Language="C#" Value="public static class ConfigurationExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ConfigurationExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.ClientModel.ConfigurationExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ConfigurationExtensions" />
+  <TypeSignature Language="F#" Value="type ConfigurationExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>System.ClientModel</AssemblyName>
+    <AssemblyVersion>1.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Static class containing extension methods for IConfiguration to get ClientSettings.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddClient&lt;TClient,TSettings&gt;">
+      <MemberSignature Language="C#" Value="public static System.ClientModel.Primitives.IClientBuilder AddClient&lt;TClient,TSettings&gt; (this Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string sectionName) where TClient : class where TSettings : System.ClientModel.Primitives.ClientSettings, new();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ClientModel.Primitives.IClientBuilder AddClient&lt;class TClient, .ctor (class System.ClientModel.Primitives.ClientSettings) TSettings&gt;(class Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string sectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.ConfigurationExtensions.AddClient``2(Microsoft.Extensions.Hosting.IHostApplicationBuilder,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddClient(Of TClient As Class, TSettings As Class) (host As IHostApplicationBuilder, sectionName As String) As IClientBuilder" />
+      <MemberSignature Language="F#" Value="static member AddClient : Microsoft.Extensions.Hosting.IHostApplicationBuilder * string -&gt; System.ClientModel.Primitives.IClientBuilder (requires 'Client : null and 'Settings :&gt; System.ClientModel.Primitives.ClientSettings and 'Settings : (new : unit -&gt; 'Settings))" Usage="System.ClientModel.ConfigurationExtensions.AddClient (host, sectionName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.IClientBuilder</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TClient">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSettings">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="host" Type="Microsoft.Extensions.Hosting.IHostApplicationBuilder" RefType="this" />
+        <Parameter Name="sectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TClient">The type of client.</typeparam>
+        <typeparam name="TSettings">The type of <see cref="T:System.ClientModel.Primitives.ClientSettings" />.</typeparam>
+        <param name="host">The <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" /> to add to.</param>
+        <param name="sectionName">The section of <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to use.</param>
+        <summary>
+            Adds a singleton client of the specified type to the <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" />'s service collection.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            The <typeparamref name="TClient" /> must have a constructor that takes one parameter of type <typeparamref name="TSettings" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddClient&lt;TClient,TSettings&gt;">
+      <MemberSignature Language="C#" Value="public static System.ClientModel.Primitives.IClientBuilder AddClient&lt;TClient,TSettings&gt; (this Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string sectionName, Action&lt;TSettings&gt; configureSettings) where TClient : class where TSettings : System.ClientModel.Primitives.ClientSettings, new();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ClientModel.Primitives.IClientBuilder AddClient&lt;class TClient, .ctor (class System.ClientModel.Primitives.ClientSettings) TSettings&gt;(class Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string sectionName, class System.Action`1&lt;!!TSettings&gt; configureSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.ConfigurationExtensions.AddClient``2(Microsoft.Extensions.Hosting.IHostApplicationBuilder,System.String,System.Action{``1})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddClient(Of TClient As Class, TSettings As Class) (host As IHostApplicationBuilder, sectionName As String, configureSettings As Action(Of TSettings)) As IClientBuilder" />
+      <MemberSignature Language="F#" Value="static member AddClient : Microsoft.Extensions.Hosting.IHostApplicationBuilder * string * Action&lt;'Settings (requires 'Settings :&gt; System.ClientModel.Primitives.ClientSettings and 'Settings : (new : unit -&gt; 'Settings))&gt; -&gt; System.ClientModel.Primitives.IClientBuilder (requires 'Client : null and 'Settings :&gt; System.ClientModel.Primitives.ClientSettings and 'Settings : (new : unit -&gt; 'Settings))" Usage="System.ClientModel.ConfigurationExtensions.AddClient (host, sectionName, configureSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.IClientBuilder</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TClient">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSettings">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="host" Type="Microsoft.Extensions.Hosting.IHostApplicationBuilder" RefType="this" />
+        <Parameter Name="sectionName" Type="System.String" />
+        <Parameter Name="configureSettings" Type="System.Action&lt;TSettings&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TClient">The type of client.</typeparam>
+        <typeparam name="TSettings">The type of <see cref="T:System.ClientModel.Primitives.ClientSettings" />.</typeparam>
+        <param name="host">The <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" /> to add to.</param>
+        <param name="sectionName">The section of <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to use.</param>
+        <param name="configureSettings">Factory method to modify the <typeparamref name="TSettings" /> after they are created.</param>
+        <summary>
+            Adds a singleton client of the specified type to the <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" />'s service collection.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            The <typeparamref name="TClient" /> must have a constructor that takes one parameter of type <typeparamref name="TSettings" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddKeyedClient&lt;TClient,TSettings&gt;">
+      <MemberSignature Language="C#" Value="public static System.ClientModel.Primitives.IClientBuilder AddKeyedClient&lt;TClient,TSettings&gt; (this Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string key, string sectionName) where TClient : class where TSettings : System.ClientModel.Primitives.ClientSettings, new();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ClientModel.Primitives.IClientBuilder AddKeyedClient&lt;class TClient, .ctor (class System.ClientModel.Primitives.ClientSettings) TSettings&gt;(class Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string key, string sectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.ConfigurationExtensions.AddKeyedClient``2(Microsoft.Extensions.Hosting.IHostApplicationBuilder,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddKeyedClient(Of TClient As Class, TSettings As Class) (host As IHostApplicationBuilder, key As String, sectionName As String) As IClientBuilder" />
+      <MemberSignature Language="F#" Value="static member AddKeyedClient : Microsoft.Extensions.Hosting.IHostApplicationBuilder * string * string -&gt; System.ClientModel.Primitives.IClientBuilder (requires 'Client : null and 'Settings :&gt; System.ClientModel.Primitives.ClientSettings and 'Settings : (new : unit -&gt; 'Settings))" Usage="System.ClientModel.ConfigurationExtensions.AddKeyedClient (host, key, sectionName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.IClientBuilder</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TClient">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSettings">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="host" Type="Microsoft.Extensions.Hosting.IHostApplicationBuilder" RefType="this" />
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="sectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TClient">The type of client.</typeparam>
+        <typeparam name="TSettings">The type of <see cref="T:System.ClientModel.Primitives.ClientSettings" />.</typeparam>
+        <param name="host">The <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" /> to add to.</param>
+        <param name="key">The unique key to register as.</param>
+        <param name="sectionName">The section of <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to use.</param>
+        <summary>
+            Adds a keyed singleton client of the specified type to the <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" />'s service collection.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            The <typeparamref name="TClient" /> must have a constructor that takes one parameter of type <typeparamref name="TSettings" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddKeyedClient&lt;TClient,TSettings&gt;">
+      <MemberSignature Language="C#" Value="public static System.ClientModel.Primitives.IClientBuilder AddKeyedClient&lt;TClient,TSettings&gt; (this Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string key, string sectionName, Action&lt;TSettings&gt; configureSettings) where TClient : class where TSettings : System.ClientModel.Primitives.ClientSettings, new();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ClientModel.Primitives.IClientBuilder AddKeyedClient&lt;class TClient, .ctor (class System.ClientModel.Primitives.ClientSettings) TSettings&gt;(class Microsoft.Extensions.Hosting.IHostApplicationBuilder host, string key, string sectionName, class System.Action`1&lt;!!TSettings&gt; configureSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.ConfigurationExtensions.AddKeyedClient``2(Microsoft.Extensions.Hosting.IHostApplicationBuilder,System.String,System.String,System.Action{``1})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddKeyedClient(Of TClient As Class, TSettings As Class) (host As IHostApplicationBuilder, key As String, sectionName As String, configureSettings As Action(Of TSettings)) As IClientBuilder" />
+      <MemberSignature Language="F#" Value="static member AddKeyedClient : Microsoft.Extensions.Hosting.IHostApplicationBuilder * string * string * Action&lt;'Settings (requires 'Settings :&gt; System.ClientModel.Primitives.ClientSettings and 'Settings : (new : unit -&gt; 'Settings))&gt; -&gt; System.ClientModel.Primitives.IClientBuilder (requires 'Client : null and 'Settings :&gt; System.ClientModel.Primitives.ClientSettings and 'Settings : (new : unit -&gt; 'Settings))" Usage="System.ClientModel.ConfigurationExtensions.AddKeyedClient (host, key, sectionName, configureSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.IClientBuilder</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TClient">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TSettings">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="host" Type="Microsoft.Extensions.Hosting.IHostApplicationBuilder" RefType="this" />
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="sectionName" Type="System.String" />
+        <Parameter Name="configureSettings" Type="System.Action&lt;TSettings&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TClient">The type of client.</typeparam>
+        <typeparam name="TSettings">The type of <see cref="T:System.ClientModel.Primitives.ClientSettings" />.</typeparam>
+        <param name="host">The <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" /> to add to.</param>
+        <param name="key">The unique key to register as.</param>
+        <param name="sectionName">The section of <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to use.</param>
+        <param name="configureSettings">Factory method to modify the <typeparamref name="TSettings" /> after they are created.</param>
+        <summary>
+            Adds a keyed singleton client of the specified type to the <see cref="T:Microsoft.Extensions.Hosting.IHostApplicationBuilder" />'s service collection.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            The <typeparamref name="TClient" /> must have a constructor that takes one parameter of type <typeparamref name="TSettings" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClientSettings&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetClientSettings&lt;T&gt; (this Microsoft.Extensions.Configuration.IConfiguration configuration, string sectionName) where T : System.ClientModel.Primitives.ClientSettings, new();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetClientSettings&lt;.ctor (class System.ClientModel.Primitives.ClientSettings) T&gt;(class Microsoft.Extensions.Configuration.IConfiguration configuration, string sectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.ConfigurationExtensions.GetClientSettings``1(Microsoft.Extensions.Configuration.IConfiguration,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClientSettings(Of T As {ClientSettingsNew}) (configuration As IConfiguration, sectionName As String) As T" />
+      <MemberSignature Language="F#" Value="static member GetClientSettings : Microsoft.Extensions.Configuration.IConfiguration * string -&gt; 'T (requires 'T :&gt; System.ClientModel.Primitives.ClientSettings and 'T : (new : unit -&gt; 'T))" Usage="System.ClientModel.ConfigurationExtensions.GetClientSettings (configuration, sectionName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <BaseTypeName>System.ClientModel.Primitives.ClientSettings</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="configuration" Type="Microsoft.Extensions.Configuration.IConfiguration" RefType="this" />
+        <Parameter Name="sectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of <see cref="T:System.ClientModel.Primitives.ClientSettings" /> to create.</typeparam>
+        <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to bind the properties of <typeparamref name="T" /> from.</param>
+        <param name="sectionName">The section of <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to bind from.</param>
+        <summary>
+            Creates an instance of <typeparamref name="T" /> and sets its properties from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" />.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

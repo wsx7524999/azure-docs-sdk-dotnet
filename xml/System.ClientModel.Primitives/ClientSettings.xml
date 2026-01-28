@@ -1,0 +1,158 @@
+<Type Name="ClientSettings" FullName="System.ClientModel.Primitives.ClientSettings">
+  <TypeSignature Language="C#" Value="public abstract class ClientSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ClientSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.ClientModel.Primitives.ClientSettings" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ClientSettings" />
+  <TypeSignature Language="F#" Value="type ClientSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>System.ClientModel</AssemblyName>
+    <AssemblyVersion>1.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the settings used to configure a client that can be loaded from an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ClientSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.ClientSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public void Bind (Microsoft.Extensions.Configuration.IConfigurationSection section);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Bind(class Microsoft.Extensions.Configuration.IConfigurationSection section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.ClientSettings.Bind(Microsoft.Extensions.Configuration.IConfigurationSection)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Bind (section As IConfigurationSection)" />
+      <MemberSignature Language="F#" Value="member this.Bind : Microsoft.Extensions.Configuration.IConfigurationSection -&gt; unit" Usage="clientSettings.Bind section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>
+            Binds the values from the <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" /> to the properties of the <see cref="T:System.ClientModel.Primitives.ClientSettings" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindCore">
+      <MemberSignature Language="C#" Value="protected abstract void BindCore (Microsoft.Extensions.Configuration.IConfigurationSection section);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void BindCore(class Microsoft.Extensions.Configuration.IConfigurationSection section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.ClientSettings.BindCore(Microsoft.Extensions.Configuration.IConfigurationSection)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub BindCore (section As IConfigurationSection)" />
+      <MemberSignature Language="F#" Value="abstract member BindCore : Microsoft.Extensions.Configuration.IConfigurationSection -&gt; unit" Usage="clientSettings.BindCore section" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
+        <summary>
+            Allows derived classes to bind their specific properties from the <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credential">
+      <MemberSignature Language="C#" Value="public System.ClientModel.Primitives.CredentialSettings? Credential { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ClientModel.Primitives.CredentialSettings Credential" />
+      <MemberSignature Language="DocId" Value="P:System.ClientModel.Primitives.ClientSettings.Credential" />
+      <MemberSignature Language="VB.NET" Value="Public Property Credential As CredentialSettings" />
+      <MemberSignature Language="F#" Value="member this.Credential : System.ClientModel.Primitives.CredentialSettings with get, set" Usage="System.ClientModel.Primitives.ClientSettings.Credential" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.CredentialSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the credential settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CredentialProvider">
+      <MemberSignature Language="C#" Value="public System.ClientModel.AuthenticationTokenProvider? CredentialProvider { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ClientModel.AuthenticationTokenProvider CredentialProvider" />
+      <MemberSignature Language="DocId" Value="P:System.ClientModel.Primitives.ClientSettings.CredentialProvider" />
+      <MemberSignature Language="VB.NET" Value="Public Property CredentialProvider As AuthenticationTokenProvider" />
+      <MemberSignature Language="F#" Value="member this.CredentialProvider : System.ClientModel.AuthenticationTokenProvider with get, set" Usage="System.ClientModel.Primitives.ClientSettings.CredentialProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.AuthenticationTokenProvider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the credential provider.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostConfigure">
+      <MemberSignature Language="C#" Value="public void PostConfigure (Action&lt;Microsoft.Extensions.Configuration.IConfigurationSection&gt; configure);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PostConfigure(class System.Action`1&lt;class Microsoft.Extensions.Configuration.IConfigurationSection&gt; configure) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.ClientSettings.PostConfigure(System.Action{Microsoft.Extensions.Configuration.IConfigurationSection})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PostConfigure (configure As Action(Of IConfigurationSection))" />
+      <MemberSignature Language="F#" Value="member this.PostConfigure : Action&lt;Microsoft.Extensions.Configuration.IConfigurationSection&gt; -&gt; unit" Usage="clientSettings.PostConfigure configure" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="configure" Type="System.Action&lt;Microsoft.Extensions.Configuration.IConfigurationSection&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="configure">Factory method to modify this instance of <see cref="T:System.ClientModel.Primitives.ClientSettings" />.</param>
+        <summary>
+            Allows for additional configuration using the <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" /> after the initial binding.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

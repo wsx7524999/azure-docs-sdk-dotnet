@@ -1,0 +1,50 @@
+<Type Name="IClientBuilder" FullName="System.ClientModel.Primitives.IClientBuilder">
+  <TypeSignature Language="C#" Value="public interface IClientBuilder : Microsoft.Extensions.Hosting.IHostApplicationBuilder" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IClientBuilder implements class Microsoft.Extensions.Hosting.IHostApplicationBuilder" />
+  <TypeSignature Language="DocId" Value="T:System.ClientModel.Primitives.IClientBuilder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClientBuilder&#xA;Implements IHostApplicationBuilder" />
+  <TypeSignature Language="F#" Value="type IClientBuilder = interface&#xA;    interface IHostApplicationBuilder" />
+  <AssemblyInfo>
+    <AssemblyName>System.ClientModel</AssemblyName>
+    <AssemblyVersion>1.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Extensions.Hosting.IHostApplicationBuilder</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Provides a builder interface for configuring client applications.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PostConfigure">
+      <MemberSignature Language="C#" Value="public Microsoft.Extensions.Hosting.IHostApplicationBuilder PostConfigure (Action&lt;System.ClientModel.Primitives.ClientSettings&gt; configure);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Extensions.Hosting.IHostApplicationBuilder PostConfigure(class System.Action`1&lt;class System.ClientModel.Primitives.ClientSettings&gt; configure) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.IClientBuilder.PostConfigure(System.Action{System.ClientModel.Primitives.ClientSettings})" />
+      <MemberSignature Language="VB.NET" Value="Public Function PostConfigure (configure As Action(Of ClientSettings)) As IHostApplicationBuilder" />
+      <MemberSignature Language="F#" Value="abstract member PostConfigure : Action&lt;System.ClientModel.Primitives.ClientSettings&gt; -&gt; Microsoft.Extensions.Hosting.IHostApplicationBuilder" Usage="iClientBuilder.PostConfigure configure" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Extensions.Hosting.IHostApplicationBuilder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="configure" Type="System.Action&lt;System.ClientModel.Primitives.ClientSettings&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="configure">Factory method to modify the <see cref="T:System.ClientModel.Primitives.ClientSettings" />.</param>
+        <summary>
+            Adds a configuration action to be executed after the initial configuration of <see cref="T:System.ClientModel.Primitives.ClientSettings" />.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

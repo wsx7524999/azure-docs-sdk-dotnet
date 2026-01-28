@@ -13,6 +13,7 @@
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -35,6 +36,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -70,6 +72,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -110,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -173,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.Resources.ArmDeployment</ReturnType>
@@ -196,66 +201,6 @@
             </remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetExtensionResourceId">
-      <MemberSignature Language="C#" Value="public static Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; GetExtensionResourceId (Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; resourceId, Azure.Provisioning.BicepValue&lt;string&gt; resourceType, params Azure.Provisioning.BicepValue&lt;string&gt;[] resourceNames);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; GetExtensionResourceId(class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; resourceId, class Azure.Provisioning.BicepValue`1&lt;string&gt; resourceType, class Azure.Provisioning.BicepValue`1&lt;string&gt;[] resourceNames) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Expressions.BicepFunction.GetExtensionResourceId(Azure.Provisioning.BicepValue{Azure.Core.ResourceIdentifier},Azure.Provisioning.BicepValue{System.String},Azure.Provisioning.BicepValue{System.String}[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetExtensionResourceId (resourceId As BicepValue(Of ResourceIdentifier), resourceType As BicepValue(Of String), ParamArray resourceNames As BicepValue(Of String)()) As BicepValue(Of ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="static member GetExtensionResourceId : Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; * Azure.Provisioning.BicepValue&lt;string&gt; * Azure.Provisioning.BicepValue&lt;string&gt;[] -&gt; Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.Provisioning.Expressions.BicepFunction.GetExtensionResourceId (resourceId, resourceType, resourceNames)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Provisioning</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceId" Type="Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resourceType" Type="Azure.Provisioning.BicepValue&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resourceNames" Type="Azure.Provisioning.BicepValue&lt;System.String&gt;[]" Index="2" FrameworkAlternate="azure-dotnet-preview">
-          <Attributes>
-            <Attribute>
-              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
-      </Parameters>
-      <Docs>
-        <param name="resourceId">The resource ID to be extended on.</param>
-        <param name="resourceType">The resource type.</param>
-        <param name="resourceNames">The resource names.</param>
-        <summary>
-            Returns the resource ID for an extension resource. An extension resource is a resource type
-            that is applied to another resource to add to its capabilities.
-            This represents the <c>extensionResourceId</c> Bicep function.
-            </summary>
-        <returns>
-            The resource ID for an extension resource.
-            </returns>
-        <remarks>
-          <para>
-            The basic format of the resource ID returned by this function is:
-            <c>{scope}/providers/{extensionResourceProviderNamespace}/{extensionResourceType}/{extensionResourceName}</c>
-            The scope segment varies by the resource being extended.
-            When the extension resource is applied to a resource, the resource ID is returned in the following format:
-            <c>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{baseResourceProviderNamespace}/{baseResourceType}/{baseResourceName}/providers/{extensionResourceProviderNamespace}/{extensionResourceType}/{extensionResourceName}</c>
-            When the extension resource is applied to a resource group, the format is:
-            <c>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{extensionResourceProviderNamespace}/{extensionResourceType}/{extensionResourceName}</c>
-            When the extension resource is applied to a subscription, the format is:
-            <c>/subscriptions/{subscriptionId}/providers/{extensionResourceProviderNamespace}/{extensionResourceType}/{extensionResourceName}</c>
-            When the extension resource is applied to a management group, the format is:
-            <c>/providers/Microsoft.Management/managementGroups/{managementGroupName}/providers/{extensionResourceProviderNamespace}/{extensionResourceType}/{extensionResourceName}</c></para>
-          <para>
-            See the
-            <see href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-resource#extensionresourceid">
-            Bicep Functions Reference</see> for more.
-            </para>
-        </remarks>
-        <exception cref="T:System.ArgumentException">When <paramref name="resourceNames" /> is empty.</exception>
-      </Docs>
-    </Member>
     <Member MemberName="GetResourceGroup">
       <MemberSignature Language="C#" Value="public static Azure.Provisioning.Resources.ResourceGroup GetResourceGroup ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.Resources.ResourceGroup GetResourceGroup() cil managed" />
@@ -266,6 +211,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.Resources.ResourceGroup</ReturnType>
@@ -284,57 +230,6 @@
             </remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetResourceId">
-      <MemberSignature Language="C#" Value="public static Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt; GetResourceId (params Azure.Provisioning.BicepValue&lt;string&gt;[] values);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.BicepValue`1&lt;class Azure.Core.ResourceIdentifier&gt; GetResourceId(class Azure.Provisioning.BicepValue`1&lt;string&gt;[] values) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Expressions.BicepFunction.GetResourceId(Azure.Provisioning.BicepValue{System.String}[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetResourceId (ParamArray values As BicepValue(Of String)()) As BicepValue(Of ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="static member GetResourceId : Azure.Provisioning.BicepValue&lt;string&gt;[] -&gt; Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.Provisioning.Expressions.BicepFunction.GetResourceId values" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Provisioning</AssemblyName>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="values" Type="Azure.Provisioning.BicepValue&lt;System.String&gt;[]" Index="0" FrameworkAlternate="azure-dotnet-preview">
-          <Attributes>
-            <Attribute>
-              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
-      </Parameters>
-      <Docs>
-        <param name="values">
-            Optional subscription id, resource group name, resource types, and resource names used to
-            construct the resource ID.  At least two values are required.
-            </param>
-        <summary>
-            Returns the unique identifier of a resource. This represents the <c>resourceId</c>
-            Bicep function.
-            </summary>
-        <returns>
-            The unique identifier of the resource.
-            </returns>
-        <remarks>
-          <para>
-            You use this function when the resource name is ambiguous or not provisioned within the same Bicep file.
-            The format of the returned identifier varies based on whether the deployment happens at the scope of
-            a resource group, subscription, management group, or tenant.
-            </para>
-          <para>
-            See the
-            <see href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-resource#resourceid">
-            Bicep Functions Reference</see> for more.
-            </para>
-        </remarks>
-        <exception cref="T:System.ArgumentException">When <paramref name="values" /> is empty or contains fewer than two elements.</exception>
-      </Docs>
-    </Member>
     <Member MemberName="GetSubscription">
       <MemberSignature Language="C#" Value="public static Azure.Provisioning.Resources.Subscription GetSubscription ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.Resources.Subscription GetSubscription() cil managed" />
@@ -345,6 +240,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.Resources.Subscription</ReturnType>
@@ -375,6 +271,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
@@ -431,6 +328,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.Resources.Tenant</ReturnType>
@@ -459,6 +357,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -515,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -548,6 +448,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.Object&gt;</ReturnType>
@@ -585,6 +486,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -622,6 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
@@ -653,6 +556,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Provisioning</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
