@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Template",
-  "Version": "1.0.3-beta.5814063",
+  "Version": "1.0.3-beta.5814383",
   "DevVersion": null,
   "DirectoryPath": "sdk/template/Azure.Template",
   "ServiceDirectory": "template",
@@ -14,6 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "name": "Azure.Template",
+    "safeName": "AzureTemplate",
     "triggeringPaths": [
       "config",
       "devcontainer",
@@ -24,13 +26,11 @@
       "/eng",
       "/samples",
       "/sdk/template/ci.yml"
-    ],
-    "safeName": "AzureTemplate",
-    "name": "Azure.Template"
+    ]
   },
   "CIParameters": {
-    "CIMatrixConfigs": [],
-    "BuildSnippets": true
+    "BuildSnippets": true,
+    "CIMatrixConfigs": []
   },
   "SpecProjectPath": "specification/widget/data-plane/WidgetAnalytics",
   "Namespaces": [
