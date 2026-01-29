@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Data.AppConfiguration",
-  "Version": "1.7.0",
+  "Version": "1.8.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/appconfiguration/Azure.Data.AppConfiguration",
   "ServiceDirectory": "appconfiguration",
@@ -10,22 +10,21 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Data.AppConfiguration",
-  "ReleaseStatus": "2025-11-07",
+  "ReleaseStatus": "2026-01-27",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "safeName": "AzureDataAppConfiguration",
-    "name": "Azure.Data.AppConfiguration",
     "triggeringPaths": [
       "/sdk/appconfiguration/ci.yml"
-    ]
+    ],
+    "name": "Azure.Data.AppConfiguration"
   },
   "CIParameters": {
-    "AOTTestInputs": [],
     "CIMatrixConfigs": [],
-    "CheckAOTCompat": true,
     "BuildSnippets": true
   },
+  "SpecProjectPath": "specification/appconfiguration/data-plane/AppConfiguration",
   "Namespaces": [
     "Azure.Data.AppConfiguration",
     "Microsoft.Extensions.Azure"
