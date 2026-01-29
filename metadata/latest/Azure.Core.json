@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Core",
-  "Version": "1.50.0",
+  "Version": "1.51.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/core/Azure.Core",
   "ServiceDirectory": "core",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Core",
-  "ReleaseStatus": "2025-11-05",
+  "ReleaseStatus": "2026-01-29",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -24,18 +24,14 @@
       "/sdk/keyvault/Azure.Security.KeyVault.Secrets",
       "/sdk/core/ci.yml"
     ],
-    "safeName": "AzureCore",
-    "name": "Azure.Core"
+    "name": "Azure.Core",
+    "safeName": "AzureCore"
   },
   "CIParameters": {
-    "AOTTestInputs": {
-      "ExpectedWarningsFilepath": "/Azure.Core/tests/compatibility/ExpectedAotWarnings.txt",
-      "ArtifactName": "Azure.Core"
-    },
-    "BuildSnippets": false,
     "CIMatrixConfigs": [],
-    "CheckAOTCompat": true
+    "BuildSnippets": false
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure",
     "Azure.Core",
