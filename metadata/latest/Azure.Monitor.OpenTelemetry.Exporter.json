@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Monitor.OpenTelemetry.Exporter",
-  "Version": "1.5.0",
+  "Version": "1.6.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter",
   "ServiceDirectory": "monitor",
@@ -10,22 +10,21 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Monitor.OpenTelemetry.Exporter",
-  "ReleaseStatus": "2025-11-14",
+  "ReleaseStatus": "2026-01-28",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "safeName": "AzureMonitorOpenTelemetryExporter",
     "triggeringPaths": [
       "/sdk/monitor/ci.yml"
     ],
-    "name": "Azure.Monitor.OpenTelemetry.Exporter",
-    "safeName": "AzureMonitorOpenTelemetryExporter"
+    "name": "Azure.Monitor.OpenTelemetry.Exporter"
   },
   "CIParameters": {
-    "CheckAOTCompat": false,
-    "BuildSnippets": true,
     "CIMatrixConfigs": [],
-    "AOTTestInputs": []
+    "BuildSnippets": true
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.Monitor.OpenTelemetry.Exporter"
   ]
