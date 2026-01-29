@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Communication.CallAutomation",
-  "Version": "1.5.0",
+  "Version": "1.5.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/communication/Azure.Communication.CallAutomation",
   "ServiceDirectory": "communication",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Communication.CallAutomation",
-  "ReleaseStatus": "2025-08-25",
+  "ReleaseStatus": "2026-01-29",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -22,10 +22,9 @@
   },
   "CIParameters": {
     "CIMatrixConfigs": [],
-    "CheckAOTCompat": false,
-    "AOTTestInputs": [],
     "BuildSnippets": false
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.Communication.CallAutomation"
   ]
