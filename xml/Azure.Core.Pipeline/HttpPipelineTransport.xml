@@ -50,6 +50,7 @@
     <AssemblyVersion>1.48.0.0</AssemblyVersion>
     <AssemblyVersion>1.49.0.0</AssemblyVersion>
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
+    <AssemblyVersion>1.51.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -70,7 +71,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -87,7 +88,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Request</ReturnType>
@@ -111,7 +112,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -136,7 +137,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -150,6 +151,31 @@
             Sends the request contained by the <paramref name="message" /> and sets the <see cref="P:Azure.Core.HttpMessage.Response" /> property to received response asynchronously.
             </summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public virtual void Update (Azure.Core.Pipeline.HttpPipelineTransportOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Update(class Azure.Core.Pipeline.HttpPipelineTransportOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Core.Pipeline.HttpPipelineTransport.Update(Azure.Core.Pipeline.HttpPipelineTransportOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Update (options As HttpPipelineTransportOptions)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.Core.Pipeline.HttpPipelineTransportOptions -&gt; unit&#xA;override this.Update : Azure.Core.Pipeline.HttpPipelineTransportOptions -&gt; unit" Usage="httpPipelineTransport.Update options" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Core.Pipeline.HttpPipelineTransportOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">The options to use for updating the transport.</param>
+        <summary>
+            Updates the transport with the provided <paramref name="options" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

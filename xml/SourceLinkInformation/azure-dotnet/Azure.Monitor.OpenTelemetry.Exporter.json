@@ -1,125 +1,125 @@
 {
   "Assembly": "Azure.Monitor.OpenTelemetry.Exporter",
-  "GUID": "0E2A526DF3774E3F98D63BB876ADB408FFFFFFFF",
+  "GUID": "9BE4B5F635234337973BECB2762C9BA9FFFFFFFF",
   "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
   "Types": [
     {
       "Members": [
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterExtensions.AddAzureMonitorTraceExporter(OpenTelemetry.Trace.TracerProviderBuilder,System.Action{Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions},Azure.Core.TokenCredential,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L44C13-L102C16"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L44C13-L102C16"
         },
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterExtensions.AddAzureMonitorMetricExporter(OpenTelemetry.Metrics.MeterProviderBuilder,System.Action{Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions},Azure.Core.TokenCredential,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L123C13-L167C16"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L123C13-L167C16"
         },
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterExtensions.AddAzureMonitorLogExporter(OpenTelemetry.Logs.OpenTelemetryLoggerOptions,System.Action{Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions},Azure.Core.TokenCredential)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L186C13-L211C58"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L186C13-L211C58"
         },
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterExtensions.AddAzureMonitorLogExporter(OpenTelemetry.Logs.LoggerProviderBuilder,System.Action{Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions},Azure.Core.TokenCredential,System.String)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L232C13-L283C16"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs#L232C13-L283C16"
         }
       ],
       "DocsId": "T:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterExtensions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterExtensions.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.#ctor",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L58C48-L60C10"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L57C48-L59C10"
         },
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.#ctor(Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.ServiceVersion)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L41C52-L72C10"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L40C52-L71C10"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.ConnectionString",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L29C42-L29C46"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L29C42-L29C46"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.Credential",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L34C45-L34C49"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L34C45-L34C49"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.SamplingRatio",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L41C38-L41C42"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L40C38-L40C42"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.TracesPerSecond",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L48C42-L48C46"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L47C42-L47C46"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.Version",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L53C41-L53C45"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L52C41-L52C45"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.StorageDirectory",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L89C42-L89C46"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L88C42-L88C46"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.DisableOfflineStorage",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L94C45-L94C49"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L93C45-L93C49"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.EnableLiveMetrics",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L107C41-L107C45"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L106C41-L106C45"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.EnableTraceBasedLogsSampler",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L117C51-L117C55"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs#L116C51-L116C55"
         },
         {
           "DocsId": "T:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.ServiceVersion",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
         }
       ],
       "DocsId": "T:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorOpenTelemetryExporterContext.#ctor",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/Customizations/AzureMonitorOpenTelemetryExporterContext.Custom.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/Customizations/AzureMonitorOpenTelemetryExporterContext.Custom.cs"
         },
         {
           "DocsId": "P:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorOpenTelemetryExporterContext.Default",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/Customizations/AzureMonitorOpenTelemetryExporterContext.Custom.cs#L20C68-L20C119"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/Customizations/AzureMonitorOpenTelemetryExporterContext.Custom.cs#L20C68-L20C119"
         }
       ],
       "DocsId": "T:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorOpenTelemetryExporterContext",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/Customizations/AzureMonitorOpenTelemetryExporterContext.Custom.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/Customizations/AzureMonitorOpenTelemetryExporterContext.Custom.cs"
     },
     {
       "Members": [
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.OpenTelemetryBuilderExtensions.UseAzureMonitorExporter(OpenTelemetry.IOpenTelemetryBuilder)",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/OpenTelemetryBuilderExtensions.cs#L41C13-L43C62"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/OpenTelemetryBuilderExtensions.cs#L41C13-L43C62"
         },
         {
           "DocsId": "M:Azure.Monitor.OpenTelemetry.Exporter.OpenTelemetryBuilderExtensions.UseAzureMonitorExporter(OpenTelemetry.IOpenTelemetryBuilder,System.Action{Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions})",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/OpenTelemetryBuilderExtensions.cs#L61C13-L130C28"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/OpenTelemetryBuilderExtensions.cs#L61C13-L130C28"
         }
       ],
       "DocsId": "T:Azure.Monitor.OpenTelemetry.Exporter.OpenTelemetryBuilderExtensions",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/OpenTelemetryBuilderExtensions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/OpenTelemetryBuilderExtensions.cs"
     },
     {
       "Members": [
         {
           "DocsId": "F:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.ServiceVersion.value__",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
         },
         {
           "DocsId": "F:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.ServiceVersion.v2_1",
-          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
         }
       ],
       "DocsId": "T:Azure.Monitor.OpenTelemetry.Exporter.AzureMonitorExporterOptions.ServiceVersion",
-      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/72eb981801894297d1835c2fe9313460e5c55ce6/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/fe788e33331ebc425b8d8eeaa7d7def9f7ffdf6f/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/src/AzureMonitorExporterOptions.cs"
     }
   ]
 }

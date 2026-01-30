@@ -50,6 +50,7 @@
     <AssemblyVersion>1.48.0.0</AssemblyVersion>
     <AssemblyVersion>1.49.0.0</AssemblyVersion>
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
+    <AssemblyVersion>1.51.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -71,7 +72,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -95,7 +96,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -121,7 +122,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -140,6 +141,59 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AccessToken (string accessToken, DateTimeOffset expiresOn, DateTimeOffset? refreshOn, string tokenType, System.Security.Cryptography.X509Certificates.X509Certificate2 bindingCertificate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string accessToken, valuetype System.DateTimeOffset expiresOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; refreshOn, string tokenType, class System.Security.Cryptography.X509Certificates.X509Certificate2 bindingCertificate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Core.AccessToken.#ctor(System.String,System.DateTimeOffset,System.Nullable{System.DateTimeOffset},System.String,System.Security.Cryptography.X509Certificates.X509Certificate2)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (accessToken As String, expiresOn As DateTimeOffset, refreshOn As Nullable(Of DateTimeOffset), tokenType As String, bindingCertificate As X509Certificate2)" />
+      <MemberSignature Language="F#" Value="new Azure.Core.AccessToken : string * DateTimeOffset * Nullable&lt;DateTimeOffset&gt; * string * System.Security.Cryptography.X509Certificates.X509Certificate2 -&gt; Azure.Core.AccessToken" Usage="new Azure.Core.AccessToken (accessToken, expiresOn, refreshOn, tokenType, bindingCertificate)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="accessToken" Type="System.String" />
+        <Parameter Name="expiresOn" Type="System.DateTimeOffset" />
+        <Parameter Name="refreshOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="tokenType" Type="System.String" />
+        <Parameter Name="bindingCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" />
+      </Parameters>
+      <Docs>
+        <param name="accessToken">The access token value.</param>
+        <param name="expiresOn">The access token expiry date.</param>
+        <param name="refreshOn">Specifies the time when the cached token should be proactively refreshed.</param>
+        <param name="tokenType">The access token type.</param>
+        <param name="bindingCertificate">The binding certificate for the access token.</param>
+        <summary>
+            Creates a new instance of <see cref="T:Azure.Core.AccessToken" /> using the provided <paramref name="accessToken" /> and <paramref name="expiresOn" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingCertificate">
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate2? BindingCertificate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.X509Certificates.X509Certificate2 BindingCertificate" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AccessToken.BindingCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BindingCertificate As X509Certificate2" />
+      <MemberSignature Language="F#" Value="member this.BindingCertificate : System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="Azure.Core.AccessToken.BindingCertificate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the binding certificate for the access token.
+            This is used when authenticating via Proof of Possession (PoP).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Equals">
       <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
@@ -149,7 +203,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -175,7 +229,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -197,7 +251,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -219,7 +273,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -241,7 +295,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -263,7 +317,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.50.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
