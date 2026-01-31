@@ -13,6 +13,7 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.1.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -23,7 +24,10 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> A state of a server that is visible to user. </summary>
+    <summary>
+            Possible states of a server.
+            Serialized Name: ServerState
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -37,7 +41,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -60,13 +64,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Disabled. </summary>
+        <summary>
+            Disabled
+            Serialized Name: ServerState.Disabled
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,13 +88,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Dropping. </summary>
+        <summary>
+            Dropping
+            Serialized Name: ServerState.Dropping
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,7 +115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -131,7 +141,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -163,7 +173,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -181,6 +191,29 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Inaccessible">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Inaccessible { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Inaccessible" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState.Inaccessible" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Inaccessible As PostgreSqlFlexibleServerState" />
+      <MemberSignature Language="F#" Value="static member Inaccessible : Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState.Inaccessible" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Inaccessible
+            Serialized Name: ServerState.Inaccessible
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="op_Equality">
       <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState left, Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState left, valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState right) cil managed" />
@@ -191,7 +224,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -218,7 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
@@ -243,7 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -260,6 +293,29 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Provisioning">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Provisioning { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Provisioning" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState.Provisioning" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Provisioning As PostgreSqlFlexibleServerState" />
+      <MemberSignature Language="F#" Value="static member Provisioning : Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState.Provisioning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provisioning
+            Serialized Name: ServerState.Provisioning
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Ready">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Ready { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Ready" />
@@ -270,13 +326,39 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Ready. </summary>
+        <summary>
+            Ready
+            Serialized Name: ServerState.Ready
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restarting">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Restarting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState Restarting" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState.Restarting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Restarting As PostgreSqlFlexibleServerState" />
+      <MemberSignature Language="F#" Value="static member Restarting : Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState.Restarting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Restarting
+            Serialized Name: ServerState.Restarting
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -291,13 +373,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Starting. </summary>
+        <summary>
+            Starting
+            Serialized Name: ServerState.Starting
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,13 +397,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Stopped. </summary>
+        <summary>
+            Stopped
+            Serialized Name: ServerState.Stopped
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -333,13 +421,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Stopping. </summary>
+        <summary>
+            Stopping
+            Serialized Name: ServerState.Stopping
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -354,7 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -376,13 +467,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Updating. </summary>
+        <summary>
+            Updating
+            Serialized Name: ServerState.Updating
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -10,6 +10,7 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.1.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -29,7 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,7 +48,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityResult&gt;</ReturnType>
@@ -57,11 +58,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="content"> The required parameters for checking if resource name is available. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            Checks the validity and availability of the given name, to assign it to a new server or to use it as the base name of a new pair of virtual endpoints.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>NameAvailability_CheckGlobally</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -78,7 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -88,11 +89,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="content"> The required parameters for checking if resource name is available. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            Checks the validity and availability of the given name, to assign it to a new server or to use it as the base name of a new pair of virtual endpoints.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>NameAvailability_CheckGlobally</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -109,7 +110,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityResult&gt;</ReturnType>
@@ -121,11 +122,11 @@
       </Parameters>
       <Docs>
         <param name="locationName"> The name of the location. </param>
-        <param name="content"> The required parameters for checking if resource name is available. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailabilityWithLocation_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>NameAvailability_CheckWithLocation</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -142,7 +143,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -154,11 +155,11 @@
       </Parameters>
       <Docs>
         <param name="locationName"> The name of the location. </param>
-        <param name="content"> The required parameters for checking if resource name is available. </param>
+        <param name="content"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailabilityWithLocation_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>NameAvailability_CheckWithLocation</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerCapabilityProperties&gt;</ReturnType>
@@ -188,8 +189,8 @@
         <param name="locationName"> The name of the location. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get capabilities at specified location in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/capabilities</description></item><item><term>Operation Id</term><description>LocationBasedCapabilities_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            Lists the capabilities available in a given location for a specific subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/capabilities</description></item><item><term>Operation Id</term><description>CapabilitiesByLocation_List</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerCapabilityProperties" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerCapabilityProperties&gt;</ReturnType>
@@ -217,8 +218,8 @@
         <param name="locationName"> The name of the location. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get capabilities at specified location in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/capabilities</description></item><item><term>Operation Id</term><description>LocationBasedCapabilities_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            Lists the capabilities available in a given location for a specific subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/capabilities</description></item><item><term>Operation Id</term><description>CapabilitiesByLocation_List</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerCapabilityProperties" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,7 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerVirtualNetworkSubnetUsageResult&gt;</ReturnType>
@@ -245,11 +246,11 @@
       </Parameters>
       <Docs>
         <param name="locationName"> The name of the location. </param>
-        <param name="postgreSqlFlexibleServerVirtualNetworkSubnetUsageParameter"> The required parameters for creating or updating a server. </param>
+        <param name="postgreSqlFlexibleServerVirtualNetworkSubnetUsageParameter"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get virtual network subnet usage for a given vNet resource id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkVirtualNetworkSubnetUsage</description></item><item><term>Operation Id</term><description>VirtualNetworkSubnetUsage_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            Lists the virtual network subnet usage for a given virtual network.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkVirtualNetworkSubnetUsage</description></item><item><term>Operation Id</term><description>VirtualNetworkSubnetUsage_List</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -266,7 +267,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerVirtualNetworkSubnetUsageResult&gt;&gt;</ReturnType>
@@ -278,11 +279,11 @@
       </Parameters>
       <Docs>
         <param name="locationName"> The name of the location. </param>
-        <param name="postgreSqlFlexibleServerVirtualNetworkSubnetUsageParameter"> The required parameters for creating or updating a server. </param>
+        <param name="postgreSqlFlexibleServerVirtualNetworkSubnetUsageParameter"> The request body. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Get virtual network subnet usage for a given vNet resource id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkVirtualNetworkSubnetUsage</description></item><item><term>Operation Id</term><description>VirtualNetworkSubnetUsage_Execute</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item></list></summary>
+            Lists the virtual network subnet usage for a given virtual network.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/checkVirtualNetworkSubnetUsage</description></item><item><term>Operation Id</term><description>VirtualNetworkSubnetUsage_List</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -299,7 +300,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource&gt;</ReturnType>
@@ -310,8 +311,8 @@
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            List all the servers in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/flexibleServers</description></item><item><term>Operation Id</term><description>Servers_List</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource" /></description></item></list></summary>
+            Lists all servers in a subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/flexibleServers</description></item><item><term>Operation Id</term><description>Servers_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,7 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource&gt;</ReturnType>
@@ -337,9 +338,65 @@
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            List all the servers in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/flexibleServers</description></item><item><term>Operation Id</term><description>Servers_List</description></item><item><term>Default Api Version</term><description>2024-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource" /></description></item></list></summary>
+            Lists all servers in a subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/flexibleServers</description></item><item><term>Operation Id</term><description>Servers_ListBySubscription</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.PostgreSqlFlexibleServerResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuotaUsages">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt; GetQuotaUsages (Azure.Core.AzureLocation locationName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt; GetQuotaUsages(valuetype Azure.Core.AzureLocation locationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Mocking.MockablePostgreSqlFlexibleServersSubscriptionResource.GetQuotaUsages(Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQuotaUsages (locationName As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of PostgreSqlFlexibleServerQuotaUsage)" />
+      <MemberSignature Language="F#" Value="abstract member GetQuotaUsages : Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt;&#xA;override this.GetQuotaUsages : Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt;" Usage="mockablePostgreSqlFlexibleServersSubscriptionResource.GetQuotaUsages (locationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="locationName" Type="Azure.Core.AzureLocation" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="locationName"> The name of the location. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get quota usages at specified location in a given subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/resourceType/flexibleServers/usages</description></item><item><term>Operation Id</term><description>QuotaUsages_List</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuotaUsagesAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt; GetQuotaUsagesAsync (Azure.Core.AzureLocation locationName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt; GetQuotaUsagesAsync(valuetype Azure.Core.AzureLocation locationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Mocking.MockablePostgreSqlFlexibleServersSubscriptionResource.GetQuotaUsagesAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQuotaUsagesAsync (locationName As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of PostgreSqlFlexibleServerQuotaUsage)" />
+      <MemberSignature Language="F#" Value="abstract member GetQuotaUsagesAsync : Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt;&#xA;override this.GetQuotaUsagesAsync : Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt;" Usage="mockablePostgreSqlFlexibleServersSubscriptionResource.GetQuotaUsagesAsync (locationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="locationName" Type="Azure.Core.AzureLocation" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+      </Parameters>
+      <Docs>
+        <param name="locationName"> The name of the location. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get quota usages at specified location in a given subscription.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/resourceType/flexibleServers/usages</description></item><item><term>Operation Id</term><description>QuotaUsages_List</description></item><item><term>Default Api Version</term><description>2025-08-01</description></item></list></summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerQuotaUsage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

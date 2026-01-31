@@ -1,0 +1,505 @@
+<Type Name="ObjectRecommendation" FullName="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation">
+  <TypeSignature Language="C#" Value="public class ObjectRecommendation : Azure.ResourceManager.Models.ResourceData, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ObjectRecommendation extends Azure.ResourceManager.Models.ResourceData implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation" />
+  <TypeSignature Language="VB.NET" Value="Public Class ObjectRecommendation&#xA;Inherits ResourceData&#xA;Implements IJsonModel(Of ObjectRecommendation), IPersistableModel(Of ObjectRecommendation)" />
+  <TypeSignature Language="F#" Value="type ObjectRecommendation = class&#xA;    inherit ResourceData&#xA;    interface IJsonModel&lt;ObjectRecommendation&gt;&#xA;    interface IPersistableModel&lt;ObjectRecommendation&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Object recommendation properties.
+            Serialized Name: ObjectRecommendation
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ObjectRecommendation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnalyzedWorkload">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationAnalyzedWorkload AnalyzedWorkload { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationAnalyzedWorkload AnalyzedWorkload" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.AnalyzedWorkload" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnalyzedWorkload As ObjectRecommendationAnalyzedWorkload" />
+      <MemberSignature Language="F#" Value="member this.AnalyzedWorkload : Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationAnalyzedWorkload with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.AnalyzedWorkload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationAnalyzedWorkload</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Workload information for the recommended action.
+            Serialized Name: ObjectRecommendation.properties.analyzedWorkload
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentState">
+      <MemberSignature Language="C#" Value="public string CurrentState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrentState" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.CurrentState" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentState As String" />
+      <MemberSignature Language="F#" Value="member this.CurrentState : string with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.CurrentState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Current state.
+            Serialized Name: ObjectRecommendation.properties.currentState
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationDetails Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationDetails Details" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.Details" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Details As ObjectRecommendationDetails" />
+      <MemberSignature Language="F#" Value="member this.Details : Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationDetails" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.Details" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationDetails</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Recommendation details for the recommended action.
+            Serialized Name: ObjectRecommendation.properties.details
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EstimatedImpact">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.RecommendationImpactRecord&gt; EstimatedImpact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.RecommendationImpactRecord&gt; EstimatedImpact" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.EstimatedImpact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EstimatedImpact As IReadOnlyList(Of RecommendationImpactRecord)" />
+      <MemberSignature Language="F#" Value="member this.EstimatedImpact : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.RecommendationImpactRecord&gt;" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.EstimatedImpact" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.RecommendationImpactRecord&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Estimated impact of this recommended action.
+            Serialized Name: ObjectRecommendation.properties.estimatedImpact
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImplementationDetails">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationImplementationDetails ImplementationDetails { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationImplementationDetails ImplementationDetails" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.ImplementationDetails" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImplementationDetails As ObjectRecommendationImplementationDetails" />
+      <MemberSignature Language="F#" Value="member this.ImplementationDetails : Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationImplementationDetails with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.ImplementationDetails" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendationImplementationDetails</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Implementation details for the recommended action.
+            Serialized Name: ObjectRecommendation.properties.implementationDetails
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImprovedQueryIds">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;long&gt; ImprovedQueryIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;int64&gt; ImprovedQueryIds" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.ImprovedQueryIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImprovedQueryIds As IList(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.ImprovedQueryIds : System.Collections.Generic.IList&lt;int64&gt;" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.ImprovedQueryIds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List of identifiers for all queries identified as targets for improvement if the recommendation is applied. The list is only populated for CREATE INDEX recommendations.
+            Serialized Name: ObjectRecommendation.properties.improvedQueryIds
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialRecommendedOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? InitialRecommendedOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; InitialRecommendedOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.InitialRecommendedOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialRecommendedOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.InitialRecommendedOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.InitialRecommendedOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Creation time (UTC) of this recommendation.
+            Serialized Name: ObjectRecommendation.properties.initialRecommendedTime
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonModelWriteCore">
+      <MemberSignature Language="C#" Value="protected override void JsonModelWriteCore (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void JsonModelWriteCore(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub JsonModelWriteCore (writer As Utf8JsonWriter, options As ModelReaderWriterOptions)" />
+      <MemberSignature Language="F#" Value="override this.JsonModelWriteCore : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="objectRecommendation.JsonModelWriteCore (writer, options)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer"> The JSON writer. </param>
+        <param name="options"> The client options for reading and writing models. </param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public string Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
+      <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Always empty.
+            Serialized Name: ObjectRecommendation.kind
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastRecommendedOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? LastRecommendedOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; LastRecommendedOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.LastRecommendedOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastRecommendedOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.LastRecommendedOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.LastRecommendedOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Last time (UTC) that this recommendation was produced.
+            Serialized Name: ObjectRecommendation.properties.lastRecommendedTime
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecommendationReason">
+      <MemberSignature Language="C#" Value="public string RecommendationReason { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RecommendationReason" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.RecommendationReason" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecommendationReason As String" />
+      <MemberSignature Language="F#" Value="member this.RecommendationReason : string with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.RecommendationReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Reason for this recommendation.
+            Serialized Name: ObjectRecommendation.properties.recommendationReason
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecommendationType">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerRecommendationType? RecommendationType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerRecommendationType&gt; RecommendationType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.RecommendationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecommendationType As Nullable(Of PostgreSqlFlexibleServerRecommendationType)" />
+      <MemberSignature Language="F#" Value="member this.RecommendationType : Nullable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerRecommendationType&gt; with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.RecommendationType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerRecommendationType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Type for this recommendation.
+            Serialized Name: ObjectRecommendation.properties.recommendationType
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation IJsonModel&lt;ObjectRecommendation&gt;.Create (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.System#ClientModel#Primitives#IJsonModel&lt;Azure#ResourceManager#PostgreSql#FlexibleServers#Models#ObjectRecommendation&gt;#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As ObjectRecommendation Implements IJsonModel(Of ObjectRecommendation).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation" Usage="objectRecommendation.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create (reader, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
+            </summary>
+        <returns>A <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation" /> representation of the JSON value.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write">
+      <MemberSignature Language="C#" Value="void IJsonModel&lt;ObjectRecommendation&gt;.Write (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.System#ClientModel#Primitives#IJsonModel&lt;Azure#ResourceManager#PostgreSql#FlexibleServers#Models#ObjectRecommendation&gt;#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Sub Write (writer As Utf8JsonWriter, options As ModelReaderWriterOptions) Implements IJsonModel(Of ObjectRecommendation).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="objectRecommendation.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write (writer, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Writes the model to the provided <see cref="T:System.Text.Json.Utf8JsonWriter" />.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation IPersistableModel&lt;ObjectRecommendation&gt;.Create (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#PostgreSql#FlexibleServers#Models#ObjectRecommendation&gt;#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (data As BinaryData, options As ModelReaderWriterOptions) As ObjectRecommendation Implements IPersistableModel(Of ObjectRecommendation).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation" Usage="objectRecommendation.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Create (data, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Converts the provided <see cref="T:System.BinaryData" /> into a model.
+            </summary>
+        <returns>A <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation" /> representation of the data.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.GetFormatFromOptions">
+      <MemberSignature Language="C#" Value="string IPersistableModel&lt;ObjectRecommendation&gt;.GetFormatFromOptions (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.GetFormatFromOptions(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#PostgreSql#FlexibleServers#Models#ObjectRecommendation&gt;#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function GetFormatFromOptions (options As ModelReaderWriterOptions) As String Implements IPersistableModel(Of ObjectRecommendation).GetFormatFromOptions" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string" Usage="objectRecommendation.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.GetFormatFromOptions options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
+        <summary>
+            Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
+            </summary>
+        <returns>The format that the model uses when communicating with the service.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write">
+      <MemberSignature Language="C#" Value="BinaryData IPersistableModel&lt;ObjectRecommendation&gt;.Write (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.BinaryData System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#PostgreSql#FlexibleServers#Models#ObjectRecommendation&gt;#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Write (options As ModelReaderWriterOptions) As BinaryData Implements IPersistableModel(Of ObjectRecommendation).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="objectRecommendation.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation&gt;.Write options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Write(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Writes the model into a <see cref="T:System.BinaryData" />.
+            </summary>
+        <returns>A binary representation of the written model.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="TimesRecommended">
+      <MemberSignature Language="C#" Value="public int? TimesRecommended { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TimesRecommended" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.TimesRecommended" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimesRecommended As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.TimesRecommended : Nullable&lt;int&gt; with get, set" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ObjectRecommendation.TimesRecommended" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Number of times this recommendation has been produced.
+            Serialized Name: ObjectRecommendation.properties.timesRecommended
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
