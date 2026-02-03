@@ -1760,7 +1760,7 @@
         - Azure.ResourceManager.DisconnectedOperations
         - Azure.ResourceManager.DisconnectedOperations.Mocking
         - Azure.ResourceManager.DisconnectedOperations.Models
-  - name: Dns
+  - name: DNS
     href: ~/api/overview/azure/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -5460,10 +5460,6 @@
           children:
           - Azure.Core.Amqp
         - name: Core
-          href: ~/api/overview/azure/{moniker}/core.expressions.datafactory-readme.md
-          children:
-          - Azure.Core.Expressions.DataFactory
-        - name: Core
           href: ~/api/overview/azure/{moniker}/core-readme.md
           children:
           - Azure
@@ -5475,6 +5471,10 @@
           - Azure.Core.Pipeline
           - Azure.Core.Serialization
           - Azure.Messaging
+        - name: Core
+          href: ~/api/overview/azure/{moniker}/core.expressions.datafactory-readme.md
+          children:
+          - Azure.Core.Expressions.DataFactory
         - name: Spatial
           href: ~/api/overview/azure/{moniker}/microsoft.azure.core.spatial-readme.md
           children:
