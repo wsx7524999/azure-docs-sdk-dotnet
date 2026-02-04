@@ -43,7 +43,7 @@
         <Parameter Name="targetIdentity" Type="Azure.Communication.CommunicationUserIdentifier" />
       </Parameters>
       <Docs>
-        <param name="targetIdentity" />
+        <param name="targetIdentity">The Communication User identifier of the target participant.</param>
         <summary>
             Creates a new CallInvite object.
             Sip Headers are not supported. Voip Headers are supported for ACS Users.
@@ -61,13 +61,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="targetIdentity" Type="Azure.Communication.MicrosoftTeamsAppIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="targetIdentity" Type="Azure.Communication.MicrosoftTeamsAppIdentifier" />
       </Parameters>
       <Docs>
-        <param name="targetIdentity">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="targetIdentity">The Microsoft Teams App identifier of the target participant.</param>
+        <summary>
+            Creates a new CallInvite object.
+            Sip Headers are not supported. Voip Headers are supported for Microsoft Teams Apps.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -87,7 +91,7 @@
         <Parameter Name="targetIdentity" Type="Azure.Communication.MicrosoftTeamsUserIdentifier" />
       </Parameters>
       <Docs>
-        <param name="targetIdentity" />
+        <param name="targetIdentity">The Microsoft Teams User identifier of the target participant.</param>
         <summary>
             Creates a new CallInvite object.
             Sip Headers are not supported. Voip Headers are supported for Microsoft teams Users.
@@ -111,7 +115,7 @@
         <Parameter Name="targetIdentity" Type="Azure.Communication.TeamsExtensionUserIdentifier" />
       </Parameters>
       <Docs>
-        <param name="targetIdentity" />
+        <param name="targetIdentity">The Teams Extension User identifier of the target participant.</param>
         <summary>
             Creates a new CallInvite object.
             Sip Headers are not supported. Voip Headers are supported for Microsoft Teams Apps.
@@ -136,8 +140,8 @@
         <Parameter Name="callerIdNumber" Type="Azure.Communication.PhoneNumberIdentifier" />
       </Parameters>
       <Docs>
-        <param name="targetPhoneNumberIdentity" />
-        <param name="callerIdNumber" />
+        <param name="targetPhoneNumberIdentity">The phone number identifier of the target participant.</param>
+        <param name="callerIdNumber">The caller ID phone number to be displayed to the target participant.</param>
         <summary>
             Creates a new CallInvite object.
             When the source of the call is a Teams App source, callerIdNumber is not supported and should be null.

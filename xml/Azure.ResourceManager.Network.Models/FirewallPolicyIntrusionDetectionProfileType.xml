@@ -18,6 +18,7 @@
     <AssemblyVersion>1.12.0.0</AssemblyVersion>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
     <AssemblyVersion>1.14.0.0</AssemblyVersion>
+    <AssemblyVersion>1.15.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -28,7 +29,15 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> Possible Intrusion Detection profile values. </summary>
+    <summary>
+             Specifies the Intrusion Detection signature profile to apply.
+            
+             Values:
+             - Off: IDPS profiles disabled; uses the same signature set that existed before profiles.
+             - Emerging: Signatures of the newest, most recent threats.
+             - Core: Complete, modern, standard set of signatures.
+             - Extended: Core signatures plus older legacy signatures for maximum coverage.
+             </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -42,7 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -65,8 +74,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
       </ReturnValue>
@@ -86,13 +101,59 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Basic. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Core">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType Core { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType Core" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType.Core" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Core As FirewallPolicyIntrusionDetectionProfileType" />
+      <MemberSignature Language="F#" Value="static member Core : Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType" Usage="Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType.Core" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Core. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Emerging">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType Emerging { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType Emerging" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType.Emerging" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Emerging As FirewallPolicyIntrusionDetectionProfileType" />
+      <MemberSignature Language="F#" Value="static member Emerging : Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType" Usage="Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType.Emerging" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Emerging. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,7 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -136,7 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -168,7 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
@@ -189,7 +250,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -207,6 +268,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Off">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType Off { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType Off" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType.Off" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Off As FirewallPolicyIntrusionDetectionProfileType" />
+      <MemberSignature Language="F#" Value="static member Off : Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType" Usage="Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType.Off" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Off. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="op_Equality">
       <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType left, Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType left, valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType right) cil managed" />
@@ -217,7 +298,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -244,7 +325,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
@@ -269,7 +350,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -296,8 +377,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProfileType</ReturnType>
       </ReturnValue>
@@ -317,7 +404,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

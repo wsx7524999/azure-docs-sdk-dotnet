@@ -1012,7 +1012,7 @@
         - Azure.ResourceManager.DevTestLabs
         - Azure.ResourceManager.DevTestLabs.Mocking
         - Azure.ResourceManager.DevTestLabs.Models
-  - name: Dns
+  - name: DNS
     href: ~/api/overview/azure/latest/dns.md
     landingPageType: Service
     items:
@@ -2891,10 +2891,6 @@
           children:
           - Azure.Core.Amqp
         - name: Core
-          href: ~/api/overview/azure/latest/core.expressions.datafactory-readme.md
-          children:
-          - Azure.Core.Expressions.DataFactory
-        - name: Core
           href: ~/api/overview/azure/latest/core-readme.md
           children:
           - Azure
@@ -2906,6 +2902,10 @@
           - Azure.Core.Pipeline
           - Azure.Core.Serialization
           - Azure.Messaging
+        - name: Core
+          href: ~/api/overview/azure/latest/core.expressions.datafactory-readme.md
+          children:
+          - Azure.Core.Expressions.DataFactory
         - name: Spatial
           href: ~/api/overview/azure/latest/microsoft.azure.core.spatial-readme.md
           children:

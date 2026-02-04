@@ -1,0 +1,275 @@
+<Type Name="ServiceUpdateAction" FullName="Azure.ResourceManager.Network.Models.ServiceUpdateAction">
+  <TypeSignature Language="C#" Value="public readonly struct ServiceUpdateAction : IEquatable&lt;Azure.ResourceManager.Network.Models.ServiceUpdateAction&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ServiceUpdateAction extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ServiceUpdateAction&#xA;Implements IEquatable(Of ServiceUpdateAction)" />
+  <TypeSignature Language="F#" Value="type ServiceUpdateAction = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+    <AssemblyVersion>1.15.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.Network.Models.ServiceUpdateAction&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+             Specifies the type of update operation to perform on services within the service gateway.
+            
+             - FullUpdate: Replaces all existing services with the new list provided in the request. Any previously defined services not included will be removed.
+             - PartialUpdate: Updates only the specified services.
+             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceUpdateAction (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Network.Models.ServiceUpdateAction : string -&gt; Azure.ResourceManager.Network.Models.ServiceUpdateAction" Usage="new Azure.ResourceManager.Network.Models.ServiceUpdateAction value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Network.Models.ServiceUpdateAction" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.Network.Models.ServiceUpdateAction other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.Equals(Azure.ResourceManager.Network.Models.ServiceUpdateAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As ServiceUpdateAction) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.Network.Models.ServiceUpdateAction -&gt; bool" Usage="serviceUpdateAction.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="serviceUpdateAction.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullUpdate">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ServiceUpdateAction FullUpdate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction FullUpdate" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ServiceUpdateAction.FullUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FullUpdate As ServiceUpdateAction" />
+      <MemberSignature Language="F#" Value="static member FullUpdate : Azure.ResourceManager.Network.Models.ServiceUpdateAction" Usage="Azure.ResourceManager.Network.Models.ServiceUpdateAction.FullUpdate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Network.Models.ServiceUpdateAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> FullUpdate. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="serviceUpdateAction.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.Network.Models.ServiceUpdateAction left, Azure.ResourceManager.Network.Models.ServiceUpdateAction right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction left, valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.op_Equality(Azure.ResourceManager.Network.Models.ServiceUpdateAction,Azure.ResourceManager.Network.Models.ServiceUpdateAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As ServiceUpdateAction, right As ServiceUpdateAction) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.Network.Models.ServiceUpdateAction * Azure.ResourceManager.Network.Models.ServiceUpdateAction -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Network.Models.ServiceUpdateAction" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Network.Models.ServiceUpdateAction (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.op_Implicit(System.String)~Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As ServiceUpdateAction" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.Network.Models.ServiceUpdateAction" Usage="Azure.ResourceManager.Network.Models.ServiceUpdateAction.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Network.Models.ServiceUpdateAction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a <see cref="T:System.String" /> to a <see cref="T:Azure.ResourceManager.Network.Models.ServiceUpdateAction" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.Network.Models.ServiceUpdateAction left, Azure.ResourceManager.Network.Models.ServiceUpdateAction right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction left, valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.op_Inequality(Azure.ResourceManager.Network.Models.ServiceUpdateAction,Azure.ResourceManager.Network.Models.ServiceUpdateAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As ServiceUpdateAction, right As ServiceUpdateAction) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.Network.Models.ServiceUpdateAction * Azure.ResourceManager.Network.Models.ServiceUpdateAction -&gt; bool" Usage="Azure.ResourceManager.Network.Models.ServiceUpdateAction.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+        <Parameter Name="right" Type="Azure.ResourceManager.Network.Models.ServiceUpdateAction" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.Network.Models.ServiceUpdateAction" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartialUpdate">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ServiceUpdateAction PartialUpdate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ServiceUpdateAction PartialUpdate" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ServiceUpdateAction.PartialUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PartialUpdate As ServiceUpdateAction" />
+      <MemberSignature Language="F#" Value="static member PartialUpdate : Azure.ResourceManager.Network.Models.ServiceUpdateAction" Usage="Azure.ResourceManager.Network.Models.ServiceUpdateAction.PartialUpdate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Network.Models.ServiceUpdateAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> PartialUpdate. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.ServiceUpdateAction.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="serviceUpdateAction.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
