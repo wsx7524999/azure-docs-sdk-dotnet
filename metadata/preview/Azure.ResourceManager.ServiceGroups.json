@@ -1,0 +1,33 @@
+{
+  "Name": "Azure.ResourceManager.ServiceGroups",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/servicegroups/Azure.ResourceManager.ServiceGroups",
+  "ServiceDirectory": "servicegroups",
+  "ReadMePath": "sdk/servicegroups/Azure.ResourceManager.ServiceGroups/README.md",
+  "ChangeLogPath": "sdk/servicegroups/Azure.ResourceManager.ServiceGroups/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.ServiceGroups",
+  "ReleaseStatus": "2025-02-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/servicegroups/ci.mgmt.yml"
+    ],
+    "name": "Azure.ResourceManager.ServiceGroups",
+    "safeName": "AzureResourceManagerServiceGroups"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": [],
+    "BuildSnippets": true
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "Azure.ResourceManager.ServiceGroups",
+    "Azure.ResourceManager.ServiceGroups.Mocking",
+    "Azure.ResourceManager.ServiceGroups.Models"
+  ]
+}
