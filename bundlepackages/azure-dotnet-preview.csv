@@ -90,7 +90,7 @@ azureprojectsprovisioning,[tfm=netstandard2.0;isPrerelease=true]Azure.Projects.P
 azureprojectsweb,[tfm=netstandard2.0;isPrerelease=true]Azure.Projects.Web,1.0.0-beta.1
 azureprovisioning,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning,1.5.0-beta.1
 azureprovisioningappconfiguration,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.AppConfiguration,1.0.0-beta.1
-azureprovisioningappcontainers,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.AppContainers,1.0.0-beta.1
+azureprovisioningappcontainers,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.AppContainers,1.2.0-beta.1
 azureprovisioningapplicationinsights,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.ApplicationInsights,1.0.0-beta.1
 azureprovisioningappservice,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.AppService,1.3.0-beta.1
 azureprovisioningcognitiveservices,[tfm=netstandard2.0;isPrerelease=true]Azure.Provisioning.CognitiveServices,1.0.0-beta.1
@@ -210,7 +210,7 @@ azureresourcemanagereventhubs,[isPrerelease=true;tfm=netstandard2.0]Azure.Resour
 azureresourcemanagerextendedlocation,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ExtendedLocation,1.0.0-beta.2
 azureresourcemanagerextendedlocations,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ExtendedLocations,1.1.0-beta.1
 azureresourcemanagerfabric,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.Fabric,1.0.0-beta.2
-azureresourcemanagerfileshares,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.FileShares,1.0.0-beta.1
+azureresourcemanagerfileshares,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.FileShares,1.0.0-beta.2
 azureresourcemanagerfluidrelay,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.FluidRelay,1.1.0-beta.1
 azureresourcemanagerfrontdoor,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.FrontDoor,1.2.0-beta.1
 azureresourcemanagergrafana,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.Grafana,1.2.0-beta.3
@@ -309,6 +309,7 @@ azureresourcemanagerselfhelp,[tfm=netstandard2.0;isPrerelease=true]Azure.Resourc
 azureresourcemanagerservicebus,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ServiceBus,1.2.0-beta.1
 azureresourcemanagerservicefabric,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ServiceFabric,1.2.0-beta.2
 azureresourcemanagerservicefabricmanagedclusters,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ServiceFabricManagedClusters,1.3.0-beta.5
+azureresourcemanagerservicegroups,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.ServiceGroups,1.0.0-beta.1
 azureresourcemanagerservicelinker,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.ServiceLinker,1.1.0-beta.1
 azureresourcemanagerservicenetworking,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.ServiceNetworking,1.1.0-beta.1
 azureresourcemanagersignalr,[isPrerelease=true;tfm=netstandard2.0]Azure.ResourceManager.SignalR,1.1.0-beta.1
