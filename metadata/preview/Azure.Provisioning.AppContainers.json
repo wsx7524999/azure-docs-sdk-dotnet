@@ -1,6 +1,6 @@
 {
   "Name": "Azure.Provisioning.AppContainers",
-  "Version": "1.0.0-beta.1",
+  "Version": "1.2.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/provisioning/Azure.Provisioning.AppContainers",
   "ServiceDirectory": "provisioning",
@@ -10,9 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Provisioning.AppContainers",
-  "ReleaseStatus": "2024-10-04",
+  "ReleaseStatus": "2026-02-05",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "Azure.Provisioning.AppContainers",
+    "safeName": "AzureProvisioningAppContainers",
+    "triggeringPaths": [
+      "/sdk/provisioning/ci.compute.yml"
+    ]
+  },
+  "CIParameters": {
+    "BuildSnippets": true,
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "Azure.Provisioning.AppContainers"
   ]
