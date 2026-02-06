@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce">
+  <RulePack id="e55e2a32-f92d-4985-a35d-a0b269eb687b">
+    <Version major="1" minor="0" build="0" revision="1" />
+    <Publisher id="d67b34e1-22c9-4f32-8e12-332356ec71ba" />
+    <Details defaultLangCode="en">
+      <LocalizedDetails langcode="en">
+        <PublisherName>Software Engineer & FinTech Builder (Perth, WA)</PublisherName>
+        <Name>Custom ITIN Detection Rule</Name>
+        <Description>High-precision ITIN detection for FinTech applications.</Description>
+      </LocalizedDetails>
+    </Details>
+  </RulePack>
+  <Rules>
+    <Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85"><IdMatch idRef="Func_formatted_itin" /><Match idRef="Keyword_itin" /></Pattern>
+      <Pattern confidenceLevel="75"><IdMatch idRef="Func_unformatted_itin" /><Match idRef="Keyword_itin" /></Pattern>
+      <Pattern confidenceLevel="65"><IdMatch idRef="Func_formatted_itin" /></Pattern>
+    </Entity>
+    <LocalizedStrings>
+      <Resource idRef="e55e2a32-f92d-4985-a35d-a0b269eb687b">
+        <Name default="true" langcode="en">U.S. ITIN</Name>
+        <Description default="true" langcode="en">Individual Taxpayer Identification Number used in the US.</Description>
+      </Resource>
+    </LocalizedStrings>
+  </Rules>
+</RulePackage>
