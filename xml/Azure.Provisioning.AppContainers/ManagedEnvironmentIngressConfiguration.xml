@@ -1,0 +1,156 @@
+<Type Name="ManagedEnvironmentIngressConfiguration" FullName="Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration">
+  <TypeSignature Language="C#" Value="public class ManagedEnvironmentIngressConfiguration : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ManagedEnvironmentIngressConfiguration extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class ManagedEnvironmentIngressConfiguration&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ManagedEnvironmentIngressConfiguration = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Settings for the ingress component, including workload profile, scaling,
+            and connection handling.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagedEnvironmentIngressConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ManagedEnvironmentIngressConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="managedEnvironmentIngressConfiguration.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            ManagedEnvironmentIngressConfiguration.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderCountLimit">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; HeaderCountLimit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; HeaderCountLimit" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.HeaderCountLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Property HeaderCountLimit As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.HeaderCountLimit : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.HeaderCountLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Maximum number of headers per request allowed by the ingress. Must be
+            at least 1. Defaults to 100.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestIdleTimeout">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; RequestIdleTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; RequestIdleTimeout" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.RequestIdleTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestIdleTimeout As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.RequestIdleTimeout : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.RequestIdleTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Duration (in minutes) before idle requests are timed out. Must be
+            between 4 and 30 inclusive. Defaults to 4 minutes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TerminationGracePeriodSeconds">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; TerminationGracePeriodSeconds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; TerminationGracePeriodSeconds" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.TerminationGracePeriodSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public Property TerminationGracePeriodSeconds As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.TerminationGracePeriodSeconds : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.TerminationGracePeriodSeconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Time (in seconds) to allow active connections to complete on
+            termination. Must be between 0 and 3600. Defaults to 480 seconds.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkloadProfileName">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; WorkloadProfileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; WorkloadProfileName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.WorkloadProfileName" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkloadProfileName As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.WorkloadProfileName : Azure.Provisioning.BicepValue&lt;string&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentIngressConfiguration.WorkloadProfileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the workload profile used by the ingress component. Required.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

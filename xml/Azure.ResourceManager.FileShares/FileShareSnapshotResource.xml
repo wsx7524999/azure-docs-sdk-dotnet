@@ -97,12 +97,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="DeleteFileShareSnapshot">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation DeleteFileShareSnapshot (Azure.WaitUntil waitUntil, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation DeleteFileShareSnapshot(valuetype Azure.WaitUntil waitUntil, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareSnapshotResource.DeleteFileShareSnapshot(Azure.WaitUntil,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteFileShareSnapshot (waitUntil As WaitUntil, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
-      <MemberSignature Language="F#" Value="abstract member DeleteFileShareSnapshot : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.DeleteFileShareSnapshot : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="fileShareSnapshotResource.DeleteFileShareSnapshot (waitUntil, cancellationToken)" />
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation Delete (Azure.WaitUntil waitUntil, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation Delete(valuetype Azure.WaitUntil waitUntil, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareSnapshotResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (waitUntil As WaitUntil, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
+      <MemberSignature Language="F#" Value="abstract member Delete : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.Delete : Azure.WaitUntil * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="fileShareSnapshotResource.Delete (waitUntil, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
@@ -121,17 +121,17 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FileShareSnapshot.
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_DeleteFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_DeleteFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="DeleteFileShareSnapshotAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; DeleteFileShareSnapshotAsync (Azure.WaitUntil waitUntil, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; DeleteFileShareSnapshotAsync(valuetype Azure.WaitUntil waitUntil, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareSnapshotResource.DeleteFileShareSnapshotAsync(Azure.WaitUntil,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteFileShareSnapshotAsync (waitUntil As WaitUntil, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
-      <MemberSignature Language="F#" Value="abstract member DeleteFileShareSnapshotAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.DeleteFileShareSnapshotAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="fileShareSnapshotResource.DeleteFileShareSnapshotAsync (waitUntil, cancellationToken)" />
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; DeleteAsync (Azure.WaitUntil waitUntil, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; DeleteAsync(valuetype Azure.WaitUntil waitUntil, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareSnapshotResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (waitUntil As WaitUntil, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.DeleteAsync : Azure.WaitUntil * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="fileShareSnapshotResource.DeleteAsync (waitUntil, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
@@ -150,7 +150,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FileShareSnapshot.
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_DeleteFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_DeleteFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,7 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FileShareSnapshot
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_GetFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_GetFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -202,7 +202,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FileShareSnapshot
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_GetFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_GetFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -412,7 +412,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FileShareSnapshot.
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_UpdateFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_UpdateFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -445,7 +445,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FileShareSnapshot.
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_UpdateFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}. </description></item><item><term> Operation Id. </term><description> FileShareSnapshots_UpdateFileShareSnapshot. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareSnapshotResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -51,6 +51,7 @@
     <AssemblyVersion>1.49.0.0</AssemblyVersion>
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
+    <AssemblyVersion>1.51.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -71,10 +72,32 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
+        <summary>
+            Creates a new instance of <see cref="T:Azure.Core.DiagnosticsOptions" /> with default values.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected internal DiagnosticsOptions (Microsoft.Extensions.Configuration.IConfigurationSection section);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Extensions.Configuration.IConfigurationSection section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Core.DiagnosticsOptions.#ctor(Microsoft.Extensions.Configuration.IConfigurationSection)" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub New (section As IConfigurationSection)" />
+      <MemberSignature Language="F#" Value="new Azure.Core.DiagnosticsOptions : Microsoft.Extensions.Configuration.IConfigurationSection -&gt; Azure.Core.DiagnosticsOptions" Usage="new Azure.Core.DiagnosticsOptions section" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
+      </Parameters>
+      <Docs>
+        <param name="section">To be added.</param>
         <summary>
             Creates a new instance of <see cref="T:Azure.Core.DiagnosticsOptions" /> with default values.
             </summary>
@@ -90,7 +113,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -112,7 +135,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -134,7 +157,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -156,7 +179,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -178,7 +201,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -200,7 +223,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -224,7 +247,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -246,7 +269,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -268,7 +291,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>

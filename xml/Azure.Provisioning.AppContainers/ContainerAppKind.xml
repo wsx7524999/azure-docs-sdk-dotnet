@@ -1,0 +1,77 @@
+<Type Name="ContainerAppKind" FullName="Azure.Provisioning.AppContainers.ContainerAppKind">
+  <TypeSignature Language="C#" Value="public enum ContainerAppKind" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContainerAppKind extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppContainers.ContainerAppKind" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContainerAppKind" />
+  <TypeSignature Language="F#" Value="type ContainerAppKind = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Metadata to represent the container app kind, representing if a container
+            app is workflowapp or functionapp.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Functionapp">
+      <MemberSignature Language="C#" Value="Functionapp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.AppContainers.ContainerAppKind Functionapp = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.AppContainers.ContainerAppKind.Functionapp" />
+      <MemberSignature Language="VB.NET" Value="Functionapp" />
+      <MemberSignature Language="F#" Value="Functionapp = 1" Usage="Azure.Provisioning.AppContainers.ContainerAppKind.Functionapp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="functionapp")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="functionapp")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.AppContainers.ContainerAppKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            functionapp.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Workflowapp">
+      <MemberSignature Language="C#" Value="Workflowapp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Provisioning.AppContainers.ContainerAppKind Workflowapp = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.AppContainers.ContainerAppKind.Workflowapp" />
+      <MemberSignature Language="VB.NET" Value="Workflowapp" />
+      <MemberSignature Language="F#" Value="Workflowapp = 0" Usage="Azure.Provisioning.AppContainers.ContainerAppKind.Workflowapp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="workflowapp")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="workflowapp")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.AppContainers.ContainerAppKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            workflowapp.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

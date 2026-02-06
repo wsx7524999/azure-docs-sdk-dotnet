@@ -51,6 +51,7 @@
     <AssemblyVersion>1.49.0.0</AssemblyVersion>
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
+    <AssemblyVersion>1.51.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -71,7 +72,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -90,7 +91,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="diagnostics" Type="Azure.Core.DiagnosticsOptions" />
@@ -105,21 +106,24 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected ClientOptions (Microsoft.Extensions.Configuration.IConfigurationSection section);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Extensions.Configuration.IConfigurationSection section) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Core.ClientOptions.#ctor(Microsoft.Extensions.Configuration.IConfigurationSection)" />
-      <MemberSignature Language="VB.NET" Value="Protected Sub New (section As IConfigurationSection)" />
-      <MemberSignature Language="F#" Value="new Azure.Core.ClientOptions : Microsoft.Extensions.Configuration.IConfigurationSection -&gt; Azure.Core.ClientOptions" Usage="new Azure.Core.ClientOptions section" />
+      <MemberSignature Language="C#" Value="protected ClientOptions (Microsoft.Extensions.Configuration.IConfigurationSection section, Azure.Core.DiagnosticsOptions? diagnostics);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Extensions.Configuration.IConfigurationSection section, class Azure.Core.DiagnosticsOptions diagnostics) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Core.ClientOptions.#ctor(Microsoft.Extensions.Configuration.IConfigurationSection,Azure.Core.DiagnosticsOptions)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (section As IConfigurationSection, diagnostics As DiagnosticsOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Core.ClientOptions : Microsoft.Extensions.Configuration.IConfigurationSection * Azure.Core.DiagnosticsOptions -&gt; Azure.Core.ClientOptions" Usage="new Azure.Core.ClientOptions (section, diagnostics)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="section" Type="Microsoft.Extensions.Configuration.IConfigurationSection" />
+        <Parameter Name="diagnostics" Type="Azure.Core.DiagnosticsOptions" />
       </Parameters>
       <Docs>
         <param name="section">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" /> to read from.</param>
+        <param name="diagnostics">
+          <see cref="T:Azure.Core.DiagnosticsOptions" /> to be used for <see cref="P:Azure.Core.ClientOptions.Diagnostics" />.</param>
         <summary>
             Creates a new instance of <see cref="T:Azure.Core.ClientOptions" /> with the specified <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection" />.
             </summary>
@@ -135,7 +139,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -164,7 +168,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ClientOptions</ReturnType>
@@ -187,7 +191,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.DiagnosticsOptions</ReturnType>
@@ -209,7 +213,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -241,7 +245,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -269,7 +273,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RetryOptions</ReturnType>
@@ -291,7 +295,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipelinePolicy</ReturnType>
@@ -316,7 +320,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -344,7 +348,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipelineTransport</ReturnType>

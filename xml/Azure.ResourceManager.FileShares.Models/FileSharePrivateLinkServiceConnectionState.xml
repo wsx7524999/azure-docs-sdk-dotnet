@@ -27,12 +27,28 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileSharePrivateLinkServiceConnectionState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ActionsRequired">
-      <MemberSignature Language="C#" Value="public string ActionsRequired { get; }" />
+      <MemberSignature Language="C#" Value="public string ActionsRequired { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ActionsRequired" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.ActionsRequired" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActionsRequired As String" />
-      <MemberSignature Language="F#" Value="member this.ActionsRequired : string" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.ActionsRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionsRequired As String" />
+      <MemberSignature Language="F#" Value="member this.ActionsRequired : string with get, set" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.ActionsRequired" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
@@ -48,11 +64,11 @@
       </Docs>
     </Member>
     <Member MemberName="Description">
-      <MemberSignature Language="C#" Value="public string Description { get; }" />
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.Description" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
-      <MemberSignature Language="F#" Value="member this.Description : string" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.Description" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
@@ -169,11 +185,11 @@
       </Docs>
     </Member>
     <Member MemberName="Status">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FileShares.Models.FileSharesPrivateEndpointServiceConnectionStatus? Status { get; }" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FileShares.Models.FileSharesPrivateEndpointServiceConnectionStatus? Status { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.FileShares.Models.FileSharesPrivateEndpointServiceConnectionStatus&gt; Status" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.Status" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As Nullable(Of FileSharesPrivateEndpointServiceConnectionStatus)" />
-      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.FileShares.Models.FileSharesPrivateEndpointServiceConnectionStatus&gt;" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As Nullable(Of FileSharesPrivateEndpointServiceConnectionStatus)" />
+      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.FileShares.Models.FileSharesPrivateEndpointServiceConnectionStatus&gt; with get, set" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState.Status" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>

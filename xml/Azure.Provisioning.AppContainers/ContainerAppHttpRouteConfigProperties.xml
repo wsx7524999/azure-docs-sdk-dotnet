@@ -1,0 +1,174 @@
+<Type Name="ContainerAppHttpRouteConfigProperties" FullName="Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties">
+  <TypeSignature Language="C#" Value="public class ContainerAppHttpRouteConfigProperties : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContainerAppHttpRouteConfigProperties extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContainerAppHttpRouteConfigProperties&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ContainerAppHttpRouteConfigProperties = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Http Route Config properties.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContainerAppHttpRouteConfigProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ContainerAppHttpRouteConfigProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomDomains">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppCustomDomain&gt; CustomDomains { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.AppContainers.ContainerAppCustomDomain&gt; CustomDomains" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.CustomDomains" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomDomains As BicepList(Of ContainerAppCustomDomain)" />
+      <MemberSignature Language="F#" Value="member this.CustomDomains : Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppCustomDomain&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.CustomDomains" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppCustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Custom domain bindings for Http Routes' hostnames.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="containerAppHttpRouteConfigProperties.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            ContainerAppHttpRouteConfigProperties.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fqdn">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;string&gt; Fqdn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;string&gt; Fqdn" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.Fqdn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fqdn As BicepValue(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Fqdn : Azure.Provisioning.BicepValue&lt;string&gt;" Usage="Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.Fqdn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            FQDN of the route resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningErrors">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningErrors&gt; ProvisioningErrors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningErrors&gt; ProvisioningErrors" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.ProvisioningErrors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningErrors As BicepList(Of ContainerAppHttpRouteProvisioningErrors)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningErrors : Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningErrors&gt;" Usage="Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.ProvisioningErrors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningErrors&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List of errors when trying to reconcile http routes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningState&gt; ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As BicepValue(Of ContainerAppHttpRouteProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningState&gt;" Usage="Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The provisioning state of the Http Route Config.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rules">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteRule&gt; Rules { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepList`1&lt;class Azure.Provisioning.AppContainers.ContainerAppHttpRouteRule&gt; Rules" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.Rules" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rules As BicepList(Of ContainerAppHttpRouteRule)" />
+      <MemberSignature Language="F#" Value="member this.Rules : Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteRule&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ContainerAppHttpRouteConfigProperties.Rules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepList&lt;Azure.Provisioning.AppContainers.ContainerAppHttpRouteRule&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Routing Rules for the Http Route resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

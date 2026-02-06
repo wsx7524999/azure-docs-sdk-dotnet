@@ -78,6 +78,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="LiveSharesFileShareCount">
+      <MemberSignature Language="C#" Value="public int? LiveSharesFileShareCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; LiveSharesFileShareCount" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FileShares.Models.FileShareUsageDataResult.LiveSharesFileShareCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LiveSharesFileShareCount As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.LiveSharesFileShareCount : Nullable&lt;int&gt;" Usage="Azure.ResourceManager.FileShares.Models.FileShareUsageDataResult.LiveSharesFileShareCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The number of active file shares. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="PersistableModelCreateCore">
       <MemberSignature Language="C#" Value="protected virtual Azure.ResourceManager.FileShares.Models.FileShareUsageDataResult PersistableModelCreateCore (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Azure.ResourceManager.FileShares.Models.FileShareUsageDataResult PersistableModelCreateCore(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
@@ -125,26 +145,6 @@
         <param name="options"> The client options for reading and writing models. </param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Properties">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FileShares.Models.FileShareUsageDataProperties Properties { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.FileShares.Models.FileShareUsageDataProperties Properties" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FileShares.Models.FileShareUsageDataResult.Properties" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As FileShareUsageDataProperties" />
-      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.FileShares.Models.FileShareUsageDataProperties" Usage="Azure.ResourceManager.FileShares.Models.FileShareUsageDataResult.Properties" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.FileShares.Models.FileShareUsageDataProperties</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The properties of the file share usage data. </summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

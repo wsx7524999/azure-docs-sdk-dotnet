@@ -179,7 +179,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FileShare
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Delete. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Delete. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,7 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FileShare
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Delete. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Delete. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -234,7 +234,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FileShare
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Get. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -260,8 +260,170 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FileShare
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Get. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Get. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileSharePrivateEndpointConnection">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt; GetFileSharePrivateEndpointConnection (string privateEndpointConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt; GetFileSharePrivateEndpointConnection(string privateEndpointConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareResource.GetFileSharePrivateEndpointConnection(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFileSharePrivateEndpointConnection (privateEndpointConnectionName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of FileSharePrivateEndpointConnectionResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetFileSharePrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;&#xA;override this.GetFileSharePrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;" Usage="fileShareResource.GetFileSharePrivateEndpointConnection (privateEndpointConnectionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="privateEndpointConnectionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="privateEndpointConnectionName"> The name of the private endpoint connection associated with the Azure resource. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Gets the specified private endpoint connection associated with the file share. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateEndpointConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileSharePrivateEndpointConnectionAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;&gt; GetFileSharePrivateEndpointConnectionAsync (string privateEndpointConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;&gt; GetFileSharePrivateEndpointConnectionAsync(string privateEndpointConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareResource.GetFileSharePrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFileSharePrivateEndpointConnectionAsync (privateEndpointConnectionName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FileSharePrivateEndpointConnectionResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetFileSharePrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;&gt;&#xA;override this.GetFileSharePrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;&gt;" Usage="fileShareResource.GetFileSharePrivateEndpointConnectionAsync (privateEndpointConnectionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="privateEndpointConnectionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="privateEndpointConnectionName"> The name of the private endpoint connection associated with the Azure resource. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Gets the specified private endpoint connection associated with the file share. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateEndpointConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileSharePrivateEndpointConnections">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionCollection GetFileSharePrivateEndpointConnections ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionCollection GetFileSharePrivateEndpointConnections() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareResource.GetFileSharePrivateEndpointConnections" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFileSharePrivateEndpointConnections () As FileSharePrivateEndpointConnectionCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetFileSharePrivateEndpointConnections : unit -&gt; Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionCollection&#xA;override this.GetFileSharePrivateEndpointConnections : unit -&gt; Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionCollection" Usage="fileShareResource.GetFileSharePrivateEndpointConnections " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.FileShares.FileSharePrivateEndpointConnectionCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of FileSharePrivateEndpointConnections in the <see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </summary>
+        <returns> An object representing collection of FileSharePrivateEndpointConnections and their operations over a FileSharePrivateEndpointConnectionResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileSharePrivateLinkResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt; GetFileSharePrivateLinkResource (string privateLinkResourceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt; GetFileSharePrivateLinkResource(string privateLinkResourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareResource.GetFileSharePrivateLinkResource(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFileSharePrivateLinkResource (privateLinkResourceName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of FileSharePrivateLinkResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetFileSharePrivateLinkResource : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;&#xA;override this.GetFileSharePrivateLinkResource : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;" Usage="fileShareResource.GetFileSharePrivateLinkResource (privateLinkResourceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="privateLinkResourceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="privateLinkResourceName"> The name of the private link resource. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Gets the private link resources that need to be created for a file share. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateLinkResourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateLinkResourceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileSharePrivateLinkResourceAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;&gt; GetFileSharePrivateLinkResourceAsync (string privateLinkResourceName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;&gt; GetFileSharePrivateLinkResourceAsync(string privateLinkResourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareResource.GetFileSharePrivateLinkResourceAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFileSharePrivateLinkResourceAsync (privateLinkResourceName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FileSharePrivateLinkResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetFileSharePrivateLinkResourceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;&gt;&#xA;override this.GetFileSharePrivateLinkResourceAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;&gt;" Usage="fileShareResource.GetFileSharePrivateLinkResourceAsync (privateLinkResourceName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FileShares.FileSharePrivateLinkResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="privateLinkResourceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="privateLinkResourceName"> The name of the private link resource. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Gets the private link resources that need to be created for a file share. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateLinkResourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateLinkResourceName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileSharePrivateLinkResources">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.FileShares.FileSharePrivateLinkResourceCollection GetFileSharePrivateLinkResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.FileShares.FileSharePrivateLinkResourceCollection GetFileSharePrivateLinkResources() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.FileShareResource.GetFileSharePrivateLinkResources" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFileSharePrivateLinkResources () As FileSharePrivateLinkResourceCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetFileSharePrivateLinkResources : unit -&gt; Azure.ResourceManager.FileShares.FileSharePrivateLinkResourceCollection&#xA;override this.GetFileSharePrivateLinkResources : unit -&gt; Azure.ResourceManager.FileShares.FileSharePrivateLinkResourceCollection" Usage="fileShareResource.GetFileSharePrivateLinkResources " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.FileShares.FileSharePrivateLinkResourceCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of FileSharePrivateLinkResources in the <see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </summary>
+        <returns> An object representing collection of FileSharePrivateLinkResources and their operations over a FileSharePrivateLinkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -663,7 +825,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FileShare
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Update. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Update. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -696,7 +858,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FileShare
-            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Update. </description></item><item><term> Default Api Version. </term><description> 2025-06-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
+            <list type="bullet"><item><term> Request Path. </term><description> /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}. </description></item><item><term> Operation Id. </term><description> FileShares_Update. </description></item><item><term> Default Api Version. </term><description> 2025-09-01-preview. </description></item><item><term> Resource. </term><description><see cref="T:Azure.ResourceManager.FileShares.FileShareResource" />. </description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

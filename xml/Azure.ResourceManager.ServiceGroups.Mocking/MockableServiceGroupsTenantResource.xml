@@ -1,0 +1,122 @@
+<Type Name="MockableServiceGroupsTenantResource" FullName="Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource">
+  <TypeSignature Language="C#" Value="public class MockableServiceGroupsTenantResource : Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MockableServiceGroupsTenantResource extends Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource" />
+  <TypeSignature Language="VB.NET" Value="Public Class MockableServiceGroupsTenantResource&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type MockableServiceGroupsTenantResource = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to TenantResource. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected MockableServiceGroupsTenantResource ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceGroup">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetServiceGroup (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetServiceGroup(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.GetServiceGroup(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetServiceGroup (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ServiceGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetServiceGroup : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&#xA;override this.GetServiceGroup : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;" Usage="mockableServiceGroupsTenantResource.GetServiceGroup (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the serviceGroup
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceGroupAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; GetServiceGroupAsync (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; GetServiceGroupAsync(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.GetServiceGroupAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetServiceGroupAsync (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ServiceGroupResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetServiceGroupAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;&#xA;override this.GetServiceGroupAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;" Usage="mockableServiceGroupsTenantResource.GetServiceGroupAsync (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the serviceGroup
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceGroups">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ServiceGroups.ServiceGroupCollection GetServiceGroups ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ServiceGroups.ServiceGroupCollection GetServiceGroups() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.GetServiceGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetServiceGroups () As ServiceGroupCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetServiceGroups : unit -&gt; Azure.ResourceManager.ServiceGroups.ServiceGroupCollection&#xA;override this.GetServiceGroups : unit -&gt; Azure.ResourceManager.ServiceGroups.ServiceGroupCollection" Usage="mockableServiceGroupsTenantResource.GetServiceGroups " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ServiceGroups.ServiceGroupCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of ServiceGroupResources in the TenantResource. </summary>
+        <returns> An object representing collection of ServiceGroupResources and their operations over a ServiceGroupResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

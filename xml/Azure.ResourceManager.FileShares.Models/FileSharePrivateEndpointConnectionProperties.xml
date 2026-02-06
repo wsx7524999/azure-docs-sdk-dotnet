@@ -27,6 +27,28 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileSharePrivateEndpointConnectionProperties (Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState privateLinkServiceConnectionState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState privateLinkServiceConnectionState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties.#ctor(Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (privateLinkServiceConnectionState As FileSharePrivateLinkServiceConnectionState)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties : Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState -&gt; Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties" Usage="new Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties privateLinkServiceConnectionState" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="privateLinkServiceConnectionState" Type="Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState" />
+      </Parameters>
+      <Docs>
+        <param name="privateLinkServiceConnectionState"> A collection of information about the state of the connection between service consumer and provider. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateLinkServiceConnectionState" /> is null. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="GroupIds">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; GroupIds { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; GroupIds" />
@@ -169,11 +191,11 @@
       </Docs>
     </Member>
     <Member MemberName="PrivateLinkServiceConnectionState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState PrivateLinkServiceConnectionState { get; }" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState PrivateLinkServiceConnectionState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState PrivateLinkServiceConnectionState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties.PrivateLinkServiceConnectionState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrivateLinkServiceConnectionState As FileSharePrivateLinkServiceConnectionState" />
-      <MemberSignature Language="F#" Value="member this.PrivateLinkServiceConnectionState : Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties.PrivateLinkServiceConnectionState" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateLinkServiceConnectionState As FileSharePrivateLinkServiceConnectionState" />
+      <MemberSignature Language="F#" Value="member this.PrivateLinkServiceConnectionState : Azure.ResourceManager.FileShares.Models.FileSharePrivateLinkServiceConnectionState with get, set" Usage="Azure.ResourceManager.FileShares.Models.FileSharePrivateEndpointConnectionProperties.PrivateLinkServiceConnectionState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FileShares</AssemblyName>

@@ -51,6 +51,7 @@
     <AssemblyVersion>1.49.0.0</AssemblyVersion>
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
+    <AssemblyVersion>1.51.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -72,7 +73,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -96,7 +97,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -122,7 +123,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -150,7 +151,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accessToken" Type="System.String" />
@@ -180,7 +181,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
@@ -203,7 +204,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -229,7 +230,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -251,7 +252,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -273,7 +274,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -295,7 +296,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -317,7 +318,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

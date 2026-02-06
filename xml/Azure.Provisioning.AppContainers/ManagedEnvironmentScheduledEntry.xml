@@ -1,0 +1,131 @@
+<Type Name="ManagedEnvironmentScheduledEntry" FullName="Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry">
+  <TypeSignature Language="C#" Value="public class ManagedEnvironmentScheduledEntry : Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ManagedEnvironmentScheduledEntry extends Azure.Provisioning.Primitives.ProvisionableConstruct" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Class ManagedEnvironmentScheduledEntry&#xA;Inherits ProvisionableConstruct" />
+  <TypeSignature Language="F#" Value="type ManagedEnvironmentScheduledEntry = class&#xA;    inherit ProvisionableConstruct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Primitives.ProvisionableConstruct</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Maintenance schedule entry for a managed environment.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagedEnvironmentScheduledEntry ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a new ManagedEnvironmentScheduledEntry.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefineProvisionableProperties">
+      <MemberSignature Language="C#" Value="protected override void DefineProvisionableProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DefineProvisionableProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.DefineProvisionableProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DefineProvisionableProperties ()" />
+      <MemberSignature Language="F#" Value="override this.DefineProvisionableProperties : unit -&gt; unit" Usage="managedEnvironmentScheduledEntry.DefineProvisionableProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Define all the provisionable properties of
+            ManagedEnvironmentScheduledEntry.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DurationHours">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; DurationHours { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; DurationHours" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.DurationHours" />
+      <MemberSignature Language="VB.NET" Value="Public Property DurationHours As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.DurationHours : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.DurationHours" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Length of maintenance window range from 8 to 24 hours.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartHourUtc">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;int&gt; StartHourUtc { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;int32&gt; StartHourUtc" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.StartHourUtc" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartHourUtc As BicepValue(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.StartHourUtc : Azure.Provisioning.BicepValue&lt;int&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.StartHourUtc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Start hour after which managed environment maintenance can start from 0
+            to 23 hour.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeekDay">
+      <MemberSignature Language="C#" Value="public Azure.Provisioning.BicepValue&lt;Azure.Provisioning.AppContainers.ManagedEnvironmentWeekDay&gt; WeekDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Provisioning.BicepValue`1&lt;valuetype Azure.Provisioning.AppContainers.ManagedEnvironmentWeekDay&gt; WeekDay" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.WeekDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property WeekDay As BicepValue(Of ManagedEnvironmentWeekDay)" />
+      <MemberSignature Language="F#" Value="member this.WeekDay : Azure.Provisioning.BicepValue&lt;Azure.Provisioning.AppContainers.ManagedEnvironmentWeekDay&gt; with get, set" Usage="Azure.Provisioning.AppContainers.ManagedEnvironmentScheduledEntry.WeekDay" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.AppContainers</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.BicepValue&lt;Azure.Provisioning.AppContainers.ManagedEnvironmentWeekDay&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Day of the week when a managed environment can be patched.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

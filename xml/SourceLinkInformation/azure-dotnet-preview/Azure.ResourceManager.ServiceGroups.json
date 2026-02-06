@@ -1,0 +1,395 @@
+{
+  "Assembly": "Azure.ResourceManager.ServiceGroups",
+  "GUID": "1FF265390B034511A3CC6B4500E23F3CFFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupsExtensions.GetServiceGroupResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/ServiceGroupsExtensions.cs#L44C13-L46C90"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupsExtensions.GetServiceGroups(Azure.ResourceManager.Resources.TenantResource)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/ServiceGroupsExtensions.cs#L61C13-L63C94"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupsExtensions.GetServiceGroupAsync(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/ServiceGroupsExtensions.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupsExtensions.GetServiceGroup(Azure.ResourceManager.Resources.TenantResource,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/ServiceGroupsExtensions.cs#L137C13-L139C128"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.ServiceGroupsExtensions",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/ServiceGroupsExtensions.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.AzureResourceManagerServiceGroupsContext.TryGetTypeBuilderCore(System.Type,System.ClientModel.Primitives.ModelReaderWriterTypeBuilder@)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/artifacts/obj/Azure.ResourceManager.ServiceGroups/Release/netstandard2.0/System.ClientModel.SourceGeneration/System.ClientModel.SourceGeneration.ModelReaderWriterContextGenerator/AzureResourceManagerServiceGroupsContext.g.cs#L51C9-L73C6"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.AzureResourceManagerServiceGroupsContext.Default",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/artifacts/obj/Azure.ResourceManager.ServiceGroups/Release/netstandard2.0/System.ClientModel.SourceGeneration/System.ClientModel.SourceGeneration.ModelReaderWriterContextGenerator/AzureResourceManagerServiceGroupsContext.g.cs#L34C71-L34C122"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.AzureResourceManagerServiceGroupsContext",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/AzureResourceManagerServiceGroupsContext.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L30C9-L32C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.ServiceGroups.ServiceGroupData,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.ServiceGroups.ServiceGroupData,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L131C13-L149C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.Get(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L223C13-L239C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetAncestorsAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L269C13-L272C292"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetAncestors(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L303C13-L306C287"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.ExistsAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.Exists(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L379C13-L393C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetIfExists(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs#L467C13-L483C10"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupCollection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.cs#L55C9-L58C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.Azure#Core#IUtf8JsonSerializable#Write(System.Text.Json.Utf8JsonWriter)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L22C68-L22C160"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.System#ClientModel#Primitives#IJsonModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L26C13-L29C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L35C13-L63C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.System#ClientModel#Primitives#IJsonModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L67C13-L75C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L310C13-L319C140"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L325C13-L337C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupData.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.Serialization.cs#L339C110-L339C113"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.ServiceGroupData.Kind",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.cs#L79C30-L79C34"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.ServiceGroupData.Tags",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.cs#L82C51-L82C55"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.ServiceGroupData.Properties",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.cs#L85C52-L85C56"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.ServiceGroupData",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupData.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.CreateResourceIdentifier(System.String)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L31C13-L32C55"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L43C9-L45C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.GetAsync(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.Get(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L154C13-L168C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.DeleteAsync(Azure.WaitUntil,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.Delete(Azure.WaitUntil,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L237C13-L252C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ServiceGroups.ServiceGroupData,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.Update(Azure.WaitUntil,Azure.ResourceManager.ServiceGroups.ServiceGroupData,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L327C13-L344C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.AddTag(System.String,System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L435C13-L468C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L553C13-L582C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.RemoveTag(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L670C13-L702C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.System#ClientModel#Primitives#IJsonModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.Serialization.cs#L19C109-L19C168"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.System#ClientModel#Primitives#IJsonModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.Serialization.cs#L21C126-L21C213"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.Serialization.cs#L23C99-L23C205"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.Serialization.cs#L25C123-L25C228"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#ServiceGroupData>#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.Serialization.cs#L27C110-L27C206"
+        },
+        {
+          "DocsId": "F:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.ResourceType",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.HasData",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L70C39-L70C43"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.Data",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs#L78C17-L80C30"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ServiceGroupResource.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsArmClient.cs#L16C9-L18C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient.GetServiceGroupResource(Azure.Core.ResourceIdentifier)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsArmClient.cs#L45C13-L46C57"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsArmClient.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsTenantResource.cs#L19C9-L21C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.GetServiceGroups",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsTenantResource.cs#L40C13-L40C86"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.GetServiceGroupAsync(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsTenantResource.cs"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource.GetServiceGroup(System.String,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsTenantResource.cs#L102C13-L102C80"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsTenantResource",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Extensions/MockableServiceGroupsTenantResource.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ArmServiceGroupsModelFactory.ServiceGroupData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.String,System.Collections.Generic.IDictionary{System.String,System.String},Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ArmServiceGroupsModelFactory.cs#L30C13-L40C52"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ArmServiceGroupsModelFactory.ServiceGroupProperties(System.Nullable{Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState},System.String,Azure.Core.ResourceIdentifier)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ArmServiceGroupsModelFactory.cs#L50C13-L50C235"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.Models.ArmServiceGroupsModelFactory",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/ArmServiceGroupsModelFactory.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.#ctor",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.cs#L50C9-L52C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.Azure#Core#IUtf8JsonSerializable#Write(System.Text.Json.Utf8JsonWriter)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L19C68-L19C166"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.System#ClientModel#Primitives#IJsonModel<Azure#ResourceManager#ServiceGroups#Models#ServiceGroupProperties>#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L23C13-L26C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.JsonModelWriteCore(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L32C13-L68C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.System#ClientModel#Primitives#IJsonModel<Azure#ResourceManager#ServiceGroups#Models#ServiceGroupProperties>#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L72C13-L80C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#Models#ServiceGroupProperties>#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L202C13-L211C146"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#Models#ServiceGroupProperties>#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L217C13-L229C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.System#ClientModel#Primitives#IPersistableModel<Azure#ResourceManager#ServiceGroups#Models#ServiceGroupProperties>#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.Serialization.cs#L231C116-L231C119"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.ProvisioningState",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.cs#L69C67-L69C71"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.DisplayName",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.cs#L72C37-L72C41"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties.ParentResourceId",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.cs#L79C20-L79C64"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProperties",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProperties.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.#ctor(System.String)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L22C13-L23C10"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.op_Equality(Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState,Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L42C116-L42C134"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.op_Inequality(Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState,Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L44C116-L44C135"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.op_Implicit(System.String)~Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L46C88-L46C128"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.Equals(System.Object)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L50C52-L50C111"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.Equals(Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState)",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L52C68-L52C148"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.GetHashCode",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L56C46-L56C128"
+        },
+        {
+          "DocsId": "M:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.ToString",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L58C46-L58C52"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.NotStarted",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L32C66-L32C70"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.Running",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L34C63-L34C67"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.Succeeded",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L36C65-L36C69"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.Failed",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L38C62-L38C66"
+        },
+        {
+          "DocsId": "P:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState.Canceled",
+          "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs#L40C64-L40C68"
+        }
+      ],
+      "DocsId": "T:Azure.ResourceManager.ServiceGroups.Models.ServiceGroupProvisioningState",
+      "SourceLink": "https://github.com/Azure/azure-sdk-for-net/blob/733868925434edbc56822f3e7657a7fc694b5e42/sdk/servicegroups/Azure.ResourceManager.ServiceGroups/src/Generated/Models/ServiceGroupProvisioningState.cs"
+    }
+  ]
+}

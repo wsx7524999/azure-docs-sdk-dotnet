@@ -53,6 +53,7 @@
     <AssemblyVersion>1.49.0.0</AssemblyVersion>
     <AssemblyVersion>1.50.0.0</AssemblyVersion>
     <AssemblyVersion>1.51.0.0</AssemblyVersion>
+    <AssemblyVersion>1.51.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Core.GeoJson.GeoObject</BaseTypeName>
@@ -103,7 +104,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="lines" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.GeoJson.GeoLineString&gt;" />
@@ -129,7 +130,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="lines" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.GeoJson.GeoLineString&gt;" />
@@ -159,7 +160,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.GeoJson.GeoArray&lt;Azure.Core.GeoJson.GeoArray&lt;Azure.Core.GeoJson.GeoPosition&gt;&gt;</ReturnType>
@@ -188,7 +189,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -215,7 +216,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;Azure.Core.GeoJson.GeoLineString&gt;</ReturnType>
@@ -243,7 +244,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.GeoJson.GeoLineString</ReturnType>
@@ -274,7 +275,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -299,7 +300,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.51.0.0</AssemblyVersion>
+        <AssemblyVersion>1.51.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.GeoJson.GeoObjectType</ReturnType>

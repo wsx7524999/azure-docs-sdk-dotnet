@@ -1,0 +1,371 @@
+<Type Name="ServiceGroupCollection" FullName="Azure.ResourceManager.ServiceGroups.ServiceGroupCollection">
+  <TypeSignature Language="C#" Value="public class ServiceGroupCollection : Azure.ResourceManager.ArmCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceGroupCollection extends Azure.ResourceManager.ArmCollection" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceGroupCollection&#xA;Inherits ArmCollection" />
+  <TypeSignature Language="F#" Value="type ServiceGroupCollection = class&#xA;    inherit ArmCollection" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.ArmCollection</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A class representing a collection of <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /> and their operations.
+            Each <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.Resources.TenantResource" />.
+            To get a <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection" /> instance call the GetServiceGroups method from an instance of <see cref="T:Azure.ResourceManager.Resources.TenantResource" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ServiceGroupCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, string serviceGroupName, Azure.ResourceManager.ServiceGroups.ServiceGroupData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, string serviceGroupName, class Azure.ResourceManager.ServiceGroups.ServiceGroupData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.ServiceGroups.ServiceGroupData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, serviceGroupName As String, data As ServiceGroupData, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of ServiceGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * string * Azure.ResourceManager.ServiceGroups.ServiceGroupData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * string * Azure.ResourceManager.ServiceGroups.ServiceGroupData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;" Usage="serviceGroupCollection.CreateOrUpdate (waitUntil, serviceGroupName, data, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="data" Type="Azure.ResourceManager.ServiceGroups.ServiceGroupData" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="data"> ServiceGroup creation parameters. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Create or Update a serviceGroup
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> or <paramref name="data" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, string serviceGroupName, Azure.ResourceManager.ServiceGroups.ServiceGroupData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, string serviceGroupName, class Azure.ResourceManager.ServiceGroups.ServiceGroupData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.ServiceGroups.ServiceGroupData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, serviceGroupName As String, data As ServiceGroupData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of ServiceGroupResource))" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * string * Azure.ResourceManager.ServiceGroups.ServiceGroupData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * string * Azure.ResourceManager.ServiceGroups.ServiceGroupData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;" Usage="serviceGroupCollection.CreateOrUpdateAsync (waitUntil, serviceGroupName, data, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="data" Type="Azure.ResourceManager.ServiceGroups.ServiceGroupData" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="data"> ServiceGroup creation parameters. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Create or Update a serviceGroup
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> or <paramref name="data" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;bool&gt; Exists (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;bool&gt; Exists(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.Exists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Exists (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Exists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;&#xA;override this.Exists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;" Usage="serviceGroupCollection.Exists (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks to see if the resource exists in azure.
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt; ExistsAsync (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;bool&gt;&gt; ExistsAsync(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.ExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExistsAsync (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of Boolean))" />
+      <MemberSignature Language="F#" Value="abstract member ExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;&#xA;override this.ExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;" Usage="serviceGroupCollection.ExistsAsync (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks to see if the resource exists in azure.
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; Get (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; Get(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.Get(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ServiceGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member Get : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&#xA;override this.Get : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;" Usage="serviceGroupCollection.Get (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the serviceGroup
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAncestors">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetAncestors (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetAncestors(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetAncestors(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAncestors (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ServiceGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetAncestors : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&#xA;override this.GetAncestors : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;" Usage="serviceGroupCollection.GetAncestors (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the serviceGroup's ancestors
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}/listAncestors</description></item><item><term>Operation Id</term><description>ServiceGroups_ListAncestors</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAncestorsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetAncestorsAsync (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetAncestorsAsync(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetAncestorsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAncestorsAsync (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ServiceGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetAncestorsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&#xA;override this.GetAncestorsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;" Usage="serviceGroupCollection.GetAncestorsAsync (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the serviceGroup's ancestors
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}/listAncestors</description></item><item><term>Operation Id</term><description>ServiceGroups_ListAncestors</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; GetAsync (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; GetAsync(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ServiceGroupResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;&#xA;override this.GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;" Usage="serviceGroupCollection.GetAsync (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get the details of the serviceGroup
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetIfExists (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.NullableResponse`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt; GetIfExists(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetIfExists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As NullableResponse(Of ServiceGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&#xA;override this.GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;" Usage="serviceGroupCollection.GetIfExists (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; GetIfExistsAsync (string serviceGroupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.NullableResponse`1&lt;class Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt; GetIfExistsAsync(string serviceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.ServiceGroupCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (serviceGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of NullableResponse(Of ServiceGroupResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;&#xA;override this.GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;" Usage="serviceGroupCollection.GetIfExistsAsync (serviceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.ServiceGroups.ServiceGroupResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceGroupName"> ServiceGroup Name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Management/serviceGroups/{serviceGroupName}</description></item><item><term>Operation Id</term><description>ServiceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-02-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceGroupName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="serviceGroupName" /> is null. </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

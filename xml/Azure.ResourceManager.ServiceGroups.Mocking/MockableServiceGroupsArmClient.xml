@@ -1,0 +1,64 @@
+<Type Name="MockableServiceGroupsArmClient" FullName="Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient">
+  <TypeSignature Language="C#" Value="public class MockableServiceGroupsArmClient : Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MockableServiceGroupsArmClient extends Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class MockableServiceGroupsArmClient&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type MockableServiceGroupsArmClient = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to ArmClient. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected MockableServiceGroupsArmClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceGroupResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ServiceGroups.ServiceGroupResource GetServiceGroupResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ServiceGroups.ServiceGroupResource GetServiceGroupResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ServiceGroups.Mocking.MockableServiceGroupsArmClient.GetServiceGroupResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetServiceGroupResource (id As ResourceIdentifier) As ServiceGroupResource" />
+      <MemberSignature Language="F#" Value="abstract member GetServiceGroupResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ServiceGroups.ServiceGroupResource&#xA;override this.GetServiceGroupResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ServiceGroups.ServiceGroupResource" Usage="mockableServiceGroupsArmClient.GetServiceGroupResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ServiceGroups</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ServiceGroups.ServiceGroupResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ServiceGroups.ServiceGroupResource.CreateResourceIdentifier(System.String)" /> to create a <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ServiceGroups.ServiceGroupResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
